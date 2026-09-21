@@ -1,0 +1,13 @@
+.git
+.agents
+.codex
+.env
+.env.*
+*.sqlite3
+*.sqlite3-*
+backups
+__pycache__
+*.pyc
+*.pdf
+.venv
+staticfiles

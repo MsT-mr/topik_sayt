@@ -1,0 +1,140 @@
+{
+  "overview": "Ushbu darsda kundalik hayotda tez-tez uchraydigan muhim vaziyatlarni ifodalash uchun mo‘ljallangan to‘rtta grammatik qoida o‘rganiladi. Boshqalarga yordam berish, kutilmagan xavfli holatlar, ranglarni ifodalovchi 'ㅎ' harfi bilan tugaydigan noto‘g‘ri fe'l-sifatlar hamda harakat natijasining davom etishini bildiruvchi tuzilmalar amaliy misollar orqali tushuntiriladi.",
+  "goals": [
+    "Boshqalar uchun bajarilgan harakatni '-아다/어다 주다' yordamida aniq ifodalash.",
+    "Xavfli yoki sodir bo‘lishiga sal qolgan voqealarni '(으)ㄹ 뻔하다' orqali tasvirlash.",
+    "Rang bildiruvchi 'ㅎ' noto‘g‘ri fe'l-sifatlarini to‘g‘ri tuslash va qo‘llash.",
+    "Obyektning turgan holati va natijasini '-아/어 있다' yordamida ko‘rsatish."
+  ],
+  "rules": [
+    {
+      "source_key": "grammar:2B:29",
+      "meaning": "Fe'l asosiga qo‘shilib, biror harakat boshqa bir shaxs uchun borib bajarib berilganini bildiradi. O‘zbek tilidagi '-b/ib bermoq' ma'nosiga mos keladi.",
+      "formation": "O‘zakning oxirgi unlisi ㅏ/ㅗ bo‘lsa 아다 주다, boshqalarda 어다 주다; 하다 → 해다 주다. Masalan: 사다 주다, 빌려다 주다. Boshqa joyda bajarib, natijasini olib kelib berish ma’nosi bor.",
+      "usage": "Do‘kondan narsa olib kelib berish, dorixonadan dori olib kelib berish kabi harakatlarni boshqa shaxs foydasiga bajarganda ishlatiladi.",
+      "mistake": "사 주다 — sotib berish; 사다 주다 — sotib olib kelib berishga urg‘u beradi. Oddiy 아/어 주다 ham kontekstga qarab to‘g‘ri, lekin joy o‘zgarishi aniq ifodalanmaydi.",
+      "examples": [
+        {
+          "ko": "친구에게 약을 사다 주었어요.",
+          "uz": "Do‘stimga dori sotib olib berdim."
+        },
+        {
+          "ko": "도서관에서 책을 빌려다 주었어요.",
+          "uz": "Kutubxonadan kitob olib kelib berdim."
+        },
+        {
+          "ko": "필요한 서류를 가져다 주세요.",
+          "uz": "Kerakli hujjatlarni olib kelib bering."
+        }
+      ],
+      "exercise": {
+        "question": "Do‘stimga do‘kondan suv sotib olib berdim (사다 주다) jumlasini koreys tilida yozing.",
+        "answer": "친구에게 가게에서 물을 사다 주었어요.",
+        "explanation": "Do‘konga borib suv olib kelib berish ma'nosi bo‘lgani uchun '사다 주다' ishlatildi."
+      }
+    },
+    {
+      "source_key": "grammar:2B:30",
+      "meaning": "Biror ish deyarli sodir bo‘lishiga, lekin oxirgi pallada bo‘lmay qolganiga ishora qiladi. O‘zbek tilidagi '-sh/ishga sal qolmoq' ma'nosini beradi.",
+      "formation": "Fe'l asosiga undosh bilan tugasa '(으)ㄹ 뻔하다', unli bilan tugasa 'ㄹ 뻔하다' qo‘shiladi. O‘tgan zamonda ko‘proq '-ㄹ 뻔했어요' shaklida ishlatiladi.",
+      "usage": "Yiqilib tushishga sal qolish, poyezdga ulgurmay qolish kabi xavfli yoki oz qolgan vaziyatlarni eslashda qo‘llaniladi.",
+      "mistake": "Hozir sodir bo‘layotgan ishga nisbatan ishlatish xato. Bu faqatgina oldini olib qolingan yoki deyarli yuz bergan o‘tmishdagi holatlarga nisbatan ishlatiladi.",
+      "examples": [
+        {
+          "ko": "길을 걷다가 넘어질 뻔했어요.",
+          "uz": "Ko‘chada yurayotib yiqilishimga sal qoldi."
+        },
+        {
+          "ko": "기차를 놓칠 뻔했어요.",
+          "uz": "Poyezdga kech qolishimga sal qoldi."
+        },
+        {
+          "ko": "지갑을 잃어버릴 뻔했어요.",
+          "uz": "Hamyonimni yo‘qotishimga sal qoldi."
+        }
+      ],
+      "exercise": {
+        "question": "넘어지다 yordamida Yiqilishimga sal qoldi deb ayting.",
+        "answer": "넘어질 뻔했어요.",
+        "explanation": "넘어지- unli bilan tugaydi, shuning uchun ㄹ 뻔했어요 qo‘shiladi."
+      }
+    },
+    {
+      "source_key": "grammar:2B:31",
+      "meaning": "Ba'zi sifatlarning oxirgi 'ㅎ' harfi keyingi unli bilan boshlanuvchi qo‘shimcha kelganda o‘zgarib ketishini bildiradi. Bu asosan ranglar va xususiyatlarni bildiruvchi so‘zlarga xos.",
+      "formation": "Ayrim ㅎ sifatlarda ㅎ unli qo‘shimchalar yoki ㄴ oldidan tushadi: 노랗다 → 노란, 하얗다 → 하얀. 아/어 bilan rang sifatlarida unli ham o‘zgaradi: 노랗다 → 노래요, 하얗다 → 하얘요. Muntazam 좋다 → 좋아요, 좋은.",
+      "usage": "Ranglarni otlar oldidan sifat sifatida ishlatganda yoki ularni tuslaganda qo‘llaniladi.",
+      "mistake": "노란 shaklida ㅏ o‘zgarmaydi, ㅎ tushib ㄴ qo‘shiladi. 노래요 shaklida esa unli o‘zgaradi. Har qanday ㅎ sifatini bir xil tuslamang: 좋다 muntazam.",
+      "examples": [
+        {
+          "ko": "저의 가방은 노란색입니다.",
+          "uz": "Mening sumkam sariq rangda."
+        },
+        {
+          "ko": "하얀 눈이 내리고 있어요.",
+          "uz": "Oq qor yog‘moqda."
+        },
+        {
+          "ko": "까만 모자를 썼습니다.",
+          "uz": "Qora bosh kiyim kiydim."
+        }
+      ],
+      "exercise": {
+        "question": "Oq rangdagi ko‘ylak (하얀색 옷) so‘zini ishlatib gap tuzing.",
+        "answer": "저는 하얀색 옷을 좋아해요.",
+        "explanation": "'하얗다' fe'li '하얀' shakliga o‘zgarib, otni aniqlab keldi."
+      }
+    },
+    {
+      "source_key": "grammar:2B:32",
+      "meaning": "Biror harakat natijasida hosil bo‘lgan holatning hozirgi paytgacha saqlanib turganini bildiradi. O‘zbek tilidagi '-b/ib turmoq' ma'nosiga to‘g‘ri keladi.",
+      "formation": "Harakat fe'li asosiga '-아 있다' yoki '-어 있다' qo‘shiladi. Odatda o‘tishsiz fe'llar bilan ishlatiladi.",
+      "usage": "Eshikning ochiq turishi, odamning turishi yoki o‘tirishi kabi vizual holatlarni tasvirlashda ishlatiladi.",
+      "mistake": "O‘timli fe'llar bilan '-아/어 있다' ni ishlatish ko‘p uchraydigan xato. O‘timli fe'llar uchun '-아/어 놓았다' yoki '-아/어 둡니다' ishlatiladi.",
+      "examples": [
+        {
+          "ko": "교실 문이 열려 있습니다.",
+          "uz": "Sinf eshigi ochiq turibdi."
+        },
+        {
+          "ko": "친구는 의자에 앉아 있어요.",
+          "uz": "Do‘stim stulda o‘tiribdi."
+        },
+        {
+          "ko": "칠판에 이름이 쓰여 있어요.",
+          "uz": "Doskada ism yozig‘liq turibdi."
+        }
+      ],
+      "exercise": {
+        "question": "Odamlar avtobus bekutish joyida turibdi (서 있다) jumlasini koreys tilida yozing.",
+        "answer": "사람들이 버스 정류장에서 서 있어요.",
+        "explanation": "'서다' fe'liga '-아 있다' qo‘shilib, turgan holatni bildirdi."
+      }
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "A",
+      "ko": "어제 길을 걷다가 지갑을 잃어버릴 뻔했어요.",
+      "uz": "Kecha ko‘chada ketayotib hamyonimni yo‘qotib qo‘yishimga sal qoldi."
+    },
+    {
+      "speaker": "B",
+      "ko": "정말 다행이네요. 어떻게 찾았어요?",
+      "uz": "Rostdan ham yaxshi bo‘libdi. Uni qanday topdingiz?"
+    },
+    {
+      "speaker": "A",
+      "ko": "경찰관이 서 있는 곳에 가서 도움을 청했거든요. 친구가 사다 준 약도 거기서 찾았어요.",
+      "uz": "Politsiyachi turgan joyga borib yordam so‘ragandim. Do‘stim sotib olib bergan dori ham o‘sha yerda topildi."
+    },
+    {
+      "speaker": "B",
+      "ko": "앞으로는 조심하세요. 문도 잘 잠겨 있는지 확인하시고요.",
+      "uz": "Bundan buyon ehtiyot bo‘ling. Eshiklar ham yaxshilab qulflanganligini tekshirib turing."
+    }
+  ],
+  "book": "2B",
+  "lesson": 17,
+  "origin": "AI yordamida tayyorlangan qo‘shimcha o‘quv materiali"
+}

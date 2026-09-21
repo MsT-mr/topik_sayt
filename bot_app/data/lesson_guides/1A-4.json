@@ -1,0 +1,140 @@
+{
+  "overview": "Ushbu dars kundalik hayotda yo'nalishlarni so'rash, joylashgan o'rinlarni aniqlash va qayerga borishni tushuntirish uchun zarur bo'lgan eng muhim boshlang'ich koreys tili grammatikalarini o'z ichiga oladi.",
+  "goals": [
+    "여기가 Ot 이에요/예요 qoidasi yordamida turli joylarni tanishtirishni o'rganish.",
+    "Ot에 있다/없da tuzilmasi orqali narsa va shaxslarning turgan joyini bildirish.",
+    "Ot에 가다/오다 yordamida harakat yo'nalishini ifodalash.",
+    "Makon otlari (old, orqa, yon, ich, ust, ost) yordamida aniq joylashuvni ko'rsatish."
+  ],
+  "rules": [
+    {
+      "source_key": "grammar:1A:13",
+      "meaning": "Bu grammatika 'Bu yer - [ot]' ma'nosini bildiradi. Ma'lum bir joyni tanishtirish yoki ko'rsatishda ishlatiladi.",
+      "formation": "여기 (bu yer) so‘ziga ega qo‘shimchasi 가 qo‘shilib 여기가 hosil bo‘ladi. Keyingi ot undosh bilan tugasa 이에요, unli bilan tugasa 예요 ishlatiladi.",
+      "usage": "Suhbatdoshga turgan joyingizni, masalan, bank, kasalxona yoki maktab ekanligini ko'rsatib aytishda ishlatiladi.",
+      "mistake": "Ba'zi o'quvchilar undosh bilan tugagan so'zlarga '예요' qo'shib xato qilishadi. Masalan, '병원예요' emas, '병원이에요' bo'lishi shart, chunki '원' undosh bilan tugaydi.",
+      "examples": [
+        {
+          "ko": "여기가 병원이에요.",
+          "uz": "Bu yer kasalxona."
+        },
+        {
+          "ko": "여기가 우체국이에요.",
+          "uz": "Bu yer pochta."
+        },
+        {
+          "ko": "여기가 은행이에요.",
+          "uz": "Bu yer bank."
+        }
+      ],
+      "exercise": {
+        "question": "Tarjima qiling va to'g'ri qo'shimchani tanlang: 'Bu yer do'kon' (가게)",
+        "answer": "여기가 가게예요.",
+        "explanation": "'가게' so'zi unli tovush (게) bilan tugagani uchun '예요' qo'shildi."
+      }
+    },
+    {
+      "source_key": "grammar:1A:14",
+      "meaning": "Bu qoida biror joyda narsa yoki shaxs 'bor' yoki 'yo'q' ekanligini bildiradi.",
+      "formation": "Otga makon qo'shimchasi '-에' qo'shilib, ortidan '있다' (bor) yoki '없다' (yo'q) fe'llari keladi.",
+      "usage": "Buyumlarning turgan o'rnini yoki kishilarning qayerdaligini ma'lum qilishda qo'llaniladi.",
+      "mistake": "Joy nomidan keyin '-에서' qo'shimchasini ishlatish xato hisoblanadi. Mavjudlikni bildirganda faqat '-에' ishlatiladi.",
+      "examples": [
+        {
+          "ko": "저는 대학교에 있어요.",
+          "uz": "Men universitetdaman."
+        },
+        {
+          "ko": "민수 씨는 은행에 없어요.",
+          "uz": "Minsu bankda emas."
+        },
+        {
+          "ko": "약국에 사람이 있어요.",
+          "uz": "Dorixonada odam bor."
+        }
+      ],
+      "exercise": {
+        "question": "Bo'sh joyni to'ldiring: 'Pochtada bor' -> 우체국 ... 있어요.",
+        "answer": "우체국에 있어요.",
+        "explanation": "Joyda mavjudlikni bildirish uchun Otga '-에' qo'shimchasi qo'shiladi."
+      }
+    },
+    {
+      "source_key": "grammar:1A:15",
+      "meaning": "Biror joyga 'bormoq' yoki 'kelmoq' harakatini bildiradi.",
+      "formation": "Boriladigan yoki kelinadigan joy nomiga 에 qo‘shiladi: 학교에 가요, 집에 와요. 가다 — bormoq, 오다 — so‘zlovchi yoki kelish nuqtasi tomon kelmoq.",
+      "usage": "Sayohat qilish, ishga yoki o'qishga borish haqida gapirganda ishlatiladi.",
+      "mistake": "학교에서 가요 bilan 학교에 가요 ni aralashtirmang: 에 yo‘nalish nuqtasini, 에서 esa ayrim kontekstlarda boshlanish joyini bildiradi. 학교로 가요 ham to‘g‘ri yo‘nalish ifodasidir.",
+      "examples": [
+        {
+          "ko": "공항에 가요.",
+          "uz": "Aeroportga boryapman."
+        },
+        {
+          "ko": "대사관에 와요.",
+          "uz": "Elchixonaga kelyapti."
+        },
+        {
+          "ko": "미용실에 가요.",
+          "uz": "Sartaroshxonaga boryapman."
+        }
+      ],
+      "exercise": {
+        "question": "Tarjima qiling: 'Bankka boryapman'",
+        "answer": "은행에 가요.",
+        "explanation": "Bormoq fe'li bilan joyni bog'lash uchun '-에' ishlatiladi."
+      }
+    },
+    {
+      "source_key": "grammar:1A:16",
+      "meaning": "Makon otlari narsaning 'oldi', 'orqasi', 'yoni', 'ichi' kabi joylashuvini ko'rsatadi.",
+      "formation": "Ot + 앞 (oldi) / 뒤 (orqa) / 옆 (yon) / 안 (ich) / 위 (ust) / 아래 (ost) shaklida yasaladi.",
+      "usage": "Biror ob'ekt boshqa ob'ektga nisbatan qayerda joylashganini aniq tushuntirish uchun ishlatiladi.",
+      "mistake": "Makon otlarini mustaqil ishlatish va egalik qo'shimchalarini noto'g'ri qo'shish xato hisoblanadi. Avval asosiy ot, keyin makon oti kelishi kerak.",
+      "examples": [
+        {
+          "ko": "집 앞에 있어요.",
+          "uz": "Uyning oldida bor."
+        },
+        {
+          "ko": "가게 뒤에 있어요.",
+          "uz": "Do'konning orqasida bor."
+        },
+        {
+          "ko": "병원 옆에 있어요.",
+          "uz": "Kasalxonaning yonida bor."
+        }
+      ],
+      "exercise": {
+        "question": "Tarjima qiling: 'Bankning yonida'",
+        "answer": "은행 옆에",
+        "explanation": "Avval asosiy ot (은행), keyin makon oti (옆) va '-에' qo'shimchasi keladi."
+      }
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "A",
+      "ko": "실례합니다. 여기가 은행이에요?",
+      "uz": "Kechirasiz. Bu yer bankmi?"
+    },
+    {
+      "speaker": "B",
+      "ko": "네, 맞아요. 여기가 은행이에요.",
+      "uz": "Ha, to'g'ri. Bu yer bank."
+    },
+    {
+      "speaker": "A",
+      "ko": "약국은 어디에 있어요?",
+      "uz": "Apteka qayerda joylashgan?"
+    },
+    {
+      "speaker": "B",
+      "ko": "약국은 은행 앞에 있어요.",
+      "uz": "Apteka bankning oldida bor."
+    }
+  ],
+  "book": "1A",
+  "lesson": 4,
+  "origin": "AI yordamida tayyorlangan qo‘shimcha o‘quv materiali"
+}

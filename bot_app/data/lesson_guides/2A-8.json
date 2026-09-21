@@ -1,0 +1,140 @@
+{
+  "overview": "Ushbu dars kundalik hayotda o'z hissiyotlarini ifodalash, sabablarni tushuntirish, ish-harakatning tugallanganini bildirish va ma'lum bir vaqtni ko'rsatishga yordam beradi.",
+  "goals": [
+    "Fe'l va sifatlarga -겠 qo'shimchasini qo'shib taxmin bildirishni o'rganish",
+    "Otga -때문에 qo'shimchasini qo'shib sabab-oqibatni tushuntirish",
+    "Fe'lga -아/어 버리id qo'shimchasini qo'shib to'liq bajarilgan ishni ifodalash",
+    "(으)ㄹ 때 grammatikasi yordamida harakat vaqti yoki holatni ifodalashni o'zlashtirish"
+  ],
+  "rules": [
+    {
+      "source_key": "grammar:2A:30",
+      "meaning": "-sa kerak, -day tuyulmoqda. So'zlovchining shaxsiy taxmini yoki kelajakdagi niyatini bildiradi.",
+      "formation": "Fe'l yoki sifat o'zagiga hech qanday o'zgarishsiz -겠 qo'shiladi. Masalan: 가다 -> 가겠어요, 좋다 -> 좋겠어요.",
+      "usage": "Shaxsiy his-tuyg'ularni (masalan, 'xursand bo'lardi') ifodalashda yoki yaqin kelajakdagi reja/taxminlarni aytishda ishlatiladi.",
+      "mistake": "겠 har doim kelajak emas: 맛있겠어요 — mazali ko‘rinadi. O‘tgan holatni taxmin qilishda 았/었겠어요 mumkin: 힘들었겠어요 — qiynalgandirsiz.",
+      "examples": [
+        {
+          "ko": "내일은 날씨가 좋겠어요.",
+          "uz": "Ertaga havo yaxshi bo‘lsa kerak."
+        },
+        {
+          "ko": "그 선물을 받으면 정말 기쁘겠어요.",
+          "uz": "O‘sha sovg‘ani olsa, juda xursand bo‘lsa kerak."
+        },
+        {
+          "ko": "제가 하겠습니다.",
+          "uz": "Men bajaraman."
+        }
+      ],
+      "exercise": {
+        "question": "Quyidagi gapni 'taxmin' ma'nosida to'ldiring: 내일 시험이 어렵다 -> 내일 시험이 (     )어요.",
+        "answer": "어렵겠",
+        "explanation": "Sifat o'zagi '어렵-' ga '-겠' qo'shilib, '어렵겠어요' hosil bo'ladi."
+      }
+    },
+    {
+      "source_key": "grammar:2A:31",
+      "meaning": "-sababli, tufayli. Biror hodisaning sababini ko'rsatish uchun otlarga qo'shiladi.",
+      "formation": "Otdan keyin hech qanday qo'shimchasiz to'g'ridan-to'g'ri 때문에 yoziladi. Masalan: 친구 때문에, 비 때문에.",
+      "usage": "Salbiy yoki ijobiy voqealarning sababini ko'rsatishda gap o'rtasida ishlatiladi.",
+      "mistake": "Otga 이/가 yoki 을/를 qo'shimchalarini qo'shib -때문에 ishlatish xato. To'g'ri shakl: Ot + 때문에.",
+      "examples": [
+        {
+          "ko": "친구 때문에 기분이 좋아졌어요.",
+          "uz": "Do‘stim tufayli kayfiyatim yaxshilandi."
+        },
+        {
+          "ko": "교통사고 때문에 늦었어요.",
+          "uz": "Yo‘l-transport hodisasi sababli kechikdim."
+        },
+        {
+          "ko": "비 때문에 소풍을 못 갔어요.",
+          "uz": "Yomg‘ir tufayli sayrga bora olmadim."
+        }
+      ],
+      "exercise": {
+        "question": "Bo'sh joyni to'ldiring: 'Ish tufayli' -> (     ) 때문에",
+        "answer": "일",
+        "explanation": "일 (ish) otiga bevosita 때문에 qo'shiladi."
+      }
+    },
+    {
+      "source_key": "grammar:2A:32",
+      "meaning": "-ib tashamoq, butunlay bajarib qo'ymoq. Harakatning oxirigacha bajarilganini va ko'pincha afsus yoki yengillik tuyg'usini bildiradi.",
+      "formation": "Fe'l o'zagiga -아/어 버리다 qo'shiladi. Unlilar uyg'unligiga qarab -아 버리다 yoki -어 버리다 tanlanadi.",
+      "usage": "Biror ishni oxiriga yetkazib qo'yganlikni yoki o'sha ish sodir bo'lganidan afsuslanishni ifodalashda ishlatiladi.",
+      "mistake": "Sifatlarga bu qo'shimchani qo'shib bo'lmaydi, chunki sifatlarda harakat yo'q. Faqat fe'llar bilan ishlatiladi.",
+      "examples": [
+        {
+          "ko": "음식을 다 먹어 버렸어요.",
+          "uz": "Ovqatning hammasini yeb qo‘ydim."
+        },
+        {
+          "ko": "숙제를 잊어버렸어요.",
+          "uz": "Uy vazifasini unutib yubordim."
+        },
+        {
+          "ko": "필요 없는 종이를 버려 버렸어요.",
+          "uz": "Keraksiz qog‘ozlarni tashlab yubordim."
+        }
+      ],
+      "exercise": {
+        "question": "Fe'lning to'g'ri shaklini toping: 읽다 -> 읽어 (     )",
+        "answer": "버렸어요",
+        "explanation": "읽다 fe'liga -어 버리다 qo'shilib, o'tgan zamonda '읽어 버렸어요' bo'ladi."
+      }
+    },
+    {
+      "source_key": "grammar:2A:33",
+      "meaning": "-gan paytda, -ayotgan vaqtda. Harakat bajarilayotgan vaqtni yoki holatni ko'rsatadi.",
+      "formation": "Fe’l va sifatlarda bir xil: unli o‘zakka ㄹ 때, ㄹ dan boshqa undoshga 을 때 qo‘shiladi. ㄹ o‘zakda mavjud ㄹ saqlanadi: 살 때. 슬프다 → 슬플 때, 먹다 → 먹을 때.",
+      "usage": "Biror ish sodir bo'lgan vaqtda boshqa ish bajarilganini aytish uchun ishlatiladi.",
+      "mistake": "살다 → 살 때; 사 때 noto‘g‘ri. 때 oldidan bo‘sh joy qoldiring. Sifat bilan ham ㄹ/을 ishlatiladi: 좋을 때.",
+      "examples": [
+        {
+          "ko": "한국어를 배울 때 즐거워요.",
+          "uz": "Koreys tilini o‘rganayotganimda xursand bo‘laman."
+        },
+        {
+          "ko": "슬플 때 이 노래를 들어요.",
+          "uz": "G‘amgin bo‘lganimda shu qo‘shiqni tinglayman."
+        },
+        {
+          "ko": "고향에 갈 때 선물을 사요.",
+          "uz": "Vatanimga borayotganda sovg‘a sotib olaman."
+        }
+      ],
+      "exercise": {
+        "question": "Qavs ichidagi so'zni moslashtiring: (먹다) 때 -> (     ) 때",
+        "answer": "먹을",
+        "explanation": "먹다 fe'li undoshga tugagani uchun -을 때 qo'shiladi."
+      }
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "A",
+      "ko": "오늘 기분이 어때요?",
+      "uz": "Bugun kayfiyatingiz qanday?"
+    },
+    {
+      "speaker": "B",
+      "ko": "친구 때문에 조금 속상해요. 노트북이 고장 나서 버려 버렸거든요.",
+      "uz": "Do'stim tufayli biroz hafamiz. Noutbukim buzilib qolib, tashlab yubordimda."
+    },
+    {
+      "speaker": "A",
+      "ko": "그렇군요. 새 노트북을 사면 기분이 좋아지겠어요.",
+      "uz": "Tushunarli. Yangi noutbuk sotib olsangiz, kayfiyatingiz yaxshilansa kerak."
+    },
+    {
+      "speaker": "B",
+      "ko": "네, 맞아요. 돈이 좀 들겠지만 좋겠어요.",
+      "uz": "Ha, to'g'ri. Pul biroz ketadi, lekin yaxshi bo'lar edi."
+    }
+  ],
+  "book": "2A",
+  "lesson": 8,
+  "origin": "AI yordamida tayyorlangan qo‘shimcha o‘quv materiali"
+}

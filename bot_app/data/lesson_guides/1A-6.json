@@ -1,0 +1,140 @@
+{
+  "overview": "Ushbu dars kundalik hayotda, xususan kafelar va do'konlarda erkin muloqot qilish, taom buyurtma berish, narsalarning sonini sanash hamda o'z xohish-istaklarimizni to'g'ri bayon etish uchun muhim bo'lgan 4 ta asosiy grammatik qoidani o'rgatadi.",
+  "goals": [
+    "Fe'llarga (으)세요 qo'shimchasini qo'shib, xushmuomala buyruq va iltimoslar bera olish.",
+    "Koreys tilida narsalar va ichimliklarni maxsus hisob so'zlari (개, 잔, 그릇) yordamida to'g'ri sanay olish.",
+    "이/가 yordamchi kelishigidan foydalanib, ega va uning holatini bildiruvchi gaplarni tuzish.",
+    "도 yuklamasi yordamida 'ham' ma'nosini ifodalash va o'xshashliklarni ko'rsata olish."
+  ],
+  "rules": [
+    {
+      "source_key": "grammar:1A:21",
+      "meaning": "ma’nosi: Fe'l o'zagiga qo'shilib, suhbatdoshga xushmuomala tarzda biror ish-harakatni bajarishni buyurish yoki iltimos qilishni bildiradi. O'zbek tilidagi '-ing' yoki '-ing, iltimos' ma'nosiga mos keladi.",
+      "formation": "qanday yasaladi: Fe'l o'zagi undosh bilan tugasa -(으)세요 (masalan, 앉다 -> 앉으세요), unli bilan tugasa yoki 'ㄹ' harfi bilan tugasa (ㄹ tushib qoladi) -세요 qo'shiladi (masalan, 가다 -> 가세요, 주다 -> 주세요).",
+      "usage": "qachon ishlatiladi: Kafeda buyurtma berayotganda, do'konda sotuvchiga murojaat qilganda yoki boshqalarga xushmuomala ravishda iltimos qilganda ishlatiladi.",
+      "mistake": "keng tarqalgan xato va to'g'ri variant, sababi: Ba'zan o'quvchilar hurmat shaklini unutib, oddiy fe'l shaklini ishlatishadi. Masalan, '주다' ni '주' deyish xato, to'g'risi '주세요', chunki xushmuomala buyruq uchun -세요 shart.",
+      "examples": [
+        {
+          "ko": "잠깐만 기다리세요.",
+          "uz": "Biroz kutib turing."
+        },
+        {
+          "ko": "여기에 앉으세요.",
+          "uz": "Bu yerga o'tiring."
+        },
+        {
+          "ko": "콜라를 주세요.",
+          "uz": "Kola bering."
+        }
+      ],
+      "exercise": {
+        "question": "Quyidagi fe'lga -세요 qo'shimchasini qo'shib xushmuomala buyruq shaklini yasalganini toping: '읽다'",
+        "answer": "읽으세요",
+        "explanation": "'읽다' fe'l o'zagi undosh bilan tugagani uchun -(으)세요 qoidasiga ko'ra '읽으세요' bo'lib o'zgaradi."
+      }
+    },
+    {
+      "source_key": "grammar:1A:22",
+      "meaning": "ma’nosi: Koreys tilida narsalarni sanash uchun buyumlarning turiga qarab maxsus hisob so'zlari ishlatiladi. 개 - umumiy narsalar, 잔 - stakan/chashka, 그릇 - idishdagi ovqatlar uchun ishlatiladi.",
+      "formation": "qanday yasaladi: Asl koreyscha sonlar (하나, 둘, 셋, 넷, 스물...) hisob so'zlari oldidan kelganda qisqaradi: 하나->한, 둘->두, 셋->세, 넷->네, 스물->스무. Masalan: 한 개, 두 잔, 네 그릇.",
+      "usage": "qachon ishlatiladi: Do'konda meva, ovqat yoki ichimliklar sotib olayotganda ularning miqdorini aniq ko'rsatish uchun qo'llaniladi.",
+      "mistake": "keng tarqalgan xato va to'g'ri variant, sababi: '하나 개' deyish xato, chunki son hisob so'zi oldidan qisqaroq shaklga o'tishi shart. To'g'ri variant: '한 개'.",
+      "examples": [
+        {
+          "ko": "사과 두 개 주세요.",
+          "uz": "Ikkita olma bering."
+        },
+        {
+          "ko": "녹차 한 잔 주세요.",
+          "uz": "Bir chashka ko'k choy bering."
+        },
+        {
+          "ko": "피자 세 개를 삽니다.",
+          "uz": "Uchta pitsa sotib olaman."
+        }
+      ],
+      "exercise": {
+        "question": "To'rtta stakan sharbat so'zining koreyscha to'g'ri tarjimasini toping.",
+        "answer": "주스 네 잔",
+        "explanation": "Sharbat uchun '잔' (stakan) hisob so'zi ishlatiladi va '넷' soni '네' tarzida qisqaradi."
+      }
+    },
+    {
+      "source_key": "grammar:1A:23",
+      "meaning": "ma’nosi: 이/가 subyekt (ega) kelishigi bo'lib, gapdagi asosiy harakatni bajaruvchi yoki holat-xususiyatga ega bo'lgan otga qo'shiladi. Ko'pincha yangi ma'lumotni ta'kidlashda ishlatiladi.",
+      "formation": "qanday yasaladi: Ot undosh bilan tugasa -이, unli bilan tugasa -가 qo'shiladi. Masalan: 날씨 + 가 = 날씨가, 밥 + 이 = 밥이.",
+      "usage": "qachon ishlatiladi: Ob-havo, tabiat hodisalari, yangi kiritilgan ob'ektlar haqida gapirganda yoki fe'lning egasini aniq ko'rsatish zarur bo'lganda.",
+      "mistake": "keng tarqalgan xato va to'g'ri variant, sababi: '날씨는 좋아요' deyish ham mumkin, ammo ob-havoning holatini ilk bor ta'kidlab aytganda '날씨가 좋아요' ishlatiladi, chunki 이/가 urg'uni egaga qaratadi.",
+      "examples": [
+        {
+          "ko": "날씨가 좋아요.",
+          "uz": "Ob-havo yaxshi."
+        },
+        {
+          "ko": "사과가 맛있어요.",
+          "uz": "Olma mazali."
+        },
+        {
+          "ko": "스파게티가 맛있어요.",
+          "uz": "Spagetti mazali."
+        }
+      ],
+      "exercise": {
+        "question": "피자 so‘ziga mos qo‘shimchani qo‘ying: 피자( ) 맛있어요.",
+        "answer": "가 — 피자가 맛있어요.",
+        "explanation": "피자 unli bilan tugagani uchun 가 qo‘shiladi."
+      }
+    },
+    {
+      "source_key": "grammar:1A:24",
+      "meaning": "ma’nosi: O'zbek tilidagi '-ham' yuklamasiga mos keladi. Oldingi fikr yoki shaxsga o'xshashlikni bildiradi.",
+      "formation": "도 otga qo‘shiladi; bu sodda ma’noda 은/는, 이/가, 을/를 o‘rnini oladi: 저도, 사과도. Joy qo‘shimchalari bilan birga kelishi mumkin: 학교에도, 집에서도.",
+      "usage": "qachon ishlatiladi: Birov bilan fikringiz bir xil bo'lganda yoki boshqa narsa ham borligini bildirmoqchi bo'lganda ishlatiladi.",
+      "mistake": "keng tarqalgan xato va to'g'ri variant, sababi: ' 저는도 ' deyish xato, -도 yuklamasi kelishik o'rniga kelgani uchun '저도' deb yoziladi.",
+      "examples": [
+        {
+          "ko": "저도 사과를 좋아해요.",
+          "uz": "Men ham olmani yaxshi ko‘raman."
+        },
+        {
+          "ko": "친구도 스파게티를 먹어요.",
+          "uz": "Do‘stim ham spagetti yeydi."
+        },
+        {
+          "ko": "이것도 주세요.",
+          "uz": "Buni ham bering."
+        }
+      ],
+      "exercise": {
+        "question": "'Men ham' deganda qaysi koreyscha so'z ishlatiladi?",
+        "answer": "저도",
+        "explanation": "'저' (men) olmoshiga '-도' (ham) yuklamasi qo'shilib '저도' hosil bo'ladi."
+      }
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "A",
+      "ko": "어서 옺세요. 메뉴가 여기에 있어요.",
+      "uz": "Xush kelibsiz. Menyu mana bu yerda."
+    },
+    {
+      "speaker": "B",
+      "ko": "피자 한 개와 콜라 두 잔 주세요.",
+      "uz": "Bitta pitsa va ikkita kola bering."
+    },
+    {
+      "speaker": "A",
+      "ko": "네, 잰깐만 기다리세요.",
+      "uz": "Xo'p, biroz kutib turing."
+    },
+    {
+      "speaker": "B",
+      "ko": "감사합니다. 피자가 아주 맛있어요.",
+      "uz": "Rahmat. Pitsa juda mazali ekan."
+    }
+  ],
+  "book": "1A",
+  "lesson": 6,
+  "origin": "AI yordamida tayyorlangan qo‘shimcha o‘quv materiali"
+}

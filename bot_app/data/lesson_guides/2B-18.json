@@ -1,0 +1,113 @@
+{
+  "overview": "Ushbu dars kundalik hayotda o'tgan voqealarning davomiyligini ifodalash, miqdorning kutilgandan ko'pligiga urg'u berish hamda insho va yozma nutq uslubini to'g'ri qo'llashni o'rganishga yordam beradi.",
+  "goals": [
+    "Ma'lum bir harakatdan beri qancha vaqt o'tganini ifodalash",
+    "Kutilgandan ko'p miqdor yoki vaqtni (i)na yordamida ko'rsatish",
+    "Yozma nutqda oddiy xabar berish shakllarini to'g'ri qo'llash"
+  ],
+  "rules": [
+    {
+      "source_key": "grammar:2B:33",
+      "meaning": "Fe'l o'zagiga qo'shilib, biror ish-harakat bajarilganidan beri qancha vaqt o'tganini bildiradi. O'zbek tiliga '-ganiga ... bo'ldi' deb tarjima qilinadi.",
+      "formation": "O‘tgan harakat sifatdoshi + 지: unli o‘zakda ㄴ 지, undoshda 은 지. ㄹ tushadi: 살다 → 산 지. 지 vaqt davomiyligini bildiruvchi so‘z bo‘lgani uchun alohida yoziladi: 온 지, 먹은 지.",
+      "usage": "O'tgan zamon voqealarining davomiyligini va vaqt oralig'ini suhbatdoshga tushuntirishda ishlatiladi.",
+      "mistake": "Bu ma’noda 온지 emas, 온 지 yoziladi. Buni bilish/bilmaslikdagi 는지 bilan aralashtirmang: 어디에 사는지 몰라요 boshqa qurilma.",
+      "examples": [
+        {
+          "ko": "한국에 온 지 3년이 되었습니다.",
+          "uz": "Koreyaga kelganimga 3 yil bo'ldi."
+        },
+        {
+          "ko": "이 가요를 들은 지 오래되었습니다.",
+          "uz": "Bu qo'shiqni eshitganimga ancha bo'ldi."
+        },
+        {
+          "ko": "한국어를 배운 지 6개월이 넘었습니다.",
+          "uz": "Koreys tilini o'rganganimga 6 oydan oshdi."
+        }
+      ],
+      "exercise": {
+        "question": "Koreyada yashaganimga 2 yil bo'ldi gapini koreys tiliga tarjima qiling. (살다 fe'lidan foydalaning)",
+        "answer": "한국에 산 지 2년이 되었습니다.",
+        "explanation": "'살다' fe'li 'ㄹ' bilan tugagani uchun 'ㄴ지' qo'shilib '산 지' hosil bo'ladi."
+      }
+    },
+    {
+      "source_key": "grammar:2B:34",
+      "meaning": "Otdan keyin kelib, o'sha miqdor yoki son kutilgandan ko'p ekanligini yoki kutilganidan oshib ketganini hayrat bilan bildiradi.",
+      "formation": "Undosh bilan tugagan otlarga -이나, unli bilan tugagan otlarga -나 qo'shiladi. Masalan: 책 -> 책이나, 사과 -> 사과나.",
+      "usage": "Vaqt, miqdor yoki odamlar soni ko'p ekanligini ta'kidlab ko'rsatish zarur bo'lganda qo'llaniladi.",
+      "mistake": "Oddiy miqdor bildirganda ham doim -이나 ishlatish. Aslida bu faqat kutilmaganda ko'p bo'lgan holatlarga nisbatan ishlatiladi.",
+      "examples": [
+        {
+          "ko": "그 영화를 세 번이나 봤어요.",
+          "uz": "U kinoni naq uch marta ko'rdim."
+        },
+        {
+          "ko": "오늘 숙제가 두 시간이나 걸렸습니다.",
+          "uz": "Bugungi vazifa naq ikki soat vaqt oldi."
+        },
+        {
+          "ko": "사과를 다섯 개나 먹었어요.",
+          "uz": "Olmadan naq beshta yedim."
+        }
+      ],
+      "exercise": {
+        "question": "Bir kunda naq uch litr suv ichdim gapini tarjima qiling.",
+        "answer": "하루에 물을 3리터나 마셨어요.",
+        "explanation": "리터 unli ㅓ bilan tugaydi, shuning uchun 나 qo‘shiladi. Miqdor kutilgandan ko‘pligi ta’kidlanadi."
+      }
+    },
+    {
+      "source_key": "grammar:2B:35",
+      "meaning": "Kundalik suhbat shaklidan farqli o'laroq, kitoblar, insholar, kundaliklar va maqolalarda qo'llaniladigan rasmiy/yozma xabar berish uslubi.",
+      "formation": "Hozirgi harakat fe’li: unli o‘zak+ㄴ다, undosh o‘zak+는다; ㄹ tushadi: 살다 → 산다. Sifatlar lug‘atdagi 다 shaklida: 좋다. Ot+이다, unli otdan keyin 다 ham mumkin.",
+      "usage": "Shaxsiy bo'lmagan, umumiy haqiqatni yoki yozma nutqni ifodalashda qo'llaniladi.",
+      "mistake": "Bu hurmatli rasmiy nutq emas; yozma bayon, kundalik yoki ayrim norasmiy suhbatlarda ishlatiladi. Ustozga odobli murojaatda 습니다/아요 kabi shakl tanlang.",
+      "examples": [
+        {
+          "ko": "한국의 가을은 참 아름답다.",
+          "uz": "Koreyaning kuzi juda go‘zal."
+        },
+        {
+          "ko": "나는 매일 한국어를 공부한다.",
+          "uz": "Men har kuni koreys tilini o‘rganaman."
+        },
+        {
+          "ko": "이것은 아주 중요한 책이다.",
+          "uz": "Bu juda muhim kitob."
+        }
+      ],
+      "exercise": {
+        "question": "'Bog'da gullar ochilmoqda' gapini insho uslubida yozing. (꽃이 피다)",
+        "answer": "정원에 꽃이 핀다.",
+        "explanation": "Insho uslubida fe'lning oddiy hozirgi zamon yozma shakli -ㄴ다 ishlatiladi."
+      }
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "A",
+      "ko": "한국에 온 지 벌써 1년이 되었어요.",
+      "uz": "Koreyaga kelganimga allaqachon 1 yil bo'ldi."
+    },
+    {
+      "speaker": "B",
+      "ko": "시간이 참 빠르네요. 저도 여기서 산 지 2년이나 되었어요.",
+      "uz": "Vaqt juda tez ekan. Men ham bu yerda yashaganimga naq 2 yil bo'ldi."
+    },
+    {
+      "speaker": "A",
+      "ko": "맞아요. 처음에는 낯설었지만 지금은 정이 많이 들었어요.",
+      "uz": "To'g'ri. Boshida notanish edi, lekin hozir ko'nikib, mehrim tushib qoldi."
+    },
+    {
+      "speaker": "B",
+      "ko": "가을이 되니까 단풍이 들고 날씨가 쌀쌀하다.",
+      "uz": "Kuz kelib barglar sarg'aymoqda va ob-havo salqinlashmoqda."
+    }
+  ],
+  "book": "2B",
+  "lesson": 18,
+  "origin": "AI yordamida tayyorlangan qo‘shimcha o‘quv materiali"
+}

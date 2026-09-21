@@ -1,0 +1,140 @@
+{
+  "overview": "Ushbu darsda kundalik hayotda eng ko‘p ishlatiladigan muhim grammatik qoidalar, jumladan 'ㄹ' tovushining tushib qolishi, sifatlarning otni aniqlab kelishi, shaxslarga nisbatan ishlatiladigan '한테/께' qo‘shimchasi va tavsiya bildiruvchi '아/어 보세요' shakllari o‘rganiladi. Bu bilimlar do‘konda kiyim sotib olish, narx kelishish va boshqalar bilan muloqot qilishda juda asqotadi.",
+  "goals": [
+    "'ㄹ' notog‘ri fe’l va sifatlarining tuslanish qoidalarini o‘zlashtirish",
+    "Sifatlar yordamida otlarni aniqlab kelish tuzilishini tushunish",
+    "Shaxslarga yo‘naltirilgan '한테' va hurmat shaklidagi '께' qo‘shimchalarini to‘g‘ri qo‘llash",
+    "'아/어 보세요' yordamida boshqalarga harakatni tavsiya qilishni o‘rganish"
+  ],
+  "rules": [
+    {
+      "source_key": "grammar:1B:21",
+      "meaning": "Fe’l yoki sifat asosi 'ㄹ' bilan tugab, undan keyin 'ㄴ', 'ㅂ', 'ㅅ', '오' kabi harflar kelsa, 'ㄹ' harfi tushib qoladi. Bu 'ㄹ' talq (tushishi) deb ataladi.",
+      "formation": "ㄹ bilan tugagan o‘zakda ㄴ, ㅂ, ㅅ bilan boshlanuvchi tegishli qo‘shimchalar oldidan ㄹ tushadi: 살다 → 사는, 삽니다, 사세요. Boshqa joylarda saqlanadi: 살아요, 살면.",
+      "usage": "Fe’l va sifatlarni xushmuomala shaklda tuslaganda yoki boshqa grammatik qo‘shimchalar bilan birlashtirganda ishlatiladi.",
+      "mistake": "O‘quvchilar ko‘pincha 'ㄹ' ni tushirmasdan 살ㅂ니다 deb xato yozadilar. To‘g‘ri shakl 삽니다 bo‘lishi kerak, chunki 'ㅂ' harfi oldidan 'ㄹ' tushib qoladi.",
+      "examples": [
+        {
+          "ko": "저는 서울에 삽니다.",
+          "uz": "Men Seulda yashayman."
+        },
+        {
+          "ko": "이 길은 아주 깁니다.",
+          "uz": "Bu yo‘l juda uzun."
+        },
+        {
+          "ko": "저는 그 사람을 압니다.",
+          "uz": "Men u kishini taniyman."
+        }
+      ],
+      "exercise": {
+        "question": "'만들다' fe'lini hurmatli xushmuomala shaklda (ㅂ니다/습니다) yozing.",
+        "answer": "만듭니다",
+        "explanation": "'만들다' fe'lining asosi 'ㄹ' bilan tugaydi. 'ㅂ니다' qo‘shilganda 'ㄹ' tushib qolib, 만듭니다 hosil bo‘ladi."
+      }
+    },
+    {
+      "source_key": "grammar:1B:22",
+      "meaning": "Sifat oxiriga (으)ㄴ qo‘shimchasi qo‘shilib, o‘zidan keyingi otni aniqlab keladi va '...gan' yoki sifatning o‘z ma'nosini beradi.",
+      "formation": "Unli o‘zakka ㄴ, undosh o‘zakka 은 qo‘shiladi: 크다 → 큰, 작다 → 작은. ㄹ tushadi: 길다 → 긴; ayrim ㅂ sifatlari o‘zgaradi: 맵다 → 매운. 있다/없다 bilan 있는/없는 ishlatiladi.",
+      "usage": "Buyum yoki shaxsning belgisini aniq ko‘rsatib ta'riflash uchun ishlatiladi.",
+      "mistake": "크은 emas, 큰. 크- dagi ㅡ tushmaydi: ㄴ shu bo‘g‘inning yakuniy undoshi bo‘ladi. 긴 shaklida esa 길- dagi ㄹ tushib, ㄴ keladi.",
+      "examples": [
+        {
+          "ko": "저는 매운 음식을 좋아합니다.",
+          "uz": "Men achchiq ovqatlarni yaxshi ko‘raman."
+        },
+        {
+          "ko": "큰 바지를 입어요.",
+          "uz": "Katta shim kiyaman."
+        },
+        {
+          "ko": "긴 치마를 샀어요.",
+          "uz": "Uzun yubka sotib oldim."
+        }
+      ],
+      "exercise": {
+        "question": "'작다' va '셔츠' so‘zlarini qoidaga ko‘ra biriktiring.",
+        "answer": "작은 셔츠",
+        "explanation": "'작다' asosi undosh bilan tugagani uchun '은' qo‘shilib, '작은 셔츠' hosil bo‘ladi."
+      }
+    },
+    {
+      "source_key": "grammar:1B:23",
+      "meaning": "Otga qo‘shilib, harakat yo‘nalishi kimga qaratilganini (faqat tirik mavjudotlarga, shaxslarga) ko‘rsatadi.",
+      "formation": "Ism yoki olmoshlarga '한테' (og‘zaki nutqda) yoki hurmat ma'nosida '께' qo‘shiladi. '에게' ham shunga teng.",
+      "usage": "Kimgadir biror narsa berganda, aytganda yoki yuborganda ishlatiladi.",
+      "mistake": "Jonsiz narsalarga (masalan, 'stolga' yoki 'shaharga')한테 qo‘shish xato. Jonsizlarga '에' ishlatiladi.",
+      "examples": [
+        {
+          "ko": "친구한테 선물을 줍니다.",
+          "uz": "Do‘stimga sovg‘a beraman."
+        },
+        {
+          "ko": "아버지께 전화를 합니다.",
+          "uz": "Dadamga telefon qilaman."
+        },
+        {
+          "ko": "동생한테 이야기를 해요.",
+          "uz": "Ukamga gapirib beraman."
+        }
+      ],
+      "exercise": {
+        "question": "O‘qituvchiga hurmat bilan savol bering: 선생님(...) 질문합니다.",
+        "answer": "께",
+        "explanation": "O‘qituvchi hurmat qilinadigan shaxs bo‘lgani uchun '한테' emas, '께' qo‘shiladi."
+      }
+    },
+    {
+      "source_key": "grammar:1B:24",
+      "meaning": "Fe'lga qo‘shilib, biror ish-harakatni sinab ko‘rishni yoki boshqaga tavsiya qilishni bildiradi.",
+      "formation": "Fe'l asosining unlisiga qarab '아 보세요', '어 보세요' yoki '해 보세요' qo‘shiladi.",
+      "usage": "Maslahat berishda, do‘konda kiyimni kiyib ko‘rishni so‘raganda ishlatiladi.",
+      "mistake": "Faqatgina o‘tgan zamon ma'nosida tushunib, '아 봤어요' bilan adashtirmaslik kerak. Bu yerda buyruq/tavsiya ma'nosi bor.",
+      "examples": [
+        {
+          "ko": "이 셔츠를 입어 보세요.",
+          "uz": "Bu ko‘ylakni kiyib ko‘ring."
+        },
+        {
+          "ko": "이 음식을 먹어 보세요.",
+          "uz": "Bu ovqatni yeb ko‘ring."
+        },
+        {
+          "ko": "모자를 써 보세요.",
+          "uz": "Bosh kiyimni kiyib ko‘ring."
+        }
+      ],
+      "exercise": {
+        "question": "읽다 fe’lini o‘qib ko‘ring ma’nosida yozing.",
+        "answer": "읽어 보세요.",
+        "explanation": "읽- o‘zagining unlisi ㅣ bo‘lgani uchun 어 보세요 tanlanadi."
+      }
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "A",
+      "ko": "어떤 옷을 찾으세요?",
+      "uz": "Qanday kiyim qidiryapsiz?"
+    },
+    {
+      "speaker": "B",
+      "ko": "큰 셔츠를 사고 싶어요. 이걸 입어 볼까요?",
+      "uz": "Katta ko‘ylak sotib olmoqchi edim. Buni kiyib ko‘raymi?"
+    },
+    {
+      "speaker": "A",
+      "ko": "네, 입어 보세요. 아주 잘 어울립니다.",
+      "uz": "Ha, kiyib ko‘ring. Juda yarashadi."
+    },
+    {
+      "speaker": "B",
+      "ko": "감사합니다. 친구한테 선물하겠습니다.",
+      "uz": "Rahmat. Do‘stimga sovg‘a qilaman."
+    }
+  ],
+  "book": "1B",
+  "lesson": 14,
+  "origin": "AI yordamida tayyorlangan qo‘shimcha o‘quv materiali"
+}

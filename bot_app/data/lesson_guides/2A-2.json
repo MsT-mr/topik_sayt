@@ -1,0 +1,140 @@
+{
+  "overview": "Ushbu dars kundalik hayotda o'z hobbi va qiziqishlaringiz haqida gapirish, ko'nikmalarni tasvirlash, o'tgan zamon sifatdoshlari orqali otlarni aniqlash hamda inkor shakllarini to'g'ri qo'llash ko'nikmalarini rivojlantiradi. Bu grammatikalar koreys tilida erkin va tabiiy muloqot qilishning muhim asosi hisoblanadi.",
+  "goals": [
+    "Fe'llarni -는 것 yordamida otdoshga aylantirib, gapda qo'llashni o'rganish.",
+    "Muayyan ish-harakatni bajarishni bilish yoki bilmasligini -(으)ㄹ 줄 알다/모르다 orqali ifodalash.",
+    "O'tgan zamon sifatdoshi -(으)ㄴ yordamida otlarni aniqlab kelish.",
+    "-지 않다 qoidasi yordamida fe'l va sifatlarni inkor shaklida qo'llash."
+  ],
+  "rules": [
+    {
+      "source_key": "grammar:2A:5",
+      "meaning": "Fe'l o'zagiga qo'shilib, uni otdoshga (harakat nomiga) aylantiradi va o'zbek tilidagi '-sh' yoki '-v' qo'shimchalariga mos keladi.",
+      "formation": "Fe’l o‘zagiga 는 것 qo‘shiladi: 읽는 것, 하는 것. ㄹ o‘zakda ㄹ tushadi: 만들다 → 만드는 것. 것 mustaqil so‘z bo‘lgani uchun oldidan bo‘sh joy qoldiriladi.",
+      "usage": "Gapda ega, to'ldiruvchi yoki kesim vazifasida kelib, qaysidir harakatni bajarishni yaxshi ko'rishini yoki mashg'ulot turini bildirganda ishlatiladi.",
+      "mistake": "읽는것 emas, 읽는 것 yoziladi. 는 거 og‘zaki nutqdagi tabiiy qisqa shakl; uni mutlaq xato demang. 기 ham otlashtiradi, lekin har kontekstda 는 것 bilan bir xil ishlatilmaydi.",
+      "examples": [
+        {
+          "ko": "제 취미는 책을 읽는 것이에요.",
+          "uz": "Mening sevimli mashg‘ulotim kitob o‘qish."
+        },
+        {
+          "ko": "음악을 듣는 것을 좋아해요.",
+          "uz": "Musiqa tinglashni yaxshi ko‘raman."
+        },
+        {
+          "ko": "한국어를 배우는 것은 재미있어요.",
+          "uz": "Koreys tilini o‘rganish qiziqarli."
+        }
+      ],
+      "exercise": {
+        "question": "Quyidagi fe'lni -는 것 qo'shimchasi yordamida otdoshga aylantiring: 영화를 보다",
+        "answer": "영화를 보는 것",
+        "explanation": "Fe'l o'zagi 보- unli bilan tugagani uchun to'g'ridan-to'g'ri -는 것 qo'shilib, 'filmni ko'rish' degan ma'noni beradi."
+      }
+    },
+    {
+      "source_key": "grammar:2A:6",
+      "meaning": "Biror ish-harakatni bajarish qobiliyatiga ega ekanligini yoki yo'qligini bildiradi. O'zbek tilidagi '-(i)shni bilmoq' yoki 'bilmaslik' ma'nosiga to'g'ri keladi.",
+      "formation": "Unli o‘zakka ㄹ 줄, ㄹ dan boshqa undoshga 을 줄 qo‘shiladi. ㄹ o‘zakda mavjud ㄹ saqlanadi: 만들 줄 알아요. 줄 alohida yoziladi.",
+      "usage": "Suhbat davomida til bilish, mashina haydash, suzish yoki musiqa chalish kabi ko'nikmalar haqida gapirganda ishlatiladi.",
+      "mistake": "할줄 emas, 할 줄 yoziladi. Bu darsda usul yoki ko‘nikmani bilish nazarda tutiladi; imkoniyatni bildiruvchi 수 있다 bilan ma’no farqini kuzating.",
+      "examples": [
+        {
+          "ko": "저는 김치를 만들 줄 알아요.",
+          "uz": "Men kimchi tayyorlashni bilaman."
+        },
+        {
+          "ko": "친구는 수영을 할 줄 몰라요.",
+          "uz": "Do'stim suzishni bilmaydi."
+        },
+        {
+          "ko": "혹시 한국말을 할 줄 아십니까?",
+          "uz": "Iltimos, koreyscha gapirishni bilasizmi?"
+        }
+      ],
+      "exercise": {
+        "question": "Quyidagi fe'lni 'bilolmaydi' ma'nosida tuslang: 운전하다",
+        "answer": "운전할 줄 몰라요",
+        "explanation": "Fe'l unli bilan tugagani uchun -ㄹ 줄 몰라요 biriktiriladi."
+      }
+    },
+    {
+      "source_key": "grammar:2A:7",
+      "meaning": "O'tgan zamon sifatdoshi bo'lib, harakatning oldin sodir bo'lganini ko'rsatadi va otni aniqlab keladi. O'zbek tilidagi '-gan' qo'shimchasiga teng.",
+      "formation": "Fe'l o'zagi undosh bilan tugasa -은, unli bilan tugasa -ㄴ qo'shiladi. Agar fe'l 'ㄹ' harfi bilan tugasa, 'ㄹ' tushib qoladi va -ㄴ qo'shiladi.",
+      "usage": "Oldin o'qigan kitob, ko'rgan kino yoki yegan ovqat haqida gapirganda otni ta'riflash uchun ishlatiladi.",
+      "mistake": "Notekis fe'llarda (masalan, 듣다 -> 들은) tovush o'zgarishlarini unutib, noto'g'ri yozish keng tarqalgan xato hisoblanadi.",
+      "examples": [
+        {
+          "ko": "이것은 제가 어제 읽은 책입니다.",
+          "uz": "Bu kecha men o'qigan kitob."
+        },
+        {
+          "ko": "친구가 만든 요리가 아주 맛있어요.",
+          "uz": "Do'stim tayyorlagan ovqat juda mazali."
+        },
+        {
+          "ko": "어제 본 영화는 정말 슬펐습니다.",
+          "uz": "Kecha ko'rgan kino rostdan ham juda qayg'uli edi."
+        }
+      ],
+      "exercise": {
+        "question": "먹다 fe'lini o'tgan zamon sifatdoshi shakliga keltirib, 'ovqat' (음식) so'zi bilan birga yozing.",
+        "answer": "먹은 음식",
+        "explanation": "먹다 fe'l o'zagi undosh bilan tugagani uchun -은 qo'shilib, 'yegan ovqat' ma'nosini beradi."
+      }
+    },
+    {
+      "source_key": "grammar:2A:8",
+      "meaning": "Fe'l yoki sifatlarni inkor shakliga keltiradi. O'zbek tilidagi '-maydi' yoki '-emas' ma'nosini bildiradi.",
+      "formation": "Barcha fe'l va sifat o'zaklariga to'g'ridan-to'g'ri -지 않다 qo'shiladi va zamonlarga qarab tuslanadi. Masalan: 가다 -> 가지 않다, 싸다 -> 싸지 않다.",
+      "usage": "Rasmiy va kundalik nutqda ish-harakat yoki holatni bajarilmasligini yoki xususiyatga ega emasligini bildirish uchun qo'llaniladi.",
+      "mistake": "가요지 않아요 noto‘g‘ri; o‘zakdan 가지 않아요 yasaladi. Qisqa inkor 안 oldin, 지 않다 esa o‘zakdan keyin keladi.",
+      "examples": [
+        {
+          "ko": "오늘은 학교에 가지 않습니다.",
+          "uz": "Bugun maktabga bormayapman."
+        },
+        {
+          "ko": "이 사과는 별로 달지 않아요.",
+          "uz": "Bu olma unchalik shirin emas."
+        },
+        {
+          "ko": "주말에는 보통 집에서 쉬고 운동을 하지 않아요.",
+          "uz": "Dam olish kunlari odatda uyda dam olaman va sport bilan shug'ullanmayman."
+        }
+      ],
+      "exercise": {
+        "question": "맛있다 sifatini -지 않다 qoidasi yordamida inkor shakliga o'zgartiring.",
+        "answer": "맛있지 않다",
+        "explanation": "Sifat o'zagiga -지 않다 to'g'ridan-to'g'ri qo'shilib, 'mazali emas' ma'nosini hosil qiladi."
+      }
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "A",
+      "ko": "민수 씨, 주말에 보통 무엇을 하는 것을 좋아해요?",
+      "uz": "Minsu-ssi, dam olish kunlari odatda nima qilishni yoqtirasiz?"
+    },
+    {
+      "speaker": "B",
+      "ko": "저는 집에서 영화를 보는 것을 좋아해요. 그리고 요리도 할 줄 알아요.",
+      "uz": "Men uyda kino ko'rishni yaxshi ko'raman. Qolaversa, ovqat qilishni ham bilaman."
+    },
+    {
+      "speaker": "A",
+      "ko": "그래요? 그럼 어제 만든 요리가 있어요?",
+      "uz": "Shunaqami? Unda kecha tayyorlagan ovqatingiz bormi?"
+    },
+    {
+      "speaker": "B",
+      "ko": "네, 하지만 오늘은 요리하지 않고 밖에 나갈 거예요.",
+      "uz": "Ha, lekin bugun ovqat qilmayman va tashqariga chiqaman."
+    }
+  ],
+  "book": "2A",
+  "lesson": 2,
+  "origin": "AI yordamida tayyorlangan qo‘shimcha o‘quv materiali"
+}

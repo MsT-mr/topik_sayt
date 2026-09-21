@@ -1,0 +1,140 @@
+{
+  "overview": "Ushbu dars kundalik muloqotda imkoniyatni bildirish, va'da berish, maqsad bilan harakatlanish va bir vaqtning o'zida bajariladigan ishlarni ifodalash uchun juda muhim bo'lgan 4 ta asosiy koreys tili grammatik qoidasini o'rgatadi.",
+  "goals": [
+    "Fe'llarga qo'shiladigan +(으)ㄹ 수 있다/없다 orqali imkoniyat va qobiliyatni ifodalashni o'rganish.",
+    "+(으)ㄹ게요 yordamida I-shaxs uchun qat'iy niyat va va'da bildirishni o'zlashtirish.",
+    "+(으)러 가다/오da konstruksiyasi yordamida harakat maqsadini tushuntirish.",
+    "+(으)면서 qoidasi yordamida bir vaqtda bajariladigan ikki harakatni ifodalash."
+  ],
+  "rules": [
+    {
+      "source_key": "grammar:1B:29",
+      "meaning": "Ma'nosi: biron bir ishni qilishga imkoniyati yoki qobiliyati borligini (수 있다) yoki yo'qligini (수 없다) bildiradi. O'zbek tilidagi '~i bilmoq' yoki '~i olmoq' qo'shimchalariga mos keladi.",
+      "formation": "Unli o‘zakka ㄹ 수 있다/없다, ㄹ dan boshqa undoshga 을 수 있다/없다 qo‘shiladi. ㄹ bilan tugasa mavjud ㄹ saqlanadi: 만들다 → 만들 수 있어요. 가다 → 갈 수 있어요; 먹다 → 먹을 수 있어요.",
+      "usage": "Qachon ishlatiladi: Jismoniy imkoniyat, qobiliyat yoki sharoit mavjudligini ko'rsatishda qo'llaniladi.",
+      "mistake": "가을 수 있어요 emas, 갈 수 있어요. 갈수 kabi qo‘shib yozmang: 수 alohida yoziladi.",
+      "examples": [
+        {
+          "ko": "저는 한국어로 조금 쓸 수 있어요.",
+          "uz": "Men koreys tilida biroz yoza olaman."
+        },
+        {
+          "ko": "내일 바빠서 영화를 볼 수 없어요.",
+          "uz": "Ertaga bandligim sababli kino ko‘ra olmayman."
+        },
+        {
+          "ko": "이 음료수를 마실 수 있어요?",
+          "uz": "Bu ichimlikni icha olasizmi?"
+        }
+      ],
+      "exercise": {
+        "question": "Qavs ichidagi so'zni to'g'ri shaklda yozing: 저는 매운 음식을 잘 (먹다 + 수 있다).",
+        "answer": "먹을 수 있어요",
+        "explanation": "'먹다' fe'lining o'zagi '먹' undosh bilan tugagani uchun '-을 수 있어요' qo'shiladi."
+      }
+    },
+    {
+      "source_key": "grammar:1B:30",
+      "meaning": "Ma'nosi: I-shaxs (men, biz) uchun suhbatdoshga qilingan va'da yoki shu onda qabul qilingan qat'iy niyatni bildiradi.",
+      "formation": "Unli o‘zakka ㄹ게요, ㄹ dan boshqa undoshga 을게요 qo‘shiladi. ㄹ bilan tugasa mavjud ㄹ saqlanadi: 만들게요. Bu odatda so‘zlovchining va’dasi yoki tinglovchiga bog‘liq qarorini bildiradi.",
+      "usage": "Qachon ishlatiladi: Suhbatdoshning iltimosiga javoban yoki o'z xohishi bilan hozir yoki kelajakda bajariladigan ish haqida va'da berishda.",
+      "mistake": "Xato: 내일 학교에 갈게요요. To'g'ri: 내일 학교에 갈게요. Sababi: Grammatika oxirida qo'shimcha '요' bitta keladi, ortiqcha takrorlanmaydi.",
+      "examples": [
+        {
+          "ko": "제가 방을 깨끗이 청소할게요.",
+          "uz": "Men xonani toza qilib tozalayman (tozalashga va'da beraman)."
+        },
+        {
+          "ko": "이 일을 제가 혼자서 할게요.",
+          "uz": "Bu ishni o'zim yolg'iz qilaman."
+        },
+        {
+          "ko": "내일 일찍 연락할게요.",
+          "uz": "Ertaga erta xabar qilaman."
+        }
+      ],
+      "exercise": {
+        "question": "Qavs ichidagi so'zni to'g'ri shaklda yozing: 제가 선물을 (준비하다 + ㄹ게요).",
+        "answer": "준비할게요",
+        "explanation": "'준비하다' unli (ㅏ) bilan tugagani uchun oxiriga 'ㄹ게요' qo'shiladi."
+      }
+    },
+    {
+      "source_key": "grammar:1B:31",
+      "meaning": "Ma'nosi: Ma'lum bir joyga qandaydir maqsad bilan borish yoki kelishni bildiradi. O'zbek tilidagi '~v uchun bormoq/kelmoq' ma'nosini beradi.",
+      "formation": "Yasalishi: Fe'l o'zagiga undosh bilan tugasa - 으러 가다/오다, unli yoki 'ㄹ' bilan tugasa - 러 가다/오다.",
+      "usage": "Qachon ishlatiladi: Harakatning yo'nalishi (가다 - bormoq, 오다 - kelmoq) va uning asosiy maqsadi ko'rsatilganda.",
+      "mistake": "먹러 가요 emas, 먹으러 가요: 먹- undosh bilan tugaydi. Ushbu maqsad qurilmasidan keyin 가다, 오다 kabi harakatlanish fe’llari keladi.",
+      "examples": [
+        {
+          "ko": "친구를 만나러 카페에 가요.",
+          "uz": "Do'stimni uchratish uchun kafega boryapman."
+        },
+        {
+          "ko": "한국어를 배우러 학교에 와요.",
+          "uz": "Koreys tilini o'rganish uchun maktabga kelyapman."
+        },
+        {
+          "ko": "저녁을 먹으러 식당에 갔어요.",
+          "uz": "Kechki ovqat yeyish uchun restoranga bordim."
+        }
+      ],
+      "exercise": {
+        "question": "Qavs ichidagi so'zni to'g'ri shaklda yozing: 식료품을 (사다) 시장에 가요.",
+        "answer": "사러",
+        "explanation": "'사다' fe'li unli bilan tugagani uchun '-러' qo'shilib, '사러' hosil bo'ladi."
+      }
+    },
+    {
+      "source_key": "grammar:1B:32",
+      "meaning": "Ma'nosi: Bir vaqtning o'zida ikkita harakat bajarilishini bildiradi. O'zbek tilidagi '~yotib', '~b' qo'shimchalariga mos keladi.",
+      "formation": "Unli yoki ㄹ bilan tugagan o‘zakka 면서, boshqa undoshga 으면서 qo‘shiladi: 보면서, 살면서, 읽으면서. 듣다 → 들으면서: ㄷ unli oldidan ㄹ ga o‘zgaradi.",
+      "usage": "Qachon ishlatiladi: Asosiy e'tibor ikkinchi harakatda bo'lib, birinchi harakat unga hamroh sifatida bajarilganda.",
+      "mistake": "읽면서 emas, 읽으면서. Bu darsdagi bir vaqtda bajarilish ma’nosida odatda ikkala harakatning bajaruvchisi bir xil bo‘ladi.",
+      "examples": [
+        {
+          "ko": "음악을 들으면서 숙제를 해요.",
+          "uz": "Musiqa tinglab uy vazifasini qilaman."
+        },
+        {
+          "ko": "친구와 이야기하면서 커피를 마셔요.",
+          "uz": "Do'stim bilan gaplashib qahva ichyapman."
+        },
+        {
+          "ko": "텔레비전을 보면서 저녁을 먹어요.",
+          "uz": "Televizor ko'rib o'tirib kechki ovqatni yeyman."
+        }
+      ],
+      "exercise": {
+        "question": "책을 (읽다) 음악을 들어요 gapini bir vaqtdagi harakat shaklida to‘ldiring.",
+        "answer": "읽으면서",
+        "explanation": "읽- undosh bilan tugaydi, shuning uchun 으면서 qo‘shiladi."
+      }
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "A",
+      "ko": "민수 씨, 이번 주말에 뭐 할 거예요?",
+      "uz": "Minsu janoblari, bu dam olish kuni nima qilasiz?"
+    },
+    {
+      "speaker": "B",
+      "ko": "친구를 만나러 명동에 갈 거예요.",
+      "uz": "Do'stimni uchratish uchun Myondonga boraman."
+    },
+    {
+      "speaker": "A",
+      "ko": "저도 같이 갈 수 있어요?",
+      "uz": "Men ham birga bora olamanmi?"
+    },
+    {
+      "speaker": "B",
+      "ko": "네, 좋아요! 같이 가면서 이야기해요.",
+      "uz": "Ha, yaxshi! Birga ketib gaplashamiz."
+    }
+  ],
+  "book": "1B",
+  "lesson": 16,
+  "origin": "AI yordamida tayyorlangan qo‘shimcha o‘quv materiali"
+}

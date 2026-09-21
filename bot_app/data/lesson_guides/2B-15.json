@@ -1,0 +1,139 @@
+{
+  "overview": "Ushbu darsda hayotiy o'zgarishlar, jarayonlar va vaqt ketma-ketligini ifodalovchi muhim koreys tili grammatik qoidalari o'rganiladi. Bu kundalik suhbatlarda o'zgarishlarni tasvirlash va rejalarni tuzishda juda qo'l keladi.",
+  "goals": [
+    "Sifat va holat o'zgarishini -아지다/어지다 yordamida ifodalashni o'rganish.",
+    "Tashqi ta'sir yoki vaziyat taqozosi bilan sodir bo'lgan o'zgarishlarni -게 되다 orqali tushuntirish.",
+    "Harakatlarning bajarilish vaqtini -기 전에 va -(으)ㄴ 후에 qoidalari yordamida aniq bog'lash."
+  ],
+  "rules": [
+    {
+      "source_key": "grammar:2B:21",
+      "meaning": "Ma'nosi: Sifat yoki holatning o'zgarishini, ya'ni bir holatdan boshqa holatga o'tishini bildiradi. O'zbek tiliga '-lashmoq', '-yotir', '-lashib bormoq' deb tarjima qilinadi.",
+      "formation": "Qanday yasaladi: Sifat asosining oxirgi unlisiga qarab qo'shiladi. Agar asos ㅏ yoki ㅗ bilan tugasa -아지다, qolgan hollarda -어지다 ishlatiladi. '하다' bilan tugagan sifatlar '해지다'ga o'zgaradi.",
+      "usage": "Qachon ishlatiladi: Ob-havo, inson tashqi ko'rinishi, xarakteri yoki umumiy holatdagi o'zgarishlarni tasvirlashda qo'llaniladi.",
+      "mistake": "Xato: Sifatga fe'l qo'shimchalarini to'g'ridan-to'g'ri qo'shish yoki unlilar uyg'unligiga e'tibor bermaslik. To'g'ri: 크다 -> 커지다 (kataymoq).",
+      "examples": [
+        {
+          "ko": "날씨가 점점 추워져요.",
+          "uz": "Ob-havo asta-sekin sovib bormoqda."
+        },
+        {
+          "ko": "한국어 실력이 많이 좋아졌어요.",
+          "uz": "Koreys tili qobiliyatim ancha yaxshilandi."
+        },
+        {
+          "ko": "그 사람이 유명해졌어요.",
+          "uz": "U odam mashhur bo'lib ketdi."
+        }
+      ],
+      "exercise": {
+        "question": "Qavs ichidagi sifatni to'g'ri shaklda o'zgartiring: 날씨가 (따뜻하다) -> ?",
+        "answer": "따뜻해져요",
+        "explanation": "'따뜻하다' fe'li '하다' bilan tugagani uchun '해지다' qo'shilib, '따뜻해져요' hosil bo'ladi."
+      }
+    },
+    {
+      "source_key": "grammar:2B:22",
+      "meaning": "Ma'nosi: Shaxsning o'z xohishi bilan emas, balki tashqi vaziyat yoki boshqalarning ta'siri ostida biror ishni qilishga majbur bo'lganini yoki shunday holatga kelib qolganini bildiradi. '-adigan bo'lmoq' deb tarjima qilinadi.",
+      "formation": "Qanday yasaladi: Fe'l asosiga -게 되다 qo'shiladi. Zamonlar o'tgan zamon (-게 되었어요 yoki -게 됐어요) shaklida ham ko'p ishlatiladi.",
+      "usage": "Qachon ishlatiladi: Hayotimizda kutilmaganda sodir bo'lgan o'zgarishlar va yangi vaziyatlarni tushuntirishda ishlatiladi.",
+      "mistake": "게 되다 odatda sharoit yoki jarayon natijasidagi o‘zgarishni bildiradi. Faqat tashqi sabab bilan cheklanmang: o‘z qaroringiz natijasini ham shu nuqtayi nazardan bayon qilish mumkin.",
+      "examples": [
+        {
+          "ko": "내년부터 서울에서 살게 되었어요.",
+          "uz": "Kelgusi yildan boshlab Seulda yashaydigan bo'ldim."
+        },
+        {
+          "ko": "회사 일이 많아서 야근하게 됐어요.",
+          "uz": "Ishxona ishlari ko'pligi sababli kechasi ishlaydigan bo'ldim."
+        },
+        {
+          "ko": "친구의 도움으로 이 문제를 풀게 되었어요.",
+          "uz": "Do'stimgi yordami bilan bu masalani yechadigan bo'ldim."
+        }
+      ],
+      "exercise": {
+        "question": "Fe'lni -게 되다 yordamida o'zgartiring: 한국 회사에 취직하다 -> ?",
+        "answer": "취직하게 되었어요",
+        "explanation": "Tashqi sharoit tufayli ishga kirish holati sodir bo'lgani uchun '취직하게 되었어요' ishlatiladi."
+      }
+    },
+    {
+      "source_key": "grammar:2B:23",
+      "meaning": "Ma'nosi: Biror harakat boshlanishidan oldin boshqa bir harakat bajarilishini bildiradi. O'zbek tiliga '-shdan oldin' yoki '-gunga qadar' deb tarjima qilinadi.",
+      "formation": "Qanday yasaladi: Fe'l asosiga unli yoki undindoshga tugashidan qat'i nazar -기 전에 qo'shiladi.",
+      "usage": "Qachon ishlatiladi: Harakatlarning bajarilish tartibini ko'rsatishda, biror ishni qilishdan oldin nima qilish kerakligini aytishda.",
+      "mistake": "먹기 전에 손을 씻어요 gapida oldin qo‘l yuviladi, keyin ovqat yeyiladi. 기 전에 keyin sodir bo‘ladigan ishga ulanadi, oldin bajariladigan ishga emas.",
+      "examples": [
+        {
+          "ko": "밥을 먹기 전에 손을 씻으세요.",
+          "uz": "Ovqat yeyishdan oldin qo'lingizni yuving."
+        },
+        {
+          "ko": "자기 전에 음악을 들어요.",
+          "uz": "Uxlashdan oldin musiqa tinglayman."
+        },
+        {
+          "ko": "한국에 오기 전에 한국어를 공부했어요.",
+          "uz": "Koreyaga kelishdan oldin koreys tilini o'rgandim."
+        }
+      ],
+      "exercise": {
+        "question": "Tarjima qiling: 'Uyqudan oldin kitob o'qiyman.'",
+        "answer": "자기 전에 책을 읽어요.",
+        "explanation": "'자다' (uxlamoq) fe'liga '-기 전에' qo'shilib, uxlashdan oldin degan ma'noni beradi."
+      }
+    },
+    {
+      "source_key": "grammar:2B:24",
+      "meaning": "Ma'nosi: Biror harakat tugagandan so'ng keyingi harakat boshlanishini bildiradi. O'zbek tiliga '-gandan keyin' deb tarjima qilinadi.",
+      "formation": "Unli o‘zakka ㄴ 후에, undosh o‘zakka 은 후에. ㄹ tushadi: 만들다 → 만든 후에. 끝나다 → 끝난 후에; 끝내다 → 끝낸 후에.",
+      "usage": "Qachon ishlatiladi: Voqealar ketma-ketligida birinchi ish tugagach, ikkinchisi boshlanishini ko'rsatish uchun.",
+      "mistake": "Xato: Unli bilan tugagan fe'lga ortiqcha 'ㅡ' qo'shish. To'g'ri: 가다 -> 간 후에.",
+      "examples": [
+        {
+          "ko": "수업이 끝난 후에 친구를 만나요.",
+          "uz": "Dars tugagandan keyin do'stimni uchrataman."
+        },
+        {
+          "ko": "저녁을 먹은 후에 산책을 해요.",
+          "uz": "Kechki ovqatni yegandan keyin sayr qilaman."
+        },
+        {
+          "ko": "대학을 졸업한 후에 회사에 취직했어요.",
+          "uz": "Universitetni bitirgandan keyin kompaniyaga ishga kirdim."
+        }
+      ],
+      "exercise": {
+        "question": "Uy vazifasini bajargandan keyin birikmasini 하다 bilan tuzing.",
+        "answer": "숙제를 한 후에",
+        "explanation": "하- unli o‘zakka ㄴ qo‘shiladi: 한 후에."
+      }
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "A",
+      "ko": "오래간만이에요! 한국어 실력이 아주 좋아졌네요.",
+      "uz": "Ancha vaqt bo'ldi! Koreys tili qobiliyatingiz juda yaxshilanibdi."
+    },
+    {
+      "speaker": "B",
+      "ko": "네, 한국 회사에 취직하게 되어서 매dars열심히 공부했어요.",
+      "uz": "Ha, koreys kompaniyasiga ishga kiradigan bo'lib qolganim uchun har kuni qattiq o'qidim."
+    },
+    {
+      "speaker": "A",
+      "ko": "그렇군요. 출근하기 전에 보통 무엇을 해요?",
+      "uz": "Tushunarli. Ishga ketishdan oldin odatda nima qilasiz?"
+    },
+    {
+      "speaker": "B",
+      "ko": "아침을 먹은 후에 간단하게 뉴스를 봐요.",
+      "uz": "Nonushta qilgandan keyin qisqacha yangiliklarni ko'raman."
+    }
+  ],
+  "book": "2B",
+  "lesson": 15,
+  "origin": "AI yordamida tayyorlangan qo‘shimcha o‘quv materiali"
+}

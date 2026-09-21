@@ -1,0 +1,144 @@
+{
+  "overview": "Ushbu dars kundalik hayotda o'zingizni tanishtirish, rejalaringizni tushuntirish va tanlov qilish kabi muhim muloqot ko'nikmalarini rivojlantirishga yordam beradi.",
+  "goals": [
+    "O'z ismi va kasbini to'g'ri tanishtirishni o'rganish",
+    "Biror ishni bajarish maqsadini ifodalash",
+    "Harakatlar yoki otlar orasida tanlov qilishni o'zlashtirish"
+  ],
+  "rules": [
+    {
+      "source_key": "grammar:2A:1",
+      "meaning": "ma’nosi: '... deb ataladi', '... deyishadi'. O'zimizning yoki boshqalarning ismi va otini tanishtirganda ishlatiladi.",
+      "formation": "qanday yasaladi: Ot unli tovush bilan tugasa '-라고 하다', undosh bilan tugasa '-이라고 하다' qo'shiladi. Hurmat shaklida '-라고 하시다' ishlatiladi.",
+      "usage": "qachon ishlatiladi: Ism, unvon yoki narsalarning nomini aytib o'tishda va tanishtiruvlarda qo'llaniladi.",
+      "mistake": "Ba'zan o'quvchilar undosh bilan tugagan otlarga ham '-라고' qo'shib xato qilishadi (masalan: 책이라고 하다 to'g'ri, 책라고 하다 xato). Sababi talaffuz qulayligi uchun undoshdan keyin '이' tovushi tushib qolmasligi kerak.",
+      "examples": [
+        {
+          "ko": "저는 지수라고 해요.",
+          "uz": "Meni Jisu deb atashadi."
+        },
+        {
+          "ko": "제 동생은 민수라고 해요.",
+          "uz": "Ukamning ismi Minsu."
+        },
+        {
+          "ko": "이것은 한국어로 책이라고 해요.",
+          "uz": "Bu koreys tilida 책 deb ataladi."
+        }
+      ],
+      "exercise": {
+        "question": "Qavs ichidagi so'zni to'g'ri shaklda yozing: 제 이름은 (민호)예요 -> 제 이름은 ... 해요.",
+        "answer": "민호라고",
+        "explanation": "'민호' so'zi unli bilan tugagani uchun '-라고' qo'shimchasi qo'shiladi."
+      }
+    },
+    {
+      "source_key": "grammar:2A:2",
+      "meaning": "ma’nosi: '...-ish uchun', 'maqsadida'. Biror ishni bajarishdan ko'zlangan maqsadni bildiradi.",
+      "formation": "qanday yasaladi: Fe'l o'zagiga '-으려고' (undosh bilan tugasa) yoki '-려고' (unli bilan tugasa yoki 'ㄹ' bilan tugasa) qo'shiladi.",
+      "usage": "qachon ishlatiladi: Asosiy harakatning bajarilish sababini yoki maqsadini ko'rsatish uchun qo'llaniladi. Faqat harakat fe'llari bilan ishlatiladi.",
+      "mistake": "O'tgan zamon yoki kelasi zamon qo'shimchalari (-았/었-, -겠-) bu grammatikadan oldin kelmaydi. Faqat fe'l o'zagiga qo'shiladi.",
+      "examples": [
+        {
+          "ko": "한국어를 배우려고 한국에 왔어요.",
+          "uz": "Koreys tilini o'rganish uchun Koreyaga keldim."
+        },
+        {
+          "ko": "책을 사서 읽으려고 서점에 가요.",
+          "uz": "Kitob sotib olib o'qish uchun kitob do'koniga boryapman."
+        },
+        {
+          "ko": "친구를 만나려고 도서관에 갔어요.",
+          "uz": "Do'stimni uchratish uchun kutubxonaga bordim."
+        }
+      ],
+      "exercise": {
+        "question": "한국어를 (배우다) 한국에 가요 gapini maqsad shakli bilan to‘ldiring.",
+        "answer": "배우려고",
+        "explanation": "배우- unli bilan tugaydi: 배우려고 — o‘rganish uchun."
+      }
+    },
+    {
+      "source_key": "grammar:2A:3",
+      "meaning": "ma’nosi: 'yoki'. Ikki yoki undan ortiq harakatdan birini tanlash yoki navbatma-navbat bajarishni bildiradi.",
+      "formation": "qanday yasaladi: Fe'l o'zagiga unli-undoshligidan qat'iy nazar '-거나' qo'shiladi.",
+      "usage": "qachon ishlatiladi: Bo'sh vaqtda qilinadigan ishlar yoki muqobil harakatlarni sanab o'tishda ishlatiladi.",
+      "mistake": "Harakatlar orasida 거나 ishlating: 읽거나 써요. Ikki otni tanlashda odatda (이)나: 커피나 차. Ot kesim bo‘lganda 이거나 ham mumkin: 학생이거나 회사원이에요.",
+      "examples": [
+        {
+          "ko": "주말에는 영화를 보거나 쉴 거예요.",
+          "uz": "Dam olish kunida kino ko'raman yoki dam olaman."
+        },
+        {
+          "ko": "아침에 빵을 먹거나 커피를 마셔요.",
+          "uz": "Ertalab non yeyman yoki qahva ichaman."
+        },
+        {
+          "ko": "저녁에 음악을 듣거나 책을 읽어요.",
+          "uz": "Kechqurun musiqa tinglayman yoki kitob o'qiyman."
+        }
+      ],
+      "exercise": {
+        "question": "Bo'sh joyni to'ldiring: 주말에 운동을 하다 / 자다 -> 주말에 운동을 ... 자요.",
+        "answer": "하거나",
+        "explanation": "'하다' fe'l o'zagiga '-거나' qo'shilib '하거나' hosil bo'ladi."
+      }
+    },
+    {
+      "source_key": "grammar:2A:4",
+      "meaning": "ma’nosi: 'yoki'. Ikki yoki undan ortiq otlar orasidan birini tanlashni bildiradi.",
+      "formation": "qanday yasaladi: Ot unli bilan tugasa '-나', undosh bilan tugasa '-이나' qo'shiladi.",
+      "usage": "qachon ishlatiladi: Ismlar, narsalar yoki vaqtlar orasida tanlov qilishni bildirganda ishlatiladi.",
+      "mistake": "Fe'llarga nisbatan '-나/이나' ishlatilmaydi, fe'llar uchun '-거나' ishlatilishini unutmaslik kerak.",
+      "examples": [
+        {
+          "ko": "커피나 주스를 마실까요?",
+          "uz": "Qahva yoki sharbat ichamizmi?"
+        },
+        {
+          "ko": "사과나 바나나를 좋아해요.",
+          "uz": "Olma yoki bananni yaxshi ko'raman."
+        },
+        {
+          "ko": "버스나 지하철을 타고 가요.",
+          "uz": "Avtobus yoki metroda o'tirib ketaman."
+        }
+      ],
+      "exercise": {
+        "question": "To'g'ri qo'shimchani tanlang: 물( ) 차를 마십니다.",
+        "answer": "이나",
+        "explanation": "'물' so'zi undosh bilan tugagani uchun '-이나' qo'shiladi."
+      }
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "A",
+      "ko": "안녕하세요, 제 이름은 민호라고 해요.",
+      "uz": "Salom, mening ismim Minho deyiladi."
+    },
+    {
+      "speaker": "B",
+      "ko": "반가워요. 저는 한국어를 배우려고 여기에 왔어요.",
+      "uz": "Tanishganimdan xursandman. Men koreys tilini o'rganish uchun bu yerga keldim."
+    },
+    {
+      "speaker": "A",
+      "ko": "그렇군요. 주말에는 주로 무엇을 해요?",
+      "uz": "Tushunarli. Dam olish kunlari asosan nima qilasiz?"
+    },
+    {
+      "speaker": "B",
+      "ko": "책을 읽거나 영화를 봐요. 민호 씨는요?",
+      "uz": "Kitob o'qiyman yoki kino ko'raman. Minho-chi?"
+    },
+    {
+      "speaker": "A",
+      "ko": "저는 커피나 차를 마시면서 쉬어요.",
+      "uz": "Men qahva yoki choy ichib dam olaman."
+    }
+  ],
+  "book": "2A",
+  "lesson": 1,
+  "origin": "AI yordamida tayyorlangan qo‘shimcha o‘quv materiali"
+}

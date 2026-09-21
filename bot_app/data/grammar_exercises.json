@@ -1,0 +1,478 @@
+[
+  {
+    "grammar_source": "grammar:1A:2",
+    "source_key": "practice:1A:2",
+    "sentence": "저는 학생___.",
+    "translation": "Men o‘quvchiman.",
+    "options": [
+      "이에요",
+      "예요",
+      "을",
+      "에"
+    ],
+    "correct_index": 0,
+    "explanation": "학생 undosh bilan tugaydi, shuning uchun 이에요 ishlatiladi."
+  },
+  {
+    "grammar_source": "grammar:1A:7",
+    "source_key": "practice:1A:7",
+    "sentence": "물 ___.",
+    "translation": "Iltimos, suv bering.",
+    "options": [
+      "주세요",
+      "가요",
+      "읽어요",
+      "자요"
+    ],
+    "correct_index": 0,
+    "explanation": "Ot + 주세요 biror narsani muloyim so‘rash uchun ishlatiladi."
+  },
+  {
+    "grammar_source": "grammar:1A:10",
+    "source_key": "practice:1A:10",
+    "sentence": "저는 한국어___ 공부해요.",
+    "translation": "Men koreys tilini o‘rganaman.",
+    "options": [
+      "를",
+      "을",
+      "이",
+      "에서"
+    ],
+    "correct_index": 0,
+    "explanation": "한국어 unli bilan tugaydi. To‘ldiruvchi qo‘shimchasi 를 bo‘ladi."
+  },
+  {
+    "grammar_source": "grammar:1A:15",
+    "source_key": "practice:1A:15",
+    "sentence": "저는 학교___ 가요.",
+    "translation": "Men maktabga boraman.",
+    "options": [
+      "에",
+      "에서",
+      "을",
+      "는"
+    ],
+    "correct_index": 0,
+    "explanation": "Boriladigan joy uchun 에 ishlatiladi: 학교에 가요."
+  },
+  {
+    "grammar_source": "grammar:1A:18",
+    "source_key": "practice:1A:18",
+    "sentence": "금요일___ 만나요.",
+    "translation": "Juma kuni uchrashamiz.",
+    "options": [
+      "에",
+      "에서",
+      "을",
+      "이"
+    ],
+    "correct_index": 0,
+    "explanation": "Hafta kuni bilan vaqtni bildirish uchun 에 qo‘shiladi."
+  },
+  {
+    "grammar_source": "grammar:1A:21",
+    "source_key": "practice:1A:21",
+    "sentence": "여기에 앉___.",
+    "translation": "Iltimos, shu yerga o‘tiring.",
+    "options": [
+      "으세요",
+      "세요",
+      "아요",
+      "어요"
+    ],
+    "correct_index": 0,
+    "explanation": "앉다 undosh bilan tugagan negizga ega: 앉으세요."
+  },
+  {
+    "grammar_source": "grammar:1A:26",
+    "source_key": "practice:1A:26",
+    "sentence": "이 음식은 맵___ 맛있어요.",
+    "translation": "Bu taom achchiq, lekin mazali.",
+    "options": [
+      "지만",
+      "고",
+      "아서",
+      "으면"
+    ],
+    "correct_index": 0,
+    "explanation": "지만 ikki qarama-qarshi fikrni bog‘laydi: achchiq, lekin mazali."
+  },
+  {
+    "grammar_source": "grammar:1A:29",
+    "source_key": "practice:1A:29",
+    "sentence": "우리 같이 영화를 ___?",
+    "translation": "Birga kino ko‘ramizmi?",
+    "options": [
+      "볼까요",
+      "봤어요",
+      "봤지만",
+      "보면서"
+    ],
+    "correct_index": 0,
+    "explanation": "Taklif yoki birga bajariladigan ish uchun 보다 → 볼까요? ishlatiladi."
+  },
+  {
+    "grammar_source": "grammar:1B:1",
+    "source_key": "practice:1B:1",
+    "sentence": "이것은 친구___ 가방이에요.",
+    "translation": "Bu do‘stimning sumkasi.",
+    "options": [
+      "의",
+      "를",
+      "에서",
+      "까지"
+    ],
+    "correct_index": 0,
+    "explanation": "의 egalikni bildiradi: 친구의 가방 — do‘stimning sumkasi."
+  },
+  {
+    "grammar_source": "grammar:1B:8",
+    "source_key": "practice:1B:8",
+    "sentence": "내일 학교에 ___.",
+    "translation": "Ertaga maktabga boraman (reja).",
+    "options": [
+      "갈 거예요",
+      "갔어요",
+      "갔지만",
+      "가면서"
+    ],
+    "correct_index": 0,
+    "explanation": "Kelasi zamondagi reja uchun 가다 → 갈 거예요."
+  },
+  {
+    "grammar_source": "grammar:1B:10",
+    "source_key": "practice:1B:10",
+    "sentence": "여기에서 사진을 찍___.",
+    "translation": "Bu yerda suratga olmang.",
+    "options": [
+      "지 마세요",
+      "으세요",
+      "고 있어요",
+      "을 거예요"
+    ],
+    "correct_index": 0,
+    "explanation": "지 마세요 taqiqni bildiradi: 찍지 마세요."
+  },
+  {
+    "grammar_source": "grammar:1B:14",
+    "source_key": "practice:1B:14",
+    "sentence": "지금 책을 읽___.",
+    "translation": "Hozir kitob o‘qiyapman.",
+    "options": [
+      "고 있어요",
+      "었어요",
+      "을 거예요",
+      "으세요"
+    ],
+    "correct_index": 0,
+    "explanation": "고 있다 ayni paytda davom etayotgan ishni bildiradi."
+  },
+  {
+    "grammar_source": "grammar:1B:18",
+    "source_key": "practice:1B:18",
+    "sentence": "집___ 학교까지 걸어가요.",
+    "translation": "Uydan maktabgacha piyoda boraman.",
+    "options": [
+      "에서",
+      "을",
+      "는",
+      "에게"
+    ],
+    "correct_index": 0,
+    "explanation": "Joylar oralig‘i uchun 에서 ... 까지: ...dan ...gacha."
+  },
+  {
+    "grammar_source": "grammar:1B:22",
+    "source_key": "practice:1B:22",
+    "sentence": "저는 ___ 음식을 좋아해요.",
+    "translation": "Men achchiq ovqatni yaxshi ko‘raman.",
+    "options": [
+      "매운",
+      "맵은",
+      "맵는",
+      "매워"
+    ],
+    "correct_index": 0,
+    "explanation": "맵다 ot oldida ㅂ o‘zgarishi bilan 매운 bo‘ladi: 매운 음식."
+  },
+  {
+    "grammar_source": "grammar:1B:27",
+    "source_key": "practice:1B:27",
+    "sentence": "저는 한국에 가___.",
+    "translation": "Men Koreyaga borishni xohlayman.",
+    "options": [
+      "고 싶어요",
+      "지 마세요",
+      "고 있어요",
+      "서 왔어요"
+    ],
+    "correct_index": 0,
+    "explanation": "고 싶다 so‘zlovchining istagini bildiradi: 가고 싶어요."
+  },
+  {
+    "grammar_source": "grammar:1B:29",
+    "source_key": "practice:1B:29",
+    "sentence": "저는 한국어를 읽___.",
+    "translation": "Men koreys tilida o‘qiy olaman.",
+    "options": [
+      "을 수 있어요",
+      "는 수 있어요",
+      "은 수 있어요",
+      "을 수 없어요"
+    ],
+    "correct_index": 0,
+    "explanation": "Qobiliyat uchun (으)ㄹ 수 있다: 읽을 수 있어요."
+  },
+  {
+    "grammar_source": "grammar:2A:1",
+    "source_key": "practice:2A:1",
+    "sentence": "저는 민수___ 해요.",
+    "translation": "Meni Minsu deb atashadi.",
+    "options": [
+      "라고",
+      "이라고",
+      "로",
+      "를"
+    ],
+    "correct_index": 0,
+    "explanation": "민수 unli bilan tugaydi: 민수라고 해요."
+  },
+  {
+    "grammar_source": "grammar:2A:7",
+    "source_key": "practice:2A:7",
+    "sentence": "이것은 어제 ___ 책이에요.",
+    "translation": "Bu kecha o‘qigan kitobim.",
+    "options": [
+      "읽은",
+      "읽는",
+      "읽을",
+      "읽고"
+    ],
+    "correct_index": 0,
+    "explanation": "Tugallangan o‘tmishdagi ish ot oldida (으)ㄴ: 읽은 책."
+  },
+  {
+    "grammar_source": "grammar:2A:9",
+    "source_key": "practice:2A:9",
+    "sentence": "한국 음식을 먹어 ___.",
+    "translation": "Koreys taomini yeb ko‘rdim.",
+    "options": [
+      "봤어요",
+      "갔어요",
+      "싶어요",
+      "주세요"
+    ],
+    "correct_index": 0,
+    "explanation": "아/어 보다 sinab ko‘rishni bildiradi: 먹어 봤어요."
+  },
+  {
+    "grammar_source": "grammar:2A:14",
+    "source_key": "practice:2A:14",
+    "sentence": "오늘은 어제___ 더 추워요.",
+    "translation": "Bugun kechagiga qaraganda sovuqroq.",
+    "options": [
+      "보다",
+      "부터",
+      "까지",
+      "처럼"
+    ],
+    "correct_index": 0,
+    "explanation": "보다 taqqoslash uchun ishlatiladi: 어제보다 — kechagiga qaraganda."
+  },
+  {
+    "grammar_source": "grammar:2A:20",
+    "source_key": "practice:2A:20",
+    "sentence": "숙제를 하___ 텔레비전을 봐요.",
+    "translation": "Uy vazifasini qilib bo‘lgach televizor ko‘raman.",
+    "options": [
+      "고 나서",
+      "기 전에",
+      "는 동안",
+      "러"
+    ],
+    "correct_index": 0,
+    "explanation": "고 나서 birinchi ish tugagandan keyin ikkinchisi bajarilishini bildiradi."
+  },
+  {
+    "grammar_source": "grammar:2A:21",
+    "source_key": "practice:2A:21",
+    "sentence": "비행기___ 한국에 가요.",
+    "translation": "Koreyaga samolyot orqali boraman.",
+    "options": [
+      "로",
+      "으로",
+      "에",
+      "를"
+    ],
+    "correct_index": 0,
+    "explanation": "Vosita uchun (으)로. 비행기 unli bilan tugagani uchun 로."
+  },
+  {
+    "grammar_source": "grammar:2A:28",
+    "source_key": "practice:2A:28",
+    "sentence": "한국어를 잘하___ 매일 연습하세요.",
+    "translation": "Koreys tilini yaxshi bilmoqchi bo‘lsangiz, har kuni mashq qiling.",
+    "options": [
+      "려면",
+      "면서",
+      "다가",
+      "지만"
+    ],
+    "correct_index": 0,
+    "explanation": "(으)려면 maqsadga erishish shartini bildiradi: 잘하려면."
+  },
+  {
+    "grammar_source": "grammar:2A:31",
+    "source_key": "practice:2A:31",
+    "sentence": "비 ___ 소풍을 못 갔어요.",
+    "translation": "Yomg‘ir tufayli sayrga bora olmadim.",
+    "options": [
+      "때문에",
+      "동안",
+      "처럼",
+      "대신"
+    ],
+    "correct_index": 0,
+    "explanation": "Ot + 때문에 sababni bildiradi: 비 때문에 — yomg‘ir tufayli."
+  },
+  {
+    "grammar_source": "grammar:2A:35",
+    "source_key": "practice:2A:35",
+    "sentence": "지금 밥을 먹는 ___이에요.",
+    "translation": "Hozir ovqatlanish bilan bandman.",
+    "options": [
+      "중",
+      "전",
+      "후",
+      "적"
+    ],
+    "correct_index": 0,
+    "explanation": "는 중이다 hozir bajarilayotgan ishni bildiradi: 먹는 중이에요."
+  },
+  {
+    "grammar_source": "grammar:2B:1",
+    "source_key": "practice:2B:1",
+    "sentence": "과일 ___ 사과를 제일 좋아해요.",
+    "translation": "Mevalar orasida olmani eng yaxshi ko‘raman.",
+    "options": [
+      "중에서",
+      "때문에",
+      "대신",
+      "처럼"
+    ],
+    "correct_index": 0,
+    "explanation": "중에서 bir guruh ichidan ajratishni bildiradi."
+  },
+  {
+    "grammar_source": "grammar:2B:8",
+    "source_key": "practice:2B:8",
+    "sentence": "친구와 내일 만나___ 했어요.",
+    "translation": "Do‘stim bilan ertaga uchrashishga qaror qildik.",
+    "options": [
+      "기로",
+      "려고",
+      "면서",
+      "다가"
+    ],
+    "correct_index": 0,
+    "explanation": "기로 하다 qaror yoki kelishuvni bildiradi: 만나기로 했어요."
+  },
+  {
+    "grammar_source": "grammar:2B:10",
+    "source_key": "practice:2B:10",
+    "sentence": "제 동생은 아버지___ 키가 커요.",
+    "translation": "Ukam otam kabi baland bo‘yli.",
+    "options": [
+      "처럼",
+      "보다",
+      "때문에",
+      "대신"
+    ],
+    "correct_index": 0,
+    "explanation": "처럼 o‘xshashlikni bildiradi: 아버지처럼 — otam kabi."
+  },
+  {
+    "grammar_source": "grammar:2B:15",
+    "source_key": "practice:2B:15",
+    "sentence": "시험이 있___ 열심히 공부해요.",
+    "translation": "Imtihon borligi sababli astoydil o‘qiyman.",
+    "options": [
+      "기 때문에",
+      "는 동안",
+      "기 전에",
+      "을 때"
+    ],
+    "correct_index": 0,
+    "explanation": "Fe’l yoki sifat negizi + 기 때문에 sababni bildiradi."
+  },
+  {
+    "grammar_source": "grammar:2B:20",
+    "source_key": "practice:2B:20",
+    "sentence": "도서관에서 큰 소리로 말하___.",
+    "translation": "Kutubxonada baland ovozda gapirish mumkin emas.",
+    "options": [
+      "면 안 돼요",
+      "면 돼요",
+      "고 싶어요",
+      "기로 했어요"
+    ],
+    "correct_index": 0,
+    "explanation": "(으)면 안 되다 taqiqni bildiradi: 말하면 안 돼요."
+  },
+  {
+    "grammar_source": "grammar:2B:23",
+    "source_key": "practice:2B:23",
+    "sentence": "밥을 먹___ 손을 씻어요.",
+    "translation": "Ovqatlanishdan oldin qo‘limni yuvaman.",
+    "options": [
+      "기 전에",
+      "은 후에",
+      "고 나서",
+      "는 동안"
+    ],
+    "correct_index": 0,
+    "explanation": "기 전에 ish bajarilishidan oldingi vaqtni bildiradi."
+  },
+  {
+    "grammar_source": "grammar:2B:26",
+    "source_key": "practice:2B:26",
+    "sentence": "커피 ___ 차를 마실게요.",
+    "translation": "Kofe o‘rniga choy ichaman.",
+    "options": [
+      "대신",
+      "때문에",
+      "동안",
+      "중에서"
+    ],
+    "correct_index": 0,
+    "explanation": "Ot + 대신 almashtirishni bildiradi: 커피 대신 — kofe o‘rniga."
+  },
+  {
+    "grammar_source": "grammar:2B:30",
+    "source_key": "practice:2B:30",
+    "sentence": "길에서 넘어질 ___했어요.",
+    "translation": "Ko‘chada yiqilishimga sal qoldi.",
+    "options": [
+      "뻔",
+      "수",
+      "적",
+      "줄"
+    ],
+    "correct_index": 0,
+    "explanation": "(으)ㄹ 뻔하다 sodir bo‘lishiga oz qolgan, lekin yuz bermagan ishni bildiradi."
+  },
+  {
+    "grammar_source": "grammar:2B:33",
+    "source_key": "practice:2B:33",
+    "sentence": "한국어를 배운 ___ 일 년이 됐어요.",
+    "translation": "Koreys tilini o‘rgana boshlaganimga bir yil bo‘ldi.",
+    "options": [
+      "지",
+      "후에",
+      "전에",
+      "동안"
+    ],
+    "correct_index": 0,
+    "explanation": "(으)ㄴ 지 ... 되다 ish boshlanganidan beri o‘tgan vaqtni bildiradi."
+  }
+]

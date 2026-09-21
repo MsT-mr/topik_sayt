@@ -1,0 +1,6 @@
+{% extends "admin/base_site.html" %}
+{% block content %}
+<div class="group-setup"><p>Mavzu va bosqichni tanlang. AI dars konspektini tayyorlaydi; uni tekshirib, kerakli qismlarini dars va grammatika bo‘limlariga kiriting.</p>
+<form method="post">{% csrf_token %}{{ form.as_p }}<button type="submit" class="button">Dars konspektini yaratish ✦</button></form></div>
+{% if draft %}<section class="dashboard-panel" style="margin-top:24px"><h2>Dars konspekti</h2><div style="white-space:pre-wrap;line-height:1.8">{{ draft }}</div><p><a href="{% url 'admin:bot_app_lesson_add' %}">Dars qo‘shish →</a> · <a href="{% url 'admin:bot_app_grammar_add' %}">Grammatika qo‘shish →</a></p></section>{% endif %}
+{% endblock %}

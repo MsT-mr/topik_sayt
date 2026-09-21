@@ -1,0 +1,140 @@
+{
+  "overview": "Ushbu dars kundalik hayotda va sayohat rejalashtirishda eng ko'p ishlatiladigan to'rtta muhim koreys tili grammatik qoidasini o'z ichiga oladi. Shart ma'nosi, sifatdosh yasash, istak bildirish shakllari orqali nutqingizni boyitasiz.",
+  "goals": [
+    "Shart va sharoitni bildiruvchi (으)면 qo'shimchasini to'g'ri ishlatish",
+    "Fe'l asosiga -는 qo'shib hozirgi zamon sifatdosh yasash",
+    "O'z istagini -고 싶다 yordamida ifodalash",
+    "Boshqalarning istagini -고 싶어 하다 orqali ifodalash"
+  ],
+  "rules": [
+    {
+      "source_key": "grammar:1B:25",
+      "meaning": "Fe'l yoki sifat asosiga qo'shilib, o'zbek tilidagi '~sa' shart qo'shimchasiga mos keladi.",
+      "formation": "Unli yoki ㄹ bilan tugagan o‘zakka 면, boshqa undoshga 으면 qo‘shiladi. ㄹ saqlanadi: 살다 → 살면. 먹다 → 먹으면; 가다 → 가면.",
+      "usage": "Muayyan shart bajarilsa, keyingi harakat sodir bo'lishini bildirish uchun ishlatiladi.",
+      "mistake": "Ba'zi o'quvchilar o'tgan zamon -았/었- qo'shimchasidan keyin to'g'ridan-to'g'ri -면 ni qo'shishda xato qilishadi. To'g'ri shakl: -았/었으면.",
+      "examples": [
+        {
+          "ko": "시간이 있으면 같이 영화를 봐요.",
+          "uz": "Vaqtingiz bo'lsa, birga kino ko'ramiz."
+        },
+        {
+          "ko": "날씨가 좋으면 해운대에 가고 싶어요.",
+          "uz": "Havo yaxshi bo'lsa, Haeundega borgim kelyapti."
+        },
+        {
+          "ko": "한국에 도착하면 전화해 주세요.",
+          "uz": "Koreyaga yetib borsangiz, menga qo'ng'iroq qiling."
+        }
+      ],
+      "exercise": {
+        "question": "내일 비가 오다 + 집에 있다 gaplarini shart bilan bog‘lang.",
+        "answer": "내일 비가 오면 집에 있을 거예요.",
+        "explanation": "오- unli bilan tugagani uchun 면 qo‘shiladi: Ertaga yomg‘ir yog‘sa, uyda bo‘laman."
+      }
+    },
+    {
+      "source_key": "grammar:1B:26",
+      "meaning": "Fe'l asosiga qo'shilib, otni aniqlab keluvchi hozirgi zamon sifatdoshini (~ayotgan, ~adigan) yasaydi.",
+      "formation": "Fe’l o‘zagiga 는 qo‘shiladi, keyin ot keladi: 읽는 사람, 가는 버스. ㄹ bilan tugagan o‘zakda ㄹ tushadi: 살다 → 사는 사람, 만들다 → 만드는 음식.",
+      "usage": "Hozirgi zamonda davom etayotgan yoki doimiy sodir bo'ladigan harakatni otga bog'lab ta'riflashda ishlatiladi.",
+      "mistake": "O'tgan zamon yoki kelasi zamon qo'shimchalari bilan -는 ni adashtirmaslik kerak. Hozirgi zamon uchun faqat -는 ishlatiladi.",
+      "examples": [
+        {
+          "ko": "저기 밥을 먹는 사람이 제 친구예요.",
+          "uz": "Anavi ovqat yeyayotgan odam mening do'stim."
+        },
+        {
+          "ko": "한국으로 가는 비행기표를 예매했어요.",
+          "uz": "Koreyaga ketayotgan samolyot biletini zakaz qildim."
+        },
+        {
+          "ko": "한국어를 배우는 학생들이 아주 많아요.",
+          "uz": "Koreys tilini o'rganayotgan o'quvchilar juda ko'p."
+        }
+      ],
+      "exercise": {
+        "question": "Quyidagi so'zlarni biriktiring: 책을 읽다 + 사람",
+        "answer": "책을 읽는 사람",
+        "explanation": "읽다 fe'liga -는 qo'shilib, 'o'qiyotgan odam' ma'nosini beruvchi sifatdosh yasaladi."
+      }
+    },
+    {
+      "source_key": "grammar:1B:27",
+      "meaning": "Fe'l asosiga qo'shilib, gap egasining biror ishni qilishga bo'lgan xohishini (~gim kelyapti, ~moqchiman) bildiradi.",
+      "formation": "Fe'l asosiga to'g'ridan-to'g'ri -고 싶다 qo'shiladi. 1- va 2-shaxs egalari (men, sen) bilan ishlatiladi.",
+      "usage": "Asosan o‘z istagingizni bildirishda yoki suhbatdoshning istagini so‘rashda ishlatiladi. Boshqa odamning istagini kuzatib aytishda 고 싶어 하다 qulay; ko‘chirma yoki boshqa kontekstlarda shaxs qoidasi qat’iy taqiq emas.",
+      "mistake": "Uchinchi shaxs (u, ular) uchun -고 싶다 ishlatilmaydi, buning uchun keyingi qoida qo'llaniladi.",
+      "examples": [
+        {
+          "ko": "저는 아름다운 안동에 가고 싶어요.",
+          "uz": "Men chiroyli Andongga borgim kelyapti."
+        },
+        {
+          "ko": "맛있는 찜닭을 먹고 싶어요.",
+          "uz": "Mazali chimdak yemoqchiman."
+        },
+        {
+          "ko": "방학 때 여행하고 싶어요.",
+          "uz": "Ta'til paytida sayohat qilmoqchiman."
+        }
+      ],
+      "exercise": {
+        "question": "한국어를 공부하다 iborasidan Men koreys tilini o‘rganishni xohlayman gapini tuzing.",
+        "answer": "저는 한국어를 공부하고 싶어요.",
+        "explanation": "공부하- o‘zagiga 고 싶어요 qo‘shiladi."
+      }
+    },
+    {
+      "source_key": "grammar:1B:28",
+      "meaning": "Boshqa shaxslarning (u, do'stim, onam) xohish-istagini bildirish uchun ishlatiladi.",
+      "formation": "Fe'l asosiga -고 싶어 + 하다 qo'shilib, fe'l sifatida tuslanadi.",
+      "usage": "Gap egasi 3-shaxs bo'lganda, uning nima qilmoqchi ekanini tasvirlashda ishlatiladi.",
+      "mistake": "O'zimiz haqimizda gapirganda -고 싶어 하다 ni ishlatish xato, faqat -고 싶다 ishlatiladi.",
+      "examples": [
+        {
+          "ko": "동생이 새 여권을 만들고 싶어 해요.",
+          "uz": "Ukam yangi passport tayyorlamoqchi."
+        },
+        {
+          "ko": "친구는 호텔을 예약하고 싶어 해요.",
+          "uz": "Do'stim mehmonxonani band qilmoqchi."
+        },
+        {
+          "ko": "부모님께서 제주도에 가고 싶어 하셔요.",
+          "uz": "Ota-onam Chedjuga bormoqchi."
+        }
+      ],
+      "exercise": {
+        "question": "Uchinchi shaxs uchun to'g'ri shaklni toping: 어머니 (요리하다)",
+        "answer": "어머니께서 요리하고 싶어 하셔요",
+        "explanation": "Gap egasi 3-shaxs (ona) bo'lgani uchun -고 싶어 하다 fe'li ishlatildi."
+      }
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "A",
+      "ko": "이번 주말에 부산에 가고 싶어요.",
+      "uz": "Bu dam olish kuni Pusanga borgim kelyapti."
+    },
+    {
+      "speaker": "B",
+      "ko": "날as가 좋으면 해운대에 갈까요?",
+      "uz": "Havo yaxshi bo'lsa, Haeundega boramizmi?"
+    },
+    {
+      "speaker": "A",
+      "ko": "네, 바다를 구경하는 사람이 정말 많을 것 같아요.",
+      "uz": "Ha, dengizni tomosha qilayotgan odamlar juda ko'p bo'lsa kerak."
+    },
+    {
+      "speaker": "B",
+      "ko": "그럼 빨리 비행기표를 예매해요.",
+      "uz": "Unday bo'lsa, tezroq samolyot biletini zakaz qilamiz."
+    }
+  ],
+  "book": "1B",
+  "lesson": 15,
+  "origin": "AI yordamida tayyorlangan qo‘shimcha o‘quv materiali"
+}

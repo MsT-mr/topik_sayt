@@ -1,0 +1,165 @@
+{
+  "overview": "Ushbu dars pochtada va bankda ishlatiladigan kundalik muloqot hamda zarur grammatik qoidalarni o‘rganishga bag‘ishlangan. Unda harakat vositasi, sabab-oqibat, tartibsiz fe'llar va taxmin bildirish shakllari atroflicha tushuntiriladi.",
+  "goals": [
+    "Otga qo'shiladigan -(으)ro va -(이)라서 qo'shimchalarini to'g'ri ishlatish",
+    "'르' noto'g'ri fe'llarining o'zak o'zgarish qoidalarini o'zlashtirish",
+    "-(으)면 되다 va -(으)ㄴ 것 같다 grammatik tuzilmalari yordamida fikr bildirish"
+  ],
+  "rules": [
+    {
+      "source_key": "grammar:2A:21",
+      "meaning": "ma’nosi: Harakatning bajarilish vositasi, yo'nalish yoki usulni ko'rsatadi. O'zbek tilidagi '-ga, tomonga, orqali, -cha, -vositvida' ma'nolariga mos keladi.",
+      "formation": "Ot unli yoki ㄹ bilan tugasa 로, boshqa undosh bilan tugasa 으로: 버스로, 지하철로, 책으로. Vosita, material yoki yo‘nalishni bildirishi mumkin.",
+      "usage": "qachon ishlatiladi: Transport vositalari, qurol-asboblar yoki yo'nalish ko'rsatilganda ishlatiladi.",
+      "mistake": "열쇠 unli bilan tugaydi: 열쇠로. ㄹ istisnosi uchun misol 지하철로: 지하철으로 emas.",
+      "examples": [
+        {
+          "ko": "비행기로 서울에 갔습니다.",
+          "uz": "Samolyot bilan Seulga bordim."
+        },
+        {
+          "ko": "연필로 이름을 썼습니다.",
+          "uz": "Qalam bilan ismni yozdim."
+        },
+        {
+          "ko": "이 길로 가면 됩니다.",
+          "uz": "Bu yo'ldan ketsangiz bo'ladi."
+        }
+      ],
+      "exercise": {
+        "question": "Bo'sh joyni to'ldiring: 가위(qaychi) + ... 종이를 자릅니다.",
+        "answer": "로",
+        "explanation": "가위 so'zi 'ㅣ' unlisi bilan tugagani uchun unga '-로' qo'shiladi."
+      }
+    },
+    {
+      "source_key": "grammar:2A:22",
+      "meaning": "ma’nosi: Sabab ko'rsatish uchun ishlatiladi. O'zbek tilidagi '... bo'lgani uchun' yoki '... sababli' ma'nosini beradi.",
+      "formation": "qanday yasaladi: Ot undosh bilan tugasa '-이라서', unli bilan tugasa '-라서' qo'shiladi.",
+      "usage": "qachon ishlatiladi: Muayyan holat yoki narsaning sababini tushuntirganda ishlatiladi.",
+      "mistake": "keng tarqalgan xato va to'g'ri variant, sababi: Fe'l yoki sifatlarga ham '-이라서' qo'shish xato. Bu faqat otlar uchun ishlatiladi.",
+      "examples": [
+        {
+          "ko": "오늘은 일요일이라서 은행이 문을 닫았어요.",
+          "uz": "Bugun yakshanba bo‘lgani uchun bank yopiq."
+        },
+        {
+          "ko": "저는 학생이라서 할인을 받아요.",
+          "uz": "Men talaba bo‘lganim uchun chegirma olaman."
+        },
+        {
+          "ko": "생일이라서 선물을 받았어요.",
+          "uz": "Tug‘ilgan kunim bo‘lgani uchun sovg‘a oldim."
+        }
+      ],
+      "exercise": {
+        "question": "Bo'sh joyni to'ldiring: 오늘이 휴일(dam olish kuni) + ... 사람들이 많습니다.",
+        "answer": "이라서",
+        "explanation": "휴일 so'zi undosh bilan tugagani uchun '-이라서' qo'shiladi."
+      }
+    },
+    {
+      "source_key": "grammar:2A:23",
+      "meaning": "ma’nosi: '르' bilan tugaydigan ba'zi fe'l va sifatlar maxsus tarzda o'zgaradi. Bular 'noto'g'ri fe'llar' deb ataladi.",
+      "formation": "Ayrim 르 o‘zaklariga 아/어 qo‘shilganda ㅡ tushadi va oldingi bo‘g‘inga ㄹ qo‘shiladi: 모르다 → 몰라요, 부르다 → 불러요. Oldingi unli ㅏ/ㅗ bo‘lsa 라요, boshqalarda 러요. Barcha 르 fe’llar bir xil emas: 따르다 → 따라요.",
+      "usage": "qachon ishlatiladi: O'zakka unli bilan boshlanuvchi qo'shimchalar qo'shilganda qo'llaniladi.",
+      "mistake": "keng tarqalgan xato va to'g'ri variant, sababi: '빠르다' so'zini '빠르어요' deyish xato, to'g'ri shakli '빨라요' bo'ladi.",
+      "examples": [
+        {
+          "ko": "이 기차는 아주 빨라요.",
+          "uz": "Bu poyezd juda tez."
+        },
+        {
+          "ko": "노래를 불러요.",
+          "uz": "Qo‘shiq aytaman."
+        },
+        {
+          "ko": "저는 그 사람을 몰라요.",
+          "uz": "Men u kishini tanimayman."
+        }
+      ],
+      "exercise": {
+        "question": "모르다 fe’lini 아요/어요 shaklida yozing.",
+        "answer": "몰라요.",
+        "explanation": "르 dan oldingi bo‘g‘inga ㄹ qo‘shiladi, ㅡ tushadi va ㅗ ga mos 아 ulanadi: 몰라요."
+      }
+    },
+    {
+      "source_key": "grammar:2A:24",
+      "meaning": "ma’nosi: Muayyan harakatni bajarsa kifoya ekanligini yoki yetarli bo'lishini bildiradi. O'zbek tilidagi '-sa bo'lmoq / -sa yetarli' ma'nosiga mos keladi.",
+      "formation": "Unli yoki ㄹ o‘zakka 면 되다, boshqa undoshga 으면 되다 qo‘shiladi: 가면 돼요, 읽으면 돼요, 만들면 돼요. ㄹ saqlanadi.",
+      "usage": "qachon ishlatiladi: Muammoni hal qilish yo'lini yoki shartni ko'rsatganda ishlatiladi.",
+      "mistake": "keng tarqalgan xato va to'g'ri variant, sababi: '-면' o'rniga boshqa shart qo'shimchalarini aralashtirib yuborish xato.",
+      "examples": [
+        {
+          "ko": "이 주소로 편지를 보내면 돼요.",
+          "uz": "Xatni shu manzilga yuborsangiz bo‘ladi."
+        },
+        {
+          "ko": "신분증을 보여 주면 돼요.",
+          "uz": "Shaxsni tasdiqlovchi hujjatni ko‘rsatsangiz kifoya."
+        },
+        {
+          "ko": "여기서 조금 기다리면 돼요.",
+          "uz": "Shu yerda biroz kutsangiz bo‘ladi."
+        }
+      ],
+      "exercise": {
+        "question": "Bo'sh joyni to'ldiring: 이름을 쓰다 + 면 됩니다.",
+        "answer": "쓰면 됩니다",
+        "explanation": "쓰다 unli bilan tugagani uchun '-면 되다' qo'shilib, '쓰면 됩니다' hosil bo'ladi."
+      }
+    },
+    {
+      "source_key": "grammar:2A:25",
+      "meaning": "ma’nosi: Biror holat yoki harakat taxmin qilinayotganini bildiradi. O'zbek tilidagi '-ganga o'xshaydi / -ga o'xshaydi' ma'nosini beradi.",
+      "formation": "Tugagan harakat haqida taxmin qilishda fe’l+(으)ㄴ 것 같다 ishlatiladi: 가다 → 간 것 같다, 먹다 → 먹은 것 같다. ㄹ tushadi: 만들다 → 만든 것 같다.",
+      "usage": "qachon ishlatiladi: Aniq bilmagan, lekin ko'rinishidan shunday tuyulgan holatlarni ifodalashda qo'llaniladi.",
+      "mistake": "간 것 같아요 — ketganga o‘xshaydi; 가는 것 같아요 — hozir ketayotganga o‘xshaydi. Sifatlarda 있다/없다 bilan 있는/없는 것 같다 ishlatilishini unutmang.",
+      "examples": [
+        {
+          "ko": "친구가 집에 간 것 같아요.",
+          "uz": "Do‘stim uyiga ketganga o‘xshaydi."
+        },
+        {
+          "ko": "민수 씨가 벌써 밥을 먹은 것 같아요.",
+          "uz": "Minsu allaqachon ovqat yeganga o‘xshaydi."
+        },
+        {
+          "ko": "동생이 이 음식을 만든 것 같아요.",
+          "uz": "Bu ovqatni ukam tayyorlaganga o‘xshaydi."
+        }
+      ],
+      "exercise": {
+        "question": "친구가 도착하다 gapini tugagan harakat taxminiga aylantiring.",
+        "answer": "친구가 도착한 것 같아요.",
+        "explanation": "도착하- unli bilan tugaydi, ㄴ qo‘shiladi: 도착한 것 같아요."
+      }
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "A",
+      "ko": "이 소포를 한국에 보내고 싶습니다.",
+      "uz": "Bu posilkani Koreyaga yubormoqchiman."
+    },
+    {
+      "speaker": "B",
+      "ko": "저울 위에 올리시면 됩니다. 무게가 조금 나가는 것 같습니다.",
+      "uz": "Tarozi ustiga qo'ysangiz bo'ladi. Og'irligi biroz ko'pga o'xshaydi."
+    },
+    {
+      "speaker": "A",
+      "ko": "비행기로 보내면 얼마나 걸립니까?",
+      "uz": "Samolyot orqali yuborsam qancha vaqt ketadi?"
+    },
+    {
+      "speaker": "B",
+      "ko": "일요일이라서 조금 늦을 수 있지만, 빠르면 3일이면 됩니다.",
+      "uz": "Yakshanba bo'lgani uchun biroz kechikishi mumkin, lekin tez bo'lsa 3 kunda yetib boradi."
+    }
+  ],
+  "book": "2A",
+  "lesson": 6,
+  "origin": "AI yordamida tayyorlangan qo‘shimcha o‘quv materiali"
+}

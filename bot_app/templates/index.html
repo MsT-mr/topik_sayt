@@ -1,0 +1,41 @@
+{% load static %}
+<!doctype html>
+<html lang="uz">
+<head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>TOPIK · O‘quv xonasi</title>
+<script src="{% static 'js/preferences.js' %}"></script><link rel="stylesheet" href="{% static 'css/student.css' %}">
+<link rel="stylesheet" href="{% static 'css/korea.css' %}">
+<script src="https://telegram.org/js/telegram-web-app.js"></script></head>
+<body>
+<div class="settings-dock" aria-label="Ko‘rinish sozlamalari"><button type="button" data-toggle-theme>☾ Qorong‘i</button><button type="button" data-toggle-motion aria-pressed="true">✦ Animatsiya</button></div>
+<section id="loginScreen" class="entry-screen">
+ <div class="entry-story"><a class="wordmark" href="/">T<span>TOPIK</span></a><div><p class="eyebrow">HAR KUNI BIR QADAM</p><h1>Koreys tilini<br>birga o‘rganamiz.</h1><p>Darsingizni oching, yangi so‘zlarni yodlang va o‘sishingizni kuzating.</p><div class="hangul" aria-hidden="true">안녕<span>Salom, yangi imkoniyatlar.</span></div></div><small>서울대 한국어 · 1A — 2B</small></div>
+ <div class="entry-form"><div class="login-box"><p class="eyebrow">O‘QUVCHI UCHUN</p><h2>Xush kelibsiz</h2><p>Davom etish uchun ustozingiz bergan ID ni kiriting.</p><form id="loginForm"><label for="studentIdInput">O‘quvchi ID raqami</label><input id="studentIdInput" name="student_id" placeholder="TOPIK-12345678" autocomplete="username" autocapitalize="characters" required><p id="loginMessage" role="alert"></p><button id="loginButton" class="primary" type="submit">Darslarga kirish <span>→</span></button></form><small>ID yo‘qmi? Ustozingizga murojaat qiling.</small><a class="teacher-entry" href="/admin/">Ustoz paneliga kirish ↗</a></div></div>
+</section>
+<div class="app-shell" id="studentApp" hidden>
+ <header class="top-header"><a href="/" class="wordmark">T<span>TOPIK <small>O‘quv xonasi</small></span></a><div class="header-right"><span class="level-pill" id="headerLevel"></span><button id="logoutButton" class="quiet">Chiqish ↗</button></div></header>
+ <main id="dashboard">
+  <section class="welcome"><div><p class="eyebrow" id="studentGroup">SIZNING O‘QUV YO‘LINGIZ</p><h1>Salom, <span id="studentName">o‘quvchi</span> 👋</h1><p>Bugungi kichik qadam — ertangi katta natija.</p></div><div class="student-id" id="studentIdLabel"></div></section>
+  <section class="overview-grid"><div class="course-progress"><div><p class="eyebrow">MENING KURSIM</p><h2 id="courseTitle">서울대 한국어</h2><p id="progressDescription">Darslar yuklanmoqda…</p></div><div class="progress-bottom"><div class="progress-track"><div id="progressBar" class="progress-bar"></div></div><strong id="progressPercent">0%</strong></div></div><div class="small-stat"><span>Yodlangan so‘zlar</span><strong id="wordValue">0</strong><small>Barcha darslar bo‘yicha</small></div><div class="small-stat"><span>Ketma-ket kunlar</span><strong id="streakValue">0</strong><small>Har kuni davom eting</small></div></section>
+  <section class="section-block" id="studentInbox" hidden><details id="inboxDetails"><summary>Ustozdan xabarlar <span id="inboxCount"></span></summary><div id="inboxItems" aria-live="polite"></div></details></section>
+  <section class="lessons-section"><div class="section-heading"><div><p class="eyebrow">KITOB TARTIBIDA</p><h2>Mening darslarim</h2></div><span id="lessonCount" class="subtle"></span></div><p class="subtle">Har bir darsda lug‘at va shu mavzuning grammatikasi bor.</p><div id="lessonGrid" class="lesson-grid" aria-live="polite"></div></section>
+  <section class="practice-section"><div class="section-heading"><div><p class="eyebrow">한 걸음 더 · YANA BIR QADAM</p><h2>Imtihon mashqlari</h2></div><span class="subtle"><span id="testValue">0</span> ta grammatika testi</span></div><div class="practice-grid">
+    <button class="practice-mode grammar-mode" data-practice="grammar"><span class="mode-icon">문법</span><span class="mode-label">01 / GRAMMATIKA</span><h3>Gapni to‘ldiring</h3><p>Bo‘sh joyga to‘g‘ri variantni qo‘ying.<br>Har bir javob — yangi ko‘nikma.</p><strong>Mashqni boshlash ↗</strong></button>
+    <button class="practice-mode vocabulary-mode" data-practice="vocabulary"><span class="mode-icon">단어</span><span class="mode-label">02 / LUG‘AT</span><h3>Eslang. Ochib ko‘ring.</h3><p>Rangli flashkartalar bilan so‘z yodlang.<br>Bir bosish — silkinish va tarjima!</p><strong>Kartochkalarni ochish ↗</strong></button>
+  </div></section>
+  <section class="ai-panel" id="tutorPanel">
+    <div><p class="eyebrow">SIZNING AI YORDAMCHINGIZ</p><h2>Darsni tushuning, savol bering, mashq qiling</h2><p>AI javoblarini kitobdagi qoidalar bilan solishtirib o‘rganing.</p></div>
+    <label for="aiLesson">Dars</label><select id="aiLesson"><option value="">Darslar yuklanmoqda…</option></select>
+    <div class="ai-actions"><button class="secondary" id="explainLesson">Darsni tushuntir ✦</button><button class="primary" id="generateAITest">Men uchun 5 ta test yarat →</button></div>
+    <div id="tutorMessages" class="ai-conversation" role="log" aria-live="polite"></div>
+    <form id="tutorForm"><label for="tutorQuestion">Koreys tili bo‘yicha savolingiz</label><textarea id="tutorQuestion" maxlength="1500" rows="3" placeholder="은/는 va 이/가 qanday farq qiladi?" required></textarea><button class="secondary" id="askTutor" type="submit">AI’dan so‘rash ✦</button></form>
+    <p id="tutorStatus" role="status"></p>
+  </section>
+  <section class="ai-panel"><div><p class="eyebrow">GEMINI · AI USTOZ</p><h3>Keyingi qadamim qanday?</h3><p>Natijalaringiz asosida shaxsiy mashq tavsiyalari.</p></div><button class="secondary" id="studyAI">AI tavsiyasini olish ✦</button><p class="ai-text" id="studyAIText" aria-live="polite"></p></section>
+ </main>
+ <section id="lessonScreen" hidden></section>
+ <section id="examScreen" class="exam-screen" style="display:none"></section>
+ <footer><span>TOPIK · Har kuni bir qadam</span><span>한국어를 배워요</span></footer>
+</div>
+<script src="{% static 'js/inbox.js' %}"></script><script src="{% static 'js/practice.js' %}"></script><script src="{% static 'js/app.js' %}"></script>
+<script src="{% static 'js/tutor.js' %}"></script>
+</body></html>

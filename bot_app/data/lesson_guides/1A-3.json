@@ -1,0 +1,140 @@
+{
+  "overview": "Ushbu dars kundalik hayotda eng ko'p ishlatiladigan fe'l zamonlari, tushum kelishigi, harakat joyini bildiruvchi qo'shimcha hamda inkor shaklini o'rganishga bag'ishlangan. Ushbu grammatik qoidalar orqali siz o'z harakatlaringiz, qayerda nima qilayotganingiz va nima qilmayotganingizni koreys tilida erkin ifoda eta olasiz.",
+  "goals": [
+    "Fe'llarning Hozirgi zamon (아요/어요/여요) shaklini to'g'ri yasash va ishlatish",
+    "Tushum kelishigi (을/를) yordamida obyektni ko'rsatish",
+    "Harakat sodir bo'ladigan joyni (-에서) qo'shimchasi bilan ifodalash",
+    "Fe'l oldidan '안' ishlatib inkor gaplar tuzish"
+  ],
+  "rules": [
+    {
+      "source_key": "grammar:1A:9",
+      "meaning": "Fe’l va sifatlarning kundalik xushmuomala gap tugatish shakli. Kontekstga qarab odatiy harakat, hozirgi holat yoki yaqin kelajakni bildirishi mumkin; shaxsga qarab o‘zgarmaydi.",
+      "formation": "Lug‘at shaklidagi 다 olib tashlanadi. O‘zakning oxirgi unlisi ㅏ yoki ㅗ bo‘lsa 아요, boshqa unlilarda 어요 qo‘shiladi; 하다 odatda 해요 bo‘ladi. Qisqarishlarga e’tibor bering: 가다 → 가요, 오다 → 와요, 마시다 → 마셔요.",
+      "usage": "Kundalik muloqotda doimiy takrorlanadigan harakatlarni, hozirgi holatni va oddiy xushmuomala suhbatlarni bildirish uchun ishlatiladi.",
+      "mistake": "하다 fe’lini 하아요 shaklida yozmang. Kundalik xushmuomala nutqda 해요 ishlatiladi; 하여요 to‘liq shakli ham mavjud.",
+      "examples": [
+        {
+          "ko": "저는 집에서 자요.",
+          "uz": "Men uyda uxlayman."
+        },
+        {
+          "ko": "친구는 한국어를 공부해요.",
+          "uz": "Do'stim koreys tilini o'rganadi."
+        },
+        {
+          "ko": "우리는 공원에서 운동해요.",
+          "uz": "Biz parkda sport bilan shug'ullanamiz."
+        }
+      ],
+      "exercise": {
+        "question": "Quyidagi fe'lning hozirgi zamon shaklini yozing: '마시다' -> ?",
+        "answer": "마셔요",
+        "explanation": "마시다 fe'l o'zagi 마시- bo'lib, oxirgi unlisi 'ㅣ' ga tugagani uchun -어요 qo'shiladi va 시 + 어 = 셔 qisqarib 마셔요 hosil bo'ladi."
+      }
+    },
+    {
+      "source_key": "grammar:1A:10",
+      "meaning": "Otga qo‘shilib, harakatning bevosita obyektini ko‘rsatadi. O‘zbekchadagi -ni tushum kelishigiga ko‘pincha mos keladi.",
+      "formation": "Agar ot undosh bilan tugasa '-을', unli bilan tugasa '-를' qo'shiladi.",
+      "usage": "Fe'l bajarilayotgan narsa yoki buyumni aniqlashtirish uchun fe'ldan oldin keluvchi otlarga qo'shib ishlatiladi.",
+      "mistake": "Unli bilan tugagan so'zlarga -을 qo'shish yoki aksincha xato hisoblanadi. Masalan, '사과을' deyish xato, to'g'risi '사과를'.",
+      "examples": [
+        {
+          "ko": "저는 책을 읽어요.",
+          "uz": "Men kitobni o'qiyman."
+        },
+        {
+          "ko": "동생이 밥을 먹어요.",
+          "uz": "Uka ovqatni yeydi."
+        },
+        {
+          "ko": "언니는 옷을 사요.",
+          "uz": "Opam kiyim sotib oladi."
+        }
+      ],
+      "exercise": {
+        "question": "Bo'sh joyni to'ldiring: 영화( ) 봐요 (Kinoni ko'raman).",
+        "answer": "를",
+        "explanation": "'영화' so'zi unli bilan tugagani uchun tushum kelishigining '-를' shakli qo'shiladi."
+      }
+    },
+    {
+      "source_key": "grammar:1A:11",
+      "meaning": "Harakat sodir bo'layotgan o'rin-joyni ko'rsatadi va o'zbek tilidagi o'rin-payt kelishigining '-da' shakliga to'g'ri keladi.",
+      "formation": "Joy nomini bildiruvchi otlardan keyin unli-undoshidan qat'i nazar doimo '-에서' qo'shiladi.",
+      "usage": "Biror harakat (o'qish, ishlash, ovqatlanish, uchrashish va hokazo) qayerda bajarilayotganini ko'rsatishda ishlatiladi.",
+      "mistake": "Mavjudlik va harakat joyini farqlang: 도서관에 있어요 — kutubxonadaman; 도서관에서 공부해요 — kutubxonada o‘qiyman. 있다 bilan joy uchun 에, 공부하다 bilan 에서 ishlatiladi.",
+      "examples": [
+        {
+          "ko": "저는 도서관에서 공부해요.",
+          "uz": "Men kutubxonada o'qiyman."
+        },
+        {
+          "ko": "친구를 백화점에서 만나요.",
+          "uz": "Do‘stim bilan univermagda uchrashaman."
+        },
+        {
+          "ko": "우리는 식당에서 먹어요.",
+          "uz": "Biz oshxonada ovqatlanamiz."
+        }
+      ],
+      "exercise": {
+        "question": "Quyidagi gapni to'g'ri joy qo'shimchasi bilan to'ldiring: 집( ) 일해요.",
+        "answer": "에서",
+        "explanation": "'일하다' (ishlamoq) harakat fe'li bo'lgani uchun uning oldidan joyni bildiruvchi '-에서' qo'shimchasi ishlatiladi."
+      }
+    },
+    {
+      "source_key": "grammar:1A:12",
+      "meaning": "Fe'l yoki sifatdan oldin kelib, ish-harakatning bajarilmasligini yoki holatning yo'qligini bildiradi (-may / -emas).",
+      "formation": "Oddiy fe’l yoki sifat oldidan 안 alohida yoziladi: 안 가요, 안 커요. 공부하다, 운동하다 kabi ot+하다 birikmalarida 안 ko‘pincha ot va 하다 orasiga qo‘yiladi: 공부 안 해요, 운동 안 해요.",
+      "usage": "Biror ishni qilmasligini yoki sifat belgisiga mos kelmasligini inkor etish uchun qo'llaniladi.",
+      "mistake": "공부하다 안 noto‘g‘ri: 안 gap oxirida kelmaydi. 공부 안 해요 deb ayting. 있다 ning inkori odatda 없다, 알다 ning inkori esa 모르다 bo‘lishini yodda tuting.",
+      "examples": [
+        {
+          "ko": "저는 영화를 안 봐요.",
+          "uz": "Men kino ko'rmayman."
+        },
+        {
+          "ko": "오늘 학교에 안 가요.",
+          "uz": "Bugun maktabga bormayman."
+        },
+        {
+          "ko": "커피를 안 마셔요.",
+          "uz": "Kofe ichmayman."
+        }
+      ],
+      "exercise": {
+        "question": "Quyidagi ijobiy gapni inkor shaklga o'zgartiring: '운동해요' -> ?",
+        "answer": "운동 안 해요.",
+        "explanation": "운동하다 birikmasida 안 ot (운동) bilan 하다 orasiga qo‘yiladi: 운동 안 해요."
+      }
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "A",
+      "ko": "민수 씨, 어디에 가요?",
+      "uz": "Minsu janoblari, qayerga boryapsiz?"
+    },
+    {
+      "speaker": "B",
+      "ko": "도서관에 가요. 거기에서 책을 읽어요.",
+      "uz": "Kutubxonaga boryapman. U yerda kitob o‘qiyman."
+    },
+    {
+      "speaker": "A",
+      "ko": "오늘 커피숍에서 커피를 마셔요?",
+      "uz": "Bugun qahvaxonada kofe ichasizmi?"
+    },
+    {
+      "speaker": "B",
+      "ko": "아니요, 커피숍에 안 가요. 집에서 쉬어요.",
+      "uz": "Yo'q, qahvaxonaga bormayman. Uyda dam olaman."
+    }
+  ],
+  "book": "1A",
+  "lesson": 3,
+  "origin": "AI yordamida tayyorlangan qo‘shimcha o‘quv materiali"
+}

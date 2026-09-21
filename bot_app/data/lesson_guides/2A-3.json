@@ -1,0 +1,139 @@
+{
+  "overview": "Ushbu dars kundalik muloqotda yangi tajribalar haqida gapirish, vaqt oralig'ini bildirish, zid ma'no yoki fon yaratish hamda sifatlovchi kelasi zamon shakllarini o'rganishga bag'ishlangan.",
+  "goals": [
+    "Yangi ish va tajribalarni -(으)아/어 보다 yordamida ifodalash",
+    "-동안 yordamida harakat davom etgan vaqtni aniq ko'rsatish",
+    "(으)ㄴ데/는데 yordamida holatni tushuntirish va -(으)ㄹ sifatlovchi shaklini qo'llash"
+  ],
+  "rules": [
+    {
+      "source_key": "grammar:2A:9",
+      "meaning": "Fe'lga qo'shilib, biror ishni sinab ko'rish, qilib ko'rmoq ma'nosini bildiradi.",
+      "formation": "Fe'l o'zagidagi unli ㅏ yoki ㅗ bo'lsa -아 보다, qolgan holatlarda -어 보다 qo'shiladi. '하다' fe'li '해 보다'ga o'zgaradi.",
+      "usage": "Yangi tajriba, taom, kiyim yoki mashg'ulotni sinab ko'rgan paytda ishlatiladi.",
+      "mistake": "가어 보다 emas, 가 보다. 먹다 → 먹어 보다; 하다 → 해 보다. 보다 bu yerda ko‘rishning o‘zi emas, sinab bajarishni bildiradi.",
+      "examples": [
+        {
+          "ko": "김치찌개를 먹어 봤어요.",
+          "uz": "Kimchijigaelni yeb ko'rdim."
+        },
+        {
+          "ko": "이 옷을 입어 보세요.",
+          "uz": "Bu kiyimni kiyib ko'ring."
+        },
+        {
+          "ko": "한국어를 배워 보고 싶어요.",
+          "uz": "Koreys tilini o'rganib ko'rmoqchiman."
+        }
+      ],
+      "exercise": {
+        "question": "Qavs ichidagi fe'lga mos ravishda bo'sh joyni to'ldiring: 제주도에 (가다). -> 제주도에 ____.",
+        "answer": "가 봤어요",
+        "explanation": "'가다' fe'lining o'zagidagi unli ㅏ bo'lgani uchun '-아 봤어요' qo'shiladi."
+      }
+    },
+    {
+      "source_key": "grammar:2A:10",
+      "meaning": "Ot so'z turkumiga qo'shilib, ma'lum bir vaqt oralig'i mobaynida yoki davomida sodir bo'lgan voqealarni bildiradi.",
+      "formation": "Vaqt davomiyligi yoki davr nomidan keyin 동안 alohida yoziladi: 한 시간 동안, 방학 동안. Muayyan sana nuqtasi uchun 에, davomiylik uchun 동안 tanlanadi.",
+      "usage": "Voqea yoki harakatning boshlanishidan oxirigacha qancha vaqt ketganini ko'rsatishda ishlatiladi.",
+      "mistake": "Son va o'lchov birliklarisiz o'rin-joy otlariga -동안 qo'shib yuborish xato hisoblanadi. Masalan, '학교 동안' deyilmaydi.",
+      "examples": [
+        {
+          "ko": "방학 동안 뭐 했어요?",
+          "uz": "Ta’til davomida nima qildingiz?"
+        },
+        {
+          "ko": "3년 동안 한국어를 공부했어요.",
+          "uz": "Uch yil koreys tilini o‘rgandim."
+        },
+        {
+          "ko": "점심시간 동안 쉬었어요.",
+          "uz": "Tushlik vaqti davomida dam oldim."
+        }
+      ],
+      "exercise": {
+        "question": "Bir oy davomida darsga qatnashdim: 한 ___ 동안 수업을 들었어요.",
+        "answer": "달",
+        "explanation": "한 달 — bir oy; 동안 davr davomiyligini bildiradi."
+      }
+    },
+    {
+      "source_key": "grammar:2A:11",
+      "meaning": "Oldingi gap keyingi gap uchun fon, zid ma'no yoki sabab bo'lib kelishini bildiruvchi bog'lovchi qo'shimcha.",
+      "formation": "Harakat fe’liga 는데, sifatga (으)ㄴ데, otga 인데 qo‘shiladi. ㄹ o‘zaklarida ㄹ tushadi: 살다 → 사는데, 길다 → 긴데. 있다/없다 → 있는데/없는데. O‘tgan zamonda 았/었는데.",
+      "usage": "Suhbatdoshning e'tiborini tortish, holatni tasvirlash yoki qarama-qarshi fikr bildirishda ishlatiladi.",
+      "mistake": "Fe'lning zamoniga moslashni unutish. O'tgan zamonda '-았/었-' dan keyin -는데 ishlatilishi kerak, '-은데' emas.",
+      "examples": [
+        {
+          "ko": "날씨가 좋은데 산책할까요?",
+          "uz": "Havo yaxshi ekan, sayr qilamizmi?"
+        },
+        {
+          "ko": "저는 학생인데 동생은 회사원이에요.",
+          "uz": "Men talabaman, ukam esa xizmatchi."
+        },
+        {
+          "ko": "이 영화는 재미있는데 좀 길어요.",
+          "uz": "Bu kino qiziqarli, lekin biroz uzun."
+        }
+      ],
+      "exercise": {
+        "question": "춥다 sifatini bog‘lovchi (으)ㄴ데 shakliga keltiring.",
+        "answer": "추운데",
+        "explanation": "춥- dagi ㅂ 우 ga o‘zgaradi va ㄴ데 ulanadi: 추운데."
+      }
+    },
+    {
+      "source_key": "grammar:2A:12",
+      "meaning": "Fe'lga qo'shilib, kelasi zamonda bajariladigan harakatni yoki otni sifatlab keluvchi vazifani bajaradi.",
+      "formation": "Unli o‘zakka ㄹ, ㄹ dan boshqa undoshga 을 qo‘shiladi; ㄹ bilan tugasa yana ㄹ qo‘shilmaydi: 만들 음식. Keyin aniqlanayotgan ot keladi.",
+      "usage": "Otni aniqlab keluvchi kelasi zamon sifatdoshi sifatida ishlatiladi.",
+      "mistake": "Notekis fe'llarni hisobga olmaslik. Masalan, '먹다' fe'li '먹을' bo'lsa, '하다' fe'li '할' bo'lishi kerak.",
+      "examples": [
+        {
+          "ko": "내일 할 일이 많아요.",
+          "uz": "Ertaga qiladigan ishlarim ko‘p."
+        },
+        {
+          "ko": "마실 물이 있어요.",
+          "uz": "Ichadigan suv bor."
+        },
+        {
+          "ko": "여기는 주말에 갈 공원이에요.",
+          "uz": "Bu dam olish kuni boradigan bog‘imiz."
+        }
+      ],
+      "exercise": {
+        "question": "Qavs ichidagi fe'lni moslashtiring: 먹다 -> ____ 음식",
+        "answer": "먹을",
+        "explanation": "'먹다' fe'li undosh bilan tugagani uchun '-을' qo'shilib '먹을' hosil bo'ladi."
+      }
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "A",
+      "ko": "이번 주말에 뭐 할 거예요?",
+      "uz": "Bu dam olish kuni nima qilasiz?"
+    },
+    {
+      "speaker": "B",
+      "ko": "친구하고 같이 뮤지컬을 볼 거예요. 여러분도 보러 가요.",
+      "uz": "Do'stim bilan birga myuzikl ko'raman. Siz ham ko'rgani boring."
+    },
+    {
+      "speaker": "A",
+      "ko": "뮤지컬은 재미있는데 표가 비싸요.",
+      "uz": "Myuzikl qiziqarli-yu, lekin chiptasi qimmat."
+    },
+    {
+      "speaker": "B",
+      "ko": "그렇지만 이번 주말에 할인 기간이니까 한번 가 보세요.",
+      "uz": "Lekin bu dam olish kuni chegirma davri bo'lgani uchun bir borib ko'ring."
+    }
+  ],
+  "book": "2A",
+  "lesson": 3,
+  "origin": "AI yordamida tayyorlangan qo‘shimcha o‘quv materiali"
+}

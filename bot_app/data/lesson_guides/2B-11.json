@@ -1,0 +1,140 @@
+{
+  "overview": "Ushbu dars kundalik hayotda salomatlik haqida gaplashish, maslahat berish va shaxsiy qarorlarni bildirish uchun muhim bo‘lgan to‘rtta grammatik qoidani o‘z ichiga oladi. O‘quvchilar bu mavzularni o‘rganish orqali o‘z holatini aniqroq ifoda eta oladilar.",
+  "goals": [
+    "'ㅅ' notog‘ri fe’llarining tuzilishini tushunish va to‘g‘ri qo‘llash",
+    "Otga -마다 qo‘shimchasini qo‘shib 'har bir' ma'nosini berish",
+    "Fe'lga -는 게 어때요? orqali muloyim tavsiya va maslahat berish",
+    "-기로 하다 qolipi yordamida kelishuv va qarorlarni ifodalash"
+  ],
+  "rules": [
+    {
+      "source_key": "grammar:2B:5",
+      "meaning": "'ㅅ' notog‘ri fe'llari unlidan boshlanuvchi qo‘shimcha kelganda o‘zakdagi 'ㅅ' tovushini yo‘qotadi. Bu qoida barcha 'ㅅ' bilan tugaydigan fe'llarga emas, balki ma'lum istisnolarga taalluqlidir.",
+      "formation": "Ayrim ㅅ o‘zaklarda unli oldidan ㅅ tushadi: 낫다 → 나아요, 짓다 → 지어요, 젓다 → 저어요. Undosh oldidan saqlanadi: 낫고, 짓는. Muntazam fe’llarda tushmaydi: 웃다 → 웃어요, 씻다 → 씻어요.",
+      "usage": "Salomatlik, uy yumushlari va harakatlarni tasvirlashda ishlatiladi. Masalan, sog‘ayish (낫다), qurish (짓다), aralashtirish (젓다) fe'llarida qo‘llaniladi.",
+      "mistake": "짓어요 emas, 지어요. 낫다 → 나아서 to‘g‘ri shakldir; uni xato deb hisoblamang. ㅅ tushgach yonma-yon unlilar odatda qisqarmaydi: 나아요.",
+      "examples": [
+        {
+          "ko": "약을 먹고 많이 나았어요.",
+          "uz": "Dori ichib ancha tuzaldim."
+        },
+        {
+          "ko": "국을 천천히 저어요.",
+          "uz": "Sho‘rvani sekin aralashtiraman."
+        },
+        {
+          "ko": "여기에 집을 지어요.",
+          "uz": "Bu yerda uy quramiz."
+        }
+      ],
+      "exercise": {
+        "question": "어제 약을 먹고 많이 (낫다) gapini o‘tgan zamonda tugating.",
+        "answer": "나았어요.",
+        "explanation": "낫- ga 았어요 qo‘shilganda ㅅ tushadi: 나았어요."
+      }
+    },
+    {
+      "source_key": "grammar:2B:6",
+      "meaning": "Ot so‘z turkumiga qo‘shilib 'har bir' yoki 'hamma' ma'nosini bildiradi. O‘zbek tilidagi '-har' qo‘shimchasiga to‘g‘ri keladi.",
+      "formation": "Ot + 마다 tarzida qo‘shiladi. Oxirgi harf unli yoki undosh bo‘lishidan qat'i nazar o‘zgarmaydi. Masalan, 나라 + 마다, 사람 + 마다.",
+      "usage": "Vaqt, joy yoki shaxslarning har biri uchun bir xil holat takrorlanishini ko‘rsatishda ishlatiladi. Masalan, har kuni, har kuni ertalab, har bir kishi.",
+      "mistake": "Ba'zan o‘quvchilar -마다 o‘rniga -에서 yoki -에 ni adashtirib yuboradilar. Masalan, *사람에서 deb yozish xato, to‘g‘ri shakl 사람마다 bo‘lishi kerak.",
+      "examples": [
+        {
+          "ko": "나라마다 고유한 문화와 전통이 있습니다.",
+          "uz": "Har bir mamlakatning o‘ziga xos madaniyati va an'anasi bor."
+        },
+        {
+          "ko": "사람마다 생각하는 것이 다릅니다.",
+          "uz": "Har bir insonning o‘ylaydigan narsasi farq qiladi."
+        },
+        {
+          "ko": "우리는 주말마다 야외로 산책을 갑니다.",
+          "uz": "Biz har dam olish kuni sayrga boramiz."
+        }
+      ],
+      "exercise": {
+        "question": "Har bir kishining fikri turlicha: ___ 생각이 달라요.",
+        "answer": "사람마다",
+        "explanation": "사람 ga 마다 qo‘shilib har bir kishi ma’nosi hosil bo‘ladi."
+      }
+    },
+    {
+      "source_key": "grammar:2B:7",
+      "meaning": "Suhbatdoshga biror ishni qilishni muloyimlik bilan tavsiya qilish yoki maslahat berish uchun ishlatiladi. O‘zbek tilidagi '-sa qanday bo‘ladi?' yoki '-sangiz-chi' ma'nosini beradi.",
+      "formation": "Harakat fe’li o‘zagiga 는 게 어때요 qo‘shiladi: 읽는 게 어때요? ㄹ o‘zakda ㄹ tushadi: 만들다 → 만드는 게 어때요? 게 — 것이 ning qisqa shakli.",
+      "usage": "Do‘stona va xushmuomala tarzda fikr bildirish, maslahat berish zarur bo‘lganda qo‘llaniladi.",
+      "mistake": "Fe'l o‘zagiga -는 게 어때요? o‘rniga noto‘g‘ri ravishda -은 게 어때요? qo‘shish keng tarqalgan xato. Harakat fe'llari doimo -는 게 어때요?ni talab qiladi.",
+      "examples": [
+        {
+          "ko": "속이 안 좋으면 약을 먹는 게 어때요?",
+          "uz": "Qorningiz og‘riyotgan bo‘lsa, dori ichsangiz qanday bo‘ladi?"
+        },
+        {
+          "ko": "피곤하시면 오늘 일찍 자는 게 어때요?",
+          "uz": "Charchagan bo‘lsangiz, bugun ertauxlasangiz qanday bo‘ladi?"
+        },
+        {
+          "ko": "머리가 아프면 병원에 가는 게 어때요?",
+          "uz": "Boshingiz og‘riyotgan bo‘lsa, kasalxonaga borsangiz qanday bo‘ladi?"
+        }
+      ],
+      "exercise": {
+        "question": "Kitob o‘qishni maslahat bering: 책을 (읽다).",
+        "answer": "책을 읽는 게 어때요?",
+        "explanation": "읽- o‘zagiga 는 게 어때요 qo‘shiladi."
+      }
+    },
+    {
+      "source_key": "grammar:2B:8",
+      "meaning": "Oldindan o‘ylab biror ishni qilishga qaror qilganlikni yoki kelishib olganlikni bildiradi. O‘zbek tilidagi '-ishga qaror qilmoq' yoki '-moqchiman' ma'nosiga yaqin.",
+      "formation": "Fe’l o‘zagiga 기로 하다 qo‘shiladi: 가기로 하다. Qaror odatda allaqachon qabul qilingan bo‘ladi: 가기로 했어요. 기로 va 하다 alohida yoziladi.",
+      "usage": "Shaxsiy niyatlar, kelajakdagi rejalar va qat'iy qarorlarni bayon qilishda ishlatiladi.",
+      "mistake": "공부하기로했어요 emas, 공부하기로 했어요. Bu xohishning o‘zi emas, qaror yoki kelishuvni bildiradi.",
+      "examples": [
+        {
+          "ko": "우리는 내일 만나기로 했어요.",
+          "uz": "Biz ertaga uchrashishga qaror qildik."
+        },
+        {
+          "ko": "앞으로는 운동을 열심히 하기로 했어요.",
+          "uz": "Bundan buyon sport bilan jiddiy shug‘ullanishga qaror qildim."
+        },
+        {
+          "ko": "담배를 끊기로 결심하고 오늘부터 안 피우기로 했어요.",
+          "uz": "Sigaretani tashlashga qaror qilib, bugundan boshlab chekmaslikka kelishdik."
+        }
+      ],
+      "exercise": {
+        "question": "Koreys tilini o‘rganishga qaror qildim deb ayting: 한국어를 공부하다.",
+        "answer": "한국어를 공부하기로 했어요.",
+        "explanation": "공부하- o‘zagiga 기로 했어요 qo‘shiladi."
+      }
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "A",
+      "ko": "어제부터 배탈이 나고 속이 안 좋은데 어떻게 할까요?",
+      "uz": "Kecha boshlab qornim og‘riyapti va ichim yaxshi emas, nima qilsam bo‘ladi?"
+    },
+    {
+      "speaker": "B",
+      "ko": "그러면 오늘 내과에 가서 진iteini ko‘rsatib, dorini ichishga qaror qilgan ma'qul.",
+      "uz": "Unday bo‘lsa, bugun terapevtga borib ko‘rinishga qaror qilsangiz yaxshi bo‘lardi."
+    },
+    {
+      "speaker": "A",
+      "ko": "Ha, to‘g‘ri aytasiz, shifokor bilan maslahatlashishni o‘ylab ko‘ray.",
+      "uz": "Ha, to‘g‘ri aytasiz, shifokor bilan maslahatlashaylik."
+    },
+    {
+      "speaker": "B",
+      "ko": "Har bir odamda salomatlik muhim, shuning uchun tezroq tuzalishingizni tilayman.",
+      "uz": "Har bir insonda salomatlik muhim, shuning uchun tezroq tuzalib ketishingizni tilayman."
+    }
+  ],
+  "book": "2B",
+  "lesson": 11,
+  "origin": "AI yordamida tayyorlangan qo‘shimcha o‘quv materiali"
+}

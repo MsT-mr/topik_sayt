@@ -1,0 +1,140 @@
+{
+  "overview": "Ushbu dars kundalik hayotda va bayramlarga tayyorgarlik ko'rish jarayonida harakatlarni oldindan bajarib qo'yish, almashtirish, niyat qilish hamda sabab va taxminni bildirish uchun muhim bo'lgan to'rtta koreys tili grammatik qoidasini o'rgatadi.",
+  "goals": [
+    "Harakatni bajarib, natijasini saqlab qo'lishni ifodalash",
+    "Biror narsaning o'rnini ko'rsatishni o'rganish",
+    "Kelajakdagi noaniq niyat va rejalarni bildirish",
+    "Tavsiya, sabab va taxminni birlashtirib gap tuzish"
+  ],
+  "rules": [
+    {
+      "source_key": "grammar:2B:25",
+      "meaning": "Fe'lga qo'shilib, biror harakat kelajakda kerak bo'lishi uchun oldindan bajarib qo'yilganini va uning natijasi saqlanib turganini bildiradi. O'zbek tiliga '-ib qo'ymoq' deb tarjima qilinadi.",
+      "formation": "O‘zakning oxirgi unlisi ㅏ/ㅗ bo‘lsa 아 놓다, boshqalarda 어 놓다. 하다 → 해 놓다. Masalan: 사 놓다, 읽어 놓다, 준비해 놓다.",
+      "usage": "Mehmonga ovqat tayyorlab qo'yish, chipta sotib olib qo'yish kabi oldindan qilingan ishlarni aytishda ishlatiladi.",
+      "mistake": "놓다 bu yerda ishni bajarib, natijasini saqlab qo‘yishni bildiradi. 먹어 놓다 ham vaziyatga qarab oldindan ovqatlanib olish ma’nosida mumkin; uni mutlaq xato demang.",
+      "examples": [
+        {
+          "ko": "음식을 미리 만들어 놓았어요.",
+          "uz": "Ovqatni oldindan tayyorlab qo‘ydim."
+        },
+        {
+          "ko": "가게에서 과일을 사 놓았어요.",
+          "uz": "Do‘kondan meva sotib olib qo‘ydim."
+        },
+        {
+          "ko": "문을 닫아 놓으세요.",
+          "uz": "Eshikni yopib qo‘ying."
+        }
+      ],
+      "exercise": {
+        "question": "Bo'sh joyni to'ldiring: Ertangi bayram uchun uy tozalandi (청소하다). -> 방을 미리 ...",
+        "answer": "청소해 놓았어요",
+        "explanation": "청소하다 fe'lida 하 tushib 해 놓다 shakli ishlatiladi va o'tgan zamonda 청소해 놓았어요 bo'ladi."
+      }
+    },
+    {
+      "source_key": "grammar:2B:26",
+      "meaning": "Otsifat yoki otga qo'shilib, biror narsaning o'rnini yoki boshqa narsa bilan almashtirilganini bildiradi. O'zbek tiliga '-ning o'rniga' deb tarjima qilinadi.",
+      "formation": "Ot + 대신: 커피 대신. 대신 alohida yoziladi. Hozirgi harakatni almashtirishda fe’l+는 대신: 가는 대신; tugagan harakatda (으)ㄴ 대신 ham ishlatiladi.",
+      "usage": "Kofe o'rniga choy ichish, go'sht o'rniga sabzavot ishlatish kabi almashtirish holatlarida qo'llaniladi.",
+      "mistake": "커피대신 emas, 커피 대신. Bu yerda almashtirilayotgan narsa 대신 dan oldin keladi.",
+      "examples": [
+        {
+          "ko": "오늘 아침에 밥 대신 빵을 먹었어요.",
+          "uz": "Bugun ertalab guruch o‘rniga non yedim."
+        },
+        {
+          "ko": "커피 대신 차를 마실까요?",
+          "uz": "Qahva o‘rniga choy ichamizmi?"
+        },
+        {
+          "ko": "지하철 대신 버스를 탔어요.",
+          "uz": "Metro o‘rniga avtobusga chiqdim."
+        }
+      ],
+      "exercise": {
+        "question": "Tarjima qiling: 'Kino o'rniga teatrga boramiz.'",
+        "answer": "영화 대신 연극을 보러 가요.",
+        "explanation": "영화 (kino) so'ziga 대신 qo'shilib, 'kino o'rniga' ma'nosini beradi."
+      }
+    },
+    {
+      "source_key": "grammar:2B:27",
+      "meaning": "Fe'lga qo'shilib, gap egasining qat'iy bo'lmagan niyati yoki rejasini bildiradi. O'zbek tiliga '-moqchi bo'lmoq' deb tarjima qilinadi.",
+      "formation": "Fe'l o'zagiga undosh bilan tugasa -(으)ㄹ까 하다, unli bilan tugasa -ㄹ까 하다 qo'shiladi.",
+      "usage": "Hozircha aniq qaror qilmagan, lekin shunday qilishni o'ylayotgan rejalarni boshqalarga aytishda ishlatiladi.",
+      "mistake": "Buni qat'iy reja bildiruvchi -(으)ㄹ 거예요 bilan adashtirmaslik kerak, bu shunchaki taxminiy niyat.",
+      "examples": [
+        {
+          "ko": "방학 때 해외여행을 할까 해요.",
+          "uz": "Ta’tilda chet elga sayohat qilishni o‘ylab turibman."
+        },
+        {
+          "ko": "오늘 집에서 쉴까 해요.",
+          "uz": "Bugun uyda dam olsammi deb turibman."
+        },
+        {
+          "ko": "한국어를 배울까 해요.",
+          "uz": "Koreys tilini o‘rgansammi deb turibman."
+        }
+      ],
+      "exercise": {
+        "question": "Bo'sh joyni to'ldiring: Kitob o'qishni rejalashtiryapman (읽다). -> 책을 ...",
+        "answer": "읽을까 해요",
+        "explanation": "읽다 fe'lining o'zagi undosh bilan tugagani uchun -(으)ㄹ까 해요 qo'shiladi."
+      }
+    },
+    {
+      "source_key": "grammar:2B:28",
+      "meaning": "Fe'l yoki sifatga qo'shilib, tinglovchiga sabab tushuntirish va shu bilan birga o'z fikri yoki harakatini tasdiqlash uchun ishlatiladi. O'zbek tiliga '-aman, shuning uchun / -shim kerak' deb tarjima qilinadi.",
+      "formation": "Fe'l yoki sifat o'zagiga -(으)ㄹ 테니까 qo'shiladi.",
+      "usage": "Boshqasiga yordam taklif qilishda yoki o'z qiladigan ishi haqida oldindan ogohlantirishda ishlatiladi.",
+      "mistake": "았/었을 테니까 ham mumkin: 피곤했을 테니까 — charchagan bo‘lsangiz kerak, shuning uchun. Bu qolipni faqat kelajak bilan cheklamang.",
+      "examples": [
+        {
+          "ko": "제가 방을 청소할 테니까 요리를 하세요.",
+          "uz": "Xonani men tozalayman, siz ovqat pishiring."
+        },
+        {
+          "ko": "곧 비가 올 테니까 우산을 가져가세요.",
+          "uz": "Hozir yomg‘ir yog‘ishi mumkin, soyabon olib keting."
+        },
+        {
+          "ko": "무거울 테니까 제가 들게요.",
+          "uz": "Og‘ir bo‘lsa kerak, men ko‘taraman."
+        }
+      ],
+      "exercise": {
+        "question": "Men tushuntiraman, diqqat bilan tinglang gapini 설명하다 bilan tuzing.",
+        "answer": "제가 설명할 테니까 잘 들으세요.",
+        "explanation": "설명하- o‘zagiga ㄹ 테니까 qo‘shilib so‘zlovchining niyati keyingi iltimosga asos bo‘ladi."
+      }
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "A",
+      "ko": "Seolnal bayramiga nima tayyorlayapsiz?",
+      "uz": "설날 명절에 무엇을 준비해요?"
+    },
+    {
+      "speaker": "B",
+      "ko": "Men ovqat tayyorlab qo'ydim, do'stim esa xaridlarni qiladi.",
+      "uz": "음식을 미리 만들어 놓았고, 친구는 장을 볼 거예요."
+    },
+    {
+      "speaker": "A",
+      "ko": "Guruchlisho'rva o'rniga mant yeymizmi?",
+      "uz": "떡국 대신 만둣국을 먹을까요?"
+    },
+    {
+      "speaker": "B",
+      "ko": "Yaxshi fikr, men uni ham tayyorlab qo'yaman.",
+      "uz": "좋은 생각이에요, 제가 그것도 만들어 놓을 테니까 걱정 마세요."
+    }
+  ],
+  "book": "2B",
+  "lesson": 16,
+  "origin": "AI yordamida tayyorlangan qo‘shimcha o‘quv materiali"
+}

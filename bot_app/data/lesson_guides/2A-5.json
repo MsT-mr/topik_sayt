@@ -1,0 +1,140 @@
+{
+  "overview": "Ushbu dars kundalik hayotda rejalashtirish, sayohatni tashkil etish, sabablarni tushuntirish va harakatlar ketma-ketligini ifodalash uchun zarur bo'lgan muhim koreys tili grammatikalarini o'rgatadi. Sayohat xarajatlari, vaqt va yo'nalishlarni muhokama qilishda bu qoidalar juda qo'l keladi.",
+  "goals": [
+    "Fe'l va sifatlar bilan taxmin bildirish va fikr so'rashni o'rganish",
+    "Sabab-oqibat munosabatlarini +(으)니까 yordamida aniq ifodalash",
+    "Harakatlar ketma-ketligini -고 나서 yordamida to'g'ri bog'lash",
+    "Sayohat mavzusidagi so'z boyligini amalda qo'llash"
+  ],
+  "rules": [
+    {
+      "source_key": "grammar:2A:17",
+      "meaning": "Suhbatdoshdan biror ishni birgalikda qilishni taklif qilishda yoki o'zining shaxsiy taxmini/fikrini yumshoq tarzda so'rashda ishlatiladi. O'zbek tilidagi '-mikan?', '-aylikmi?' ma'nolariga mos keladi.",
+      "formation": "Fe'l yoki sifat o'zagiga undosh bilan tugasa -(으)ㄹ까요?, unli bilan tugasa yoki ㄹ harfi bilan tugasa -ㄹ까요? qo'shiladi. Masalan: 듣다 -> 들을까요?, 받다 -> 받을까요? Har xil shaxslarga nisbatan ishlatilishi mumkin.",
+      "usage": "Asosan reja tuzishda, maslahatlashishda yoki taklif berishda ishlatiladi. 'Nima qilsak ekan?', 'Boraylikmi?' kabi vaziyatlarda juda qo'l keladi.",
+      "mistake": "Ko'pincha noto'g'ri ravishda faqat o'tgan zamonda ishlatiladi yoki -지요 bilan aralashtirib yuboriladi. Kelasi zamon yoki hozirgi zamon taxmini uchun fe'l o'zagiga to'g'ri qo'shimchani tanlash muhim.",
+      "examples": [
+        {
+          "ko": "이번 주말에 제주도에 갈까요?",
+          "uz": "Bu dam olish kuni Jejuga boramizmi?"
+        },
+        {
+          "ko": "무슨 음식을 만들까요?",
+          "uz": "Qanday ovqat tayyorlaylik?"
+        },
+        {
+          "ko": "내일 날씨가 좋을까요?",
+          "uz": "Ertaga havo yaxshi bo‘lmikan?"
+        }
+      ],
+      "exercise": {
+        "question": "Bo'sh joyni to'ldiring: '같이 영화를 (보다) -> 같이 영화를 __________?' (Kino birga ko'raylikmi?)",
+        "answer": "볼까요?",
+        "explanation": "보(다) fe'li unli bilan tugagani uchun -ㄹ까요? qo'shiladi va 볼까요? hosil bo'ladi."
+      }
+    },
+    {
+      "source_key": "grammar:2A:18",
+      "meaning": "Kelajakdagi biror holat yoki harakat sodir bo'lishi haqida shaxsiy taxmin bildirish uchun ishlatiladi. O'zbek tilidagi '-sa kerak', '-ar' ma'nolarini beradi.",
+      "formation": "Fe'l va sifat o'zagiga undosh bilan tugasa -(으)ㄹ 거예요, unli yoki ㄹ bilan tugasa -ㄹ 거예요 qo'shiladi. Masalan: 좋아하다 -> 좋아할 거예요.",
+      "usage": "Aniq bo'lmagan kelajakdagi voqealar, ob-havo yoki boshqalarning harakatlari haqida taxmin qilib gapirganda qo'llaniladi.",
+      "mistake": "ㄹ 거예요 so‘zlovchining rejasi uchun ham, taxmin uchun ham ishlatiladi. Ma’noni ega va kontekstdan aniqlang. 거예요 oldidan bo‘sh joy qoldiring: 갈 거예요.",
+      "examples": [
+        {
+          "ko": "내일 비가 올 거예요.",
+          "uz": "Ertaga yomg‘ir yog‘sa kerak."
+        },
+        {
+          "ko": "그 친구는 이 선물을 좋아할 거예요.",
+          "uz": "U do‘stim bu sovg‘ani yoqtirsa kerak."
+        },
+        {
+          "ko": "내일 출발하면 모레 도착할 거예요.",
+          "uz": "Ertaga jo‘nasak, indinga yetib boramiz."
+        }
+      ],
+      "exercise": {
+        "question": "Bo'sh joyni to'ldiring: '내일은 바쁘다 -> 내일은 __________.' (Ertaga band bo'lsa kerak)",
+        "answer": "바쁠 거예요",
+        "explanation": "바쁘다 sifatining o'zagi unli bilan tugaydi va qoidaga ko'ra 바쁠 거예요 bo'lib o'zgaradi."
+      }
+    },
+    {
+      "source_key": "grammar:2A:19",
+      "meaning": "Biror ish yoki holatning sababini tushuntirish uchun ishlatiladi. Oldingi qism keyingi qismning kelib chiqish sababi bo'ladi. O'zbek tilidagi '-kani uchun', '-gani sababli' ma'nosini beradi.",
+      "formation": "Unli o‘zakka 니까, ㄹ dan boshqa undoshga 으니까 qo‘shiladi. ㄹ tushadi: 살다 → 사니까. Ot: unli bilan tugasa 니까, undosh bilan tugasa 이니까.",
+      "usage": "Sababni ko'rsatish bilan birga, keyingi gapda buyruq, taklif (-ㅂ시다, -(으)세요, -(으)ㄹ까요?) shakllari kelganda juda qulay ishlatiladi.",
+      "mistake": "-어서/아서 bilan aralashtiriladi. -니까 dan keyin buyruq va taklif shakllari kelishi mumkin, ammo -어서/아서 dan keyin kelmaydi.",
+      "examples": [
+        {
+          "ko": "시간이 없으니까 빨리 가세요.",
+          "uz": "Vaqtimiz yo'qligi uchun tezroq boring."
+        },
+        {
+          "ko": "날씨가 좋으니까 산책합시다.",
+          "uz": "Ob-havo yaxshi ekan, sayr qilaylik."
+        },
+        {
+          "ko": "저는 학생이니까 할인받을 수 있어요.",
+          "uz": "Men o'quvchi bo'lganim uchun chegirma ola olaman."
+        }
+      ],
+      "exercise": {
+        "question": "비가 (오다) 우산을 써요 gapini sabab bilan bog‘lang.",
+        "answer": "오니까",
+        "explanation": "오- unli bilan tugaydi: 오니까 — yog‘ayotgani uchun."
+      }
+    },
+    {
+      "source_key": "grammar:2A:20",
+      "meaning": "Birinchi harakat to'liq bajarib bo'lingandan so'ng, ikkinchi harakat boshlanishini bildiradi. O'zbek tilidagi '-(i)b bo'lib', '...gandan keyin' ma'nosiga mos keladi.",
+      "formation": "Fe'l o'zagiga -고 나서 qo'shiladi. Undosh yoki unli bilan tugashining farqi yo'q, hamma fe'llarga bir xil qo'shiladi. Masalan: 가다 -> 가고 나서, 먹다 -> 먹고 나서.",
+      "usage": "Vaqtinchalik ketma-ketlikni aniq ko'rsatish zarur bo'lganda ishlatiladi. Bir ish tugagani aniq bo'lgan holatlarda qo'llaniladi.",
+      "mistake": "Oddiy -고 bog'lovchisi bilan adashtirmaslik kerak. -고 faqat ketma-ketlik yoki bog'liqlikni bildirsa, -고 나서 birinchi ishning to'g'ridan-to'g'ri tugallanganiga urg'u beradi.",
+      "examples": [
+        {
+          "ko": "숙제를 하고 나서 친구를 만나요.",
+          "uz": "Uy vazifasini bajarib bo‘lgach do‘stim bilan uchrashaman."
+        },
+        {
+          "ko": "저녁을 먹고 나서 텔레비전을 봤어요.",
+          "uz": "Kechki ovqatni yeb bo‘lgach televizor ko‘rdim."
+        },
+        {
+          "ko": "티켓을 예약하고 나서 숙소를 알아보세요.",
+          "uz": "Chiptani band qilgach turar joy qidiring."
+        }
+      ],
+      "exercise": {
+        "question": "샤워를 ___ 자요 gapini 하다 + 고 나서 bilan to‘ldiring.",
+        "answer": "하고 나서",
+        "explanation": "Dush qabul qilish tugagandan keyin uxlash sodir bo‘ladi."
+      }
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "A",
+      "ko": "이번 여행 일정은 어떻게 짤까요?",
+      "uz": "Bu safargi sayohat jadvalini qanday tuzsak ekan?"
+    },
+    {
+      "speaker": "B",
+      "ko": "먼저 비행기표를 예약하고 나서 숙소를 찾읍시다.",
+      "uz": "Avval samolyot chiptasini band qilib bo'lib, keyin qoladigan joyni topamiz."
+    },
+    {
+      "speaker": "A",
+      "ko": "좋습니다. 비용이 얼마나 들까요?",
+      "uz": "Yaxshi. Xarajat qancha ketsa kerak?"
+    },
+    {
+      "speaker": "B",
+      "ko": "항공료랑 숙박비를 계산해보면 알 거예요.",
+      "uz": "Aviabilet va yashash to'lini hisoblab ko'rsak, bilib olamiz."
+    }
+  ],
+  "book": "2A",
+  "lesson": 5,
+  "origin": "AI yordamida tayyorlangan qo‘shimcha o‘quv materiali"
+}

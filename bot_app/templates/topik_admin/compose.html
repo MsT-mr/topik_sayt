@@ -1,0 +1,22 @@
+{% extends "admin/base_site.html" %}
+{% block breadcrumbs %}<div class="breadcrumbs"><a href="{% url 'admin:index' %}">Bosh sahifa</a> › Xabar yuborish</div>{% endblock %}
+{% block content %}
+<style>.message-form{max-width:760px}.message-form p{margin:20px 0}.message-form label{display:block;margin-bottom:8px;font-weight:600}.message-form select,.message-form textarea{width:100%;box-sizing:border-box}.message-form textarea{font-size:16px}.recipient-count{padding:14px;background:var(--darkened-bg);border-radius:8px}.errorlist{color:var(--error-fg)}</style>
+<p>Bosqich yoki guruhni tanlang. “Bittasi” tanlansa, shu guruhdagi o‘quvchilar ID raqami bilan chiqadi.</p>
+<p>Xabar o‘quvchining saytdagi “Xabarlar” bo‘limiga yetkaziladi.</p>
+<form method="post" class="message-form">{% csrf_token %}{{ form.non_field_errors }}
+{% for field in form %}<div id="row_{{ field.name }}"><p>{{ field.label_tag }}{{ field }}{{ field.errors }}</p></div>{% endfor %}
+<p class="recipient-count" id="recipientCount" aria-live="polite"></p>
+<input type="submit" value="Xabarni yuborish" class="default" id="sendMessage">
+</form>
+<script>
+(()=>{
+const level=document.getElementById('id_level'), group=document.getElementById('id_group'), student=document.getElementById('id_student'), count=document.getElementById('recipientCount'), button=document.getElementById('sendMessage');
+let version=0;
+function mode(){return document.querySelector('[name=mode]:checked')?.value || 'all'}
+function update(){const one=mode()==='one';document.getElementById('row_student').hidden=!one;student.required=one;const total=student.options.length-1;count.textContent=one?'Ro‘yxatdan bitta o‘quvchini tanlang.':`${total} ta faol o‘quvchiga yuboriladi.`;button.disabled=total===0 || (one&&!student.value)}
+async function reload(resetGroup){const current=++version;button.disabled=true;const params=new URLSearchParams({level:level.value,group:resetGroup?'':group.value});try{const res=await fetch('{% url "admin:topik_recipients" %}?'+params);if(!res.ok)throw Error();const data=await res.json();if(current!==version)return;const oldGroup=resetGroup?'':group.value;group.replaceChildren(new Option('Shu bosqichdagi barcha guruhlar',''),...data.groups.map(g=>new Option(g.label,g.id)));group.value=oldGroup;student.replaceChildren(new Option('O‘quvchini tanlang',''),...data.students.map(s=>new Option(s.label,s.id)));update()}catch(e){if(current===version){count.textContent='Ro‘yxat yuklanmadi. Qayta tanlang yoki sahifani yangilang.';button.disabled=true}}}
+level.addEventListener('change',()=>reload(true));group.addEventListener('change',()=>reload(false));student.addEventListener('change',update);document.querySelectorAll('[name=mode]').forEach(el=>el.addEventListener('change',update));update();
+})();
+</script>
+{% endblock %}

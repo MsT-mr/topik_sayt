@@ -1,0 +1,140 @@
+{
+  "overview": "Ushbu dars kundalik muloqotda tanlov qilish, yaqin do'stlar bilan norasmiy muloqotda bo'lish, o'z niyatini bildirish va qarama-qarshi fikrlarni bog'lash ko'nikmalarini rivojlantirishga yordam beradi. Koreys tilida tabiiy va samimiy gaplasha olish uchun ushbu grammatik qoidalar muhim o'rin tutadi.",
+  "goals": [
+    "Tanlov va solishtirishda '-중에(서)' qo'shimchasini to'g'ri ishlatish",
+    "Yaqin do'stlar bilan 'banmal' (norasmiy uslub) da erkin muloqot qilish",
+    "O'z niyat va xohishini '(으)ㄹ래요' orqali ifodalash",
+    "(으)ㄴ데/는데/인데 yordamida sabab yoki zid ma'noli bog'lanmalarni tuzish"
+  ],
+  "rules": [
+    {
+      "source_key": "grammar:2B:1",
+      "meaning": "Ma'nosi: bir nechta narsa yoki tushunchalar orasidan birini tanlash yoki ajratib ko'rsatishni bildiradi, ya'ni o'zbek tilidagi '-orasida' ma'nosiga mos keladi.",
+      "formation": "Ot yoki tanlov guruhidan keyin 중에 yoki 중에서 alohida yoziladi. Masalan: 과일 중에서. Ikki variant uchun ham mumkin: 둘 중에서.",
+      "usage": "Uch yoki undan ortiq narsalar ichidan bittasini tanlaganda, masalan, taomlar, mevalar, tillar yoki mashg'ulotlar haqida gapirganda ishlatiladi.",
+      "mistake": "중 otdan alohida yoziladi: 과일 중에서. Ikki narsa orasidan tanlash ham to‘g‘ri: 둘 중에서 하나를 고르세요.",
+      "examples": [
+        {
+          "ko": "과일 중에서 뭘 제일 좋아해요?",
+          "uz": "Mevalar ichida nimani eng yaxshi ko‘rasiz?"
+        },
+        {
+          "ko": "이 두 책 중에서 어떤 책이 더 좋아요?",
+          "uz": "Bu ikki kitobdan qaysi biri yaxshiroq?"
+        },
+        {
+          "ko": "스포츠 중에서 축구를 제일 좋아해요.",
+          "uz": "Sport turlari ichida futbolni eng yaxshi ko‘raman."
+        }
+      ],
+      "exercise": {
+        "question": "Ichimliklar ichidan qaysi birini ichasiz? 음료 ___ 어떤 것을 마실래요?",
+        "answer": "중에서",
+        "explanation": "음료 ichimliklar guruhini bildiradi; 중에서 shu guruhdan tanlashni bildiradi."
+      }
+    },
+    {
+      "source_key": "grammar:2B:2",
+      "meaning": "Ma'nosi: tengdoshlar, o'zidan yoshi kichiklar yoki juda yaqin do'stlar bilan muloqot qilishda ishlatiladigan norasmiy (seniysirash) uslub.",
+      "formation": "Kundalik 해요 shaklida 요 ni olib tashlash mumkin: 먹어요 → 먹어. 하지만 합니다 dan 습니다 ni shunchaki olib tashlab bo‘lmaydi; 하다 → 해 deb qayta tuslanadi. Taklif: 가자. Ot: 학생이야, 의사야.",
+      "usage": "Faqat o'zingizdan kichik yoki tengdosh, juda yaqin tanishlar bilan suhbatlashganda qo'llaniladi. Notanish yoki katta yoshlilarga nisbatan ishlatilsa odobsizlik hisoblanadi.",
+      "mistake": "Yangi tanishgan odamga yoshi kichik ko'ringani uchun darhol 'banmal' ishlatish katta xato hisoblanadi.",
+      "examples": [
+        {
+          "ko": "오늘 뭐 해? 같이 영화 보러 가자.",
+          "uz": "Bugun nima qilyapsan? Birga kino ko‘rgani boraylik."
+        },
+        {
+          "ko": "이 음식 정말 맛있어. 너도 먹어 봐.",
+          "uz": "Bu ovqat juda mazali. Sen ham yeb ko‘r."
+        },
+        {
+          "ko": "내일 약속이 있으니까 미리 준비해.",
+          "uz": "Ertaga uchrashuv bor, oldindan tayyorlan."
+        }
+      ],
+      "exercise": {
+        "question": "Quyidagi '먹어요' (yedim/yeyapman) fe'lini banmal shakliga o'zgartiring:",
+        "answer": "먹어",
+        "explanation": "Hozirgi zamon oddiy norasmiy shaklda '-요' tushirilib, '먹어' qoladi."
+      }
+    },
+    {
+      "source_key": "grammar:2B:3",
+      "meaning": "Ma'nosi: tinglovchining xohishini so'rash yoki o'zining niyatini, rejasini bildirish uchun ishlatiladi (-kchiman, -moqchiman, -ajakman).",
+      "formation": "Unli o‘zakka ㄹ래요, ㄹ dan boshqa undoshga 을래요 qo‘shiladi. ㄹ o‘zakda yangi ㄹ qo‘shilmaydi: 만들다 → 만들래요.",
+      "usage": "Do'stona va samimiy vaziyatlarda o'z xohish-irodangizni bildirish yoki suhbatdoshning nima qilishni xohlashini so'rashda ishlatiladi.",
+      "mistake": "Rasmiy ish yuritishda yoki o'zingizdan hurmati baland kishilarga nisbatan bu shaklni ishlatish tavsiya etilmaydi, chunki u biroz erkin ohangda eshitiladi.",
+      "examples": [
+        {
+          "ko": "저는 오늘 김치찌개를 먹을래요.",
+          "uz": "Men bugun kimchijjigey yeyman (yemoqchiman)."
+        },
+        {
+          "ko": "주말에 저랑 같이 자유 여행을 갈래요?",
+          "uz": "Dam olish kuni men bilan birga erkin sayohatga borasizmi?"
+        },
+        {
+          "ko": "이 옷이 마음에 드는데 이걸로 입을래요.",
+          "uz": "Bu kiyim yoqdi, shuni kiyaman."
+        }
+      ],
+      "exercise": {
+        "question": "'마시다' (ichmoq) fe'lini '(으)ㄹ래요' shaklida yozing:",
+        "answer": "마실래요",
+        "explanation": "Fe'l asosining oxiri unli bilan tugagani uchun '-ㄹ래요' qo'shilib, '마실래요' hosil bo'ladi."
+      }
+    },
+    {
+      "source_key": "grammar:2B:4",
+      "meaning": "Ma'nosi: oldingi gapda qandaydir vaziyat yoki sharoitni tushuntirib, keyingi gapda unga qarama-qarshi fikrni yoki bog'liq vaziyatni bildiradi (-lekin, -ganda / -kan).",
+      "formation": "Fe’l+는데, sifat+(으)ㄴ데, ot+인데. O‘tgan zamon: 았/었는데. Bu bog‘lovchi o‘zakka qo‘shib yoziladi: 먹는데, 갔는데. 는 데 deb ajratish boshqa grammatik tuzilmadir. 있다/없다 bilan 있는데/없는데.",
+      "usage": "Suhbatni yumshatish, fon yaratish yoki zid ma'nodagi fikrlarni bog'lash uchun ishlatiladi.",
+      "mistake": "갔은데 emas, 갔는데. Hozirgi sifatda 좋은데, lekin 재미있다 kabi 있다 bilan tugagan sifatda 재미있는데 ishlatiladi.",
+      "examples": [
+        {
+          "ko": "날씨가 좋은데 산책하러 갈까요?",
+          "uz": "Havo yaxshi ekan, sayrga boramizmi?"
+        },
+        {
+          "ko": "이 옷은 비싼데 품질이 좋아요.",
+          "uz": "Bu kiyim qimmat, lekin sifati yaxshi."
+        },
+        {
+          "ko": "저는 외국인인데 한국 음식을 잘 먹어요.",
+          "uz": "Men chet ellikman, lekin koreys taomlarini bemalol yeyman."
+        }
+      ],
+      "exercise": {
+        "question": "'춥다' (sovuq - sifat) so'zini '(으)ㄴ데' bilan bog'lang:",
+        "answer": "추운데",
+        "explanation": "'ㅂ' irregulyar fe'l/sifat qoidasiga ko'ra 'ㅂ' tushib '우' qo'shiladi va '추운데' bo'lib o'zgaradi."
+      }
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "A",
+      "ko": "오랜만에 만났는데 우리 맛있는 거 먹으러 갈래요?",
+      "uz": "Uzoq vaqtdan keyin uchrashdik, keling mazali narsa yegani boramizmi?"
+    },
+    {
+      "speaker": "B",
+      "ko": "좋아요! 메뉴 중에 뭘 먹을까요?",
+      "uz": "Yaxshi! Menyular orasidan nimani yeymiz?"
+    },
+    {
+      "speaker": "A",
+      "ko": "나는 매운 음식을 좋아하니까 떡볶이를 먹자.",
+      "uz": "Men achchiq ovqatni yaxshi ko'raman, shuning uchun ttokbokki yeylik."
+    },
+    {
+      "speaker": "B",
+      "ko": "값은 비싼데 아주 맛있어 보여서 나도 그거 먹을래요.",
+      "uz": "Narxi qimmat-lekin juda mazali ko'rinyapti, men ham shuni yeyman."
+    }
+  ],
+  "book": "2B",
+  "lesson": 10,
+  "origin": "AI yordamida tayyorlangan qo‘shimcha o‘quv materiali"
+}

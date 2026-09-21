@@ -1,0 +1,3 @@
+{% extends "admin/base_site.html" %}
+{% block breadcrumbs %}<div class="breadcrumbs"><a href="{% url 'admin:index' %}">Bosh sahifa</a> › Guruh qo‘shish</div>{% endblock %}
+{% block content %}<div class="group-setup"><p>Har bir daraja uchun bitta guruh bo‘ladi. Tanlangan daraja guruhi mavjud bo‘lsa, uning nomi va izohi yangilanadi. O‘quvchilar tarkibi saqlanadi.</p><form method="post">{% csrf_token %}{{ form.as_p }}<button type="submit" class="green-button">Guruhni saqlash</button> <a href="{% url 'admin:index' %}">Bekor qilish</a></form></div>{% endblock %}

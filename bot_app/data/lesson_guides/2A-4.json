@@ -1,0 +1,114 @@
+{
+  "overview": "Ushbu dars koreys tilining o'rta boshlang'ich bosqichi bo'lgan Seoul 2A kitobining 4-darsiga bag'ishlangan. Unda taxmin qilish, solishtirish va istak-xohishni bildirish grammatik qoidalari o'rganiladi. Bu qoidalar kundalik muloqotda o'z fikringizni aniq va tabiiy yetkazishda muhim ahamiyat kasb etadi.",
+  "goals": [
+    "Fikr va taxminlarni -(으)ㄴ/는 것 같다 yordamida ifodalash",
+    "Ikki obyektni 보다 yordamida o'zaro solishtirish",
+    "-았/었으면 좋겠다 orqali orzu va istaklarni bayon qilish",
+    "Kiyim-kechak nomlari va ularga mos fe'llarni to'g'ri ishlatishni o'rganish"
+  ],
+  "rules": [
+    {
+      "source_key": "grammar:2A:13",
+      "meaning": "Bu grammatik qoida biror holat, harakat yoki vaziyat haqida taxmin qilish, chamalash yoki o'z fikrini muloyimroq tarzda bildirish uchun xizmat qiladi. O'zbek tiliga '-dek ko'rinmoqda', '-ga o'xshaydi' deb tarjima qilinadi.",
+      "formation": "Hozirgi harakat: fe’l+는 것 같다. Hozirgi holat: sifat+(으)ㄴ 것 같다; 있다/없다 bilan 있는/없는 것 같다. Ot: 인 것 같다. Fe’l+(으)ㄴ 것 같다 esa tugagan harakat taxminini bildiradi.",
+      "usage": "Atrofdagi muhit, ob-havo, narx-navo yoki boshqalarning holatini o'z kuzatuvingizga asoslanib taxmin qilganingizda ishlatiladi. Qat'iy hukm chiqarishdan qochib, muloyim muloqot qilish imkonini beradi.",
+      "mistake": "Hozirgi zamon fe'llariga -ㄴ 것 같다 deyish xato, masalan, '가는 것 같다' o'rniga '간 것 같다' deyish noto'g'ri, chunki bu o'tgan zamon ma'nosini berib qo'yadi. Hozirgi zamon uchun doimo -는 것 같다 ishlatilishi shart.",
+      "examples": [
+        {
+          "ko": "오늘 날씨가 추운 것 같아요.",
+          "uz": "Bugun ob-havo sovuqqa o'xshaydi."
+        },
+        {
+          "ko": "이 음식이 아주 맛있는 것 같아요.",
+          "uz": "Bu ovqat juda mazali ko'rinmoqda."
+        },
+        {
+          "ko": "친구는 지금 공부하는 것 같아요.",
+          "uz": "Do'stim hozir o'qiyotganga o'xshaydi."
+        }
+      ],
+      "exercise": {
+        "question": "Bu kofta arzon ko‘rinadi: 이 블라우스가 싼 ( ) 같아요.",
+        "answer": "것",
+        "explanation": "싸다 → 싼; 싼 것 같아요 — arzon ko‘rinadi."
+      }
+    },
+    {
+      "source_key": "grammar:2A:14",
+      "meaning": "Ikki yoki undan ortiq narsa, shaxs yoki tushunchalarni solishtirish uchun ishlatiladi. O'zbek tilidagi '-ga qaraganda' yoki '-dan ko'ra' ma'nosini beradi.",
+      "formation": "Solishtirilayotgan otning ortidan hech qanday o'zgarishsiz to'g'ridan-to'g'ri 보다 qo'shimchasi qo'shiladi. Undosh yoki unli bilan tugashining farqi yo'q.",
+      "usage": "Biror narsaning afzalligini, kichikligini, arzonligini yoki boshqa xususiyatini ikkinchisi bilan taqqoslaganda qo'llaniladi. Ko'pincha bu grammatika bilan birga 더 (ko'proq) so'zi ham ishlatiladi.",
+      "mistake": " 보다 qo'shimchasini fe'l o'zaklariga qo'shish xato. U faqat otlarga (ism so'z turkumiga) qo'shiladi. Fe'llar uchun boshqa qoidalar ishlatiladi.",
+      "examples": [
+        {
+          "ko": "저는 동생보다 키가 커요.",
+          "uz": "Men ukamga qaraganda bo'yi balandroqman."
+        },
+        {
+          "ko": "버스보다 지하철이 더 빨라요.",
+          "uz": "Avtobusga qaraganda metro tezroq."
+        },
+        {
+          "ko": "사과보다 바나나를 더 좋아해요.",
+          "uz": " Olmaga qaraganda bananni ko'proq yaxshi ko'raman."
+        }
+      ],
+      "exercise": {
+        "question": "Tarjima qiling: Kitobga qaraganda kino qiziqarliroq -> 책( ) 영화가 더 재미있어요.",
+        "answer": "보다",
+        "explanation": "Solishtirish ma'nosini berish uchun ot so'z turkumidan keyin 보다 qo'shimchasi qo'shiladi."
+      }
+    },
+    {
+      "source_key": "grammar:2A:15",
+      "meaning": "Hozirgi holatdan ko'ngil to'lmaganda yoki kelajakda biror ish amalga oshishini istagan paytda ishlatiladi. O'zbek tiliga '-sa yaxshi bo'lardi' deb tarjima qilinadi.",
+      "formation": "Fe'l yoki sifat o'zaklariga -았/었으면 좋겠다 qo'shiladi. O'zak oxirgi unlisi ㅏ yoki ㅗ bo'lsa -았으면 좋겠다, qolgan hollarda -었으면 좋겠다 qo'shiladi.",
+      "usage": "Orzu-istaklar, xohishlar, orzu qilingan vaziyatlarni do'stona yoki muloyim tarzda suhbatdoshga yetkazishda qo'llaniladi.",
+      "mistake": "았/었 bu qolipda doim o‘tgan voqeani anglatmaydi: 내일 날씨가 좋았으면 좋겠어요 kelajakdagi istakdir. 으면 좋겠다 ham to‘g‘ri; 았/었으면 shakli istakni ko‘pincha kuchliroq yoki faraziy ifodalaydi.",
+      "examples": [
+        {
+          "ko": "내일 날씨가 좋았으면 좋겠어요.",
+          "uz": "Ertaga havo yaxshi bo‘lsa edi."
+        },
+        {
+          "ko": "한국에 꼭 갔으면 좋겠어요.",
+          "uz": "Koreyaga albatta borsam edi."
+        },
+        {
+          "ko": "이 선물이 마음에 들었으면 좋겠어요.",
+          "uz": "Bu sovg‘a sizga yoqsa edi."
+        }
+      ],
+      "exercise": {
+        "question": "To'g'ri shaklini yozing: Dam olish kunida dam olmoq (쉬다) -> 주말에 잘 ( ).",
+        "answer": "쉬었으면 좋겠어요",
+        "explanation": "-았/었으면 좋겠다 qoidasiga ko'ra 쉬다 fe'liga 쉬었으면 좋겠어요 shakli yasaladi."
+      }
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "A",
+      "ko": "이 블라우스가 저 블라우스보다 더 예쁜 것 같아요.",
+      "uz": "Bu kofta narigi koftaga qaraganda chiroyliroq ko'rinmoqda."
+    },
+    {
+      "speaker": "B",
+      "ko": "Ha, rangi sizga juda yarashadi.",
+      "uz": "맞아요, 색이 손님한테 아주 잘 어울려요."
+    },
+    {
+      "speaker": "A",
+      "ko": "Narxi ham biroz arzon bo'lsa edi yaxshi bo'lardi.",
+      "uz": "가격도 좀 더 쌌으면 좋겠어요."
+    },
+    {
+      "speaker": "B",
+      "ko": "Unday bo'lsa, buni kiyib ko'ring.",
+      "uz": "그럼 이걸 한번 입어 보세요."
+    }
+  ],
+  "book": "2A",
+  "lesson": 4,
+  "origin": "AI yordamida tayyorlangan qo‘shimcha o‘quv materiali"
+}

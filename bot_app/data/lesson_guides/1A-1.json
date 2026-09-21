@@ -1,0 +1,140 @@
+{
+  "overview": "Ushbu dars koreys tilini endi boshlayotganlar uchun eng muhim asosiy salomlashish odoblari, o‘zini tanishtirish va shaxsni aniqlovchi grammatik qoidalarni o‘rgatadi. Kundalik hayotda tanishish va kasb-kor haqida gaplashish ko‘nikmalari shakllantiriladi.",
+  "goals": [
+    "Koreys tilida rasmiy va norasmiy tarzda salomlashishni o‘rganish",
+    "Ot va ismga mos keladigan -은/는 hamda -이에요/예요 bog‘lamalarini ishlatish",
+    "Rasmiy uslubdagi -입니다 va -입니까 shakllarini qo‘llay olish",
+    "Inkor shaklidagi -이/가 아닙니다 qoidasini tushunib, to‘g‘ri gap tuzish"
+  ],
+  "rules": [
+    {
+      "source_key": "grammar:1A:1",
+      "meaning": "Salomlashish va hurmat bildirish uchun ishlatiladigan odob iboralari hisoblanadi. Suhbatdosh bilan birinchi uchrashuvda qo‘llaniladi.",
+      "formation": "Vaziyat va rasmiylik darajasiga qarab '안녕하십니까?', '안녕하세요?' yoki '반갑습니다' kabi maxsus tayyor iboralar yordamida hosil qilinadi.",
+      "usage": "Koreys tilida yoshi ulug‘larga yoki tanish bo‘lmagan kishilarga hurmat ko‘rsatish va muloqotni boshlash uchun ishlatiladi.",
+      "mistake": "Yaqin do‘stga ham rasmiy '안녕하십니까?' deyish nomuvofiq hisoblanadi. Do‘stlar orasida '안녕하세요' yoki norasmiy salomlashish qo‘llanadi.",
+      "examples": [
+        {
+          "ko": "안녕하십니까?",
+          "uz": "Salomatmisiz? (juda rasmiy)"
+        },
+        {
+          "ko": "안녕하세요?",
+          "uz": "Salom / Yaxshimisiz?"
+        },
+        {
+          "ko": "반갑습니다.",
+          "uz": "Tanishganimdan xursandman."
+        }
+      ],
+      "exercise": {
+        "question": "Yangi tanishgan odamga hurmat bilan qanday salom berish kerak? (Bo‘sh joyni to‘ldiring: 안녕____?)",
+        "answer": "안녕하세요?",
+        "explanation": "Rasmiy-odobli muloqotda '안녕하세요?' iborasi eng ko‘p qo‘llaniladigan salomlashish shaklidir."
+      }
+    },
+    {
+      "source_key": "grammar:1A:2",
+      "meaning": "Gapning egasini ko‘rsatuvchi -은/는 yuklamasi va otga qo‘shilib 'men/sen/u ...man' ma’nosini beruvchi -이에요/예요 bog‘lamasidir.",
+      "formation": "Ot undosh bilan tugasa '-은' (mavzu) va '-이에요', unli bilan tugasa '-는' (mavzu) va '-예요' qo‘shiladi.",
+      "usage": "O‘zini tanishtirishda, kasb yoki millatni oddiy va do‘stona tarzda bayon qilishda ishlatiladi.",
+      "mistake": "Unli bilan tugagan so‘zga '-이에요' qo‘shish xato hisoblanadi (masalan: 의사이에요 emas, 의사예요 bo‘lishi kerak).",
+      "examples": [
+        {
+          "ko": "저는 학생이에요.",
+          "uz": "Men o‘quvchiman."
+        },
+        {
+          "ko": "제 친구는 의사예요.",
+          "uz": "Mening do‘stim shifokor."
+        },
+        {
+          "ko": "그는 회사원이에요.",
+          "uz": "U firma xodimi."
+        }
+      ],
+      "exercise": {
+        "question": "Tarjima qiling: 'Men o‘qituvchiman.' (선생님 so‘zidan foydalaning)",
+        "answer": "저는 선생님이에요.",
+        "explanation": "'선생님' so‘zi undosh bilan tugagani uchun -은 va -이에요 qo‘shiladi."
+      }
+    },
+    {
+      "source_key": "grammar:1A:3",
+      "meaning": "Rasmiy hurmat uslubidagi tasdiq (-입니다) va so‘roq (-입니까?) shakllari bo‘lib, shaxs yoki narsaning kimligini bildiradi.",
+      "formation": "Otdan keyin hech qanday qo‘shimcha o‘zgarishsiz to‘g‘ridan-to‘g‘ri '-입니다' (tasdiq) yoki '-입니까?' (so‘roq) qo‘shiladi.",
+      "usage": "Ishxonalarda, rasmiy yig‘ilishlarda, tarjimai hol yoki notanish kattalar bilan muloqotda qo‘llanadi.",
+      "mistake": "-입니다 o‘rniga tasodifan -이에요 ishlatish rasmiy muhitda etiket qoidasining buzilishi hisoblanadi.",
+      "examples": [
+        {
+          "ko": "저는 한국 사람입니다.",
+          "uz": "Men koreyalikman."
+        },
+        {
+          "ko": "당신은 의사입습니까?",
+          "uz": "Siz shifokormisiz?"
+        },
+        {
+          "ko": "그분은 선생님입니다.",
+          "uz": "U kishi o‘qituvchi."
+        }
+      ],
+      "exercise": {
+        "question": "Rasmiy tarzda 'Men Xitoylikman' deb qanday aytiladi? (중국 + 사람)",
+        "answer": "저는 중국 사람입니다.",
+        "explanation": "Rasmiy tanishtiruvda -입니다 qo‘shimchasi qo‘llaniladi."
+      }
+    },
+    {
+      "source_key": "grammar:1A:4",
+      "meaning": "Otga qo‘shilib '... emas' ma’nosini bildiruvchi inkor grammatik shaklidir.",
+      "formation": "Ot + 이/가 아닙니다. Agar ot undosh bilan tugasa '이 아닙니다', unli bilan tugasa '가 아닙니다' ishlatiladi.",
+      "usage": "Biror narsa yoki shaxs aslida kim yoki nima emasligini rad etish va to‘g‘rilash uchun ishlatiladi.",
+      "mistake": "Unli bilan tugagan so‘zga '이 아닙니다' qo‘shish xato (masalan: 학교가 아닙니다 to‘g‘ri, 학교이 아닙니다 xato).",
+      "examples": [
+        {
+          "ko": "저는 의사원이 아닙니다.",
+          "uz": "Men firma xodimi emasman."
+        },
+        {
+          "ko": "여기는 학교가 아닙니다.",
+          "uz": "Bu yer maktab emas."
+        },
+        {
+          "ko": "그는 학생이 아닙니다.",
+          "uz": "U o‘quvchi emas."
+        }
+      ],
+      "exercise": {
+        "question": "Bo‘sh joyni to‘ldiring (Fransiya emas): 프랑스___ 아닙니다.",
+        "answer": "가",
+        "explanation": "프랑스 so‘zi unli bilan tugagani uchun '가 아닙니다' ishlatiladi."
+      }
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "A",
+      "ko": "안녕하십니까? 저는 김 칠수입니다.",
+      "uz": "Salomatmisiz? Men Kim Chilsuvman."
+    },
+    {
+      "speaker": "B",
+      "ko": "안녕하세요? 저는 학생입니까?",
+      "uz": "Salom? Siz o‘quvchimisiz?"
+    },
+    {
+      "speaker": "A",
+      "ko": "아니요, 저는 학생이 아닙니다. 회사원입니다.",
+      "uz": "Yo‘q, men o‘quvchi emasman. Firma xodimiiman."
+    },
+    {
+      "speaker": "B",
+      "ko": "반갑습니다.",
+      "uz": "Tanishganimdan xursandman."
+    }
+  ],
+  "book": "1A",
+  "lesson": 1,
+  "origin": "AI yordamida tayyorlangan qo‘shimcha o‘quv materiali"
+}

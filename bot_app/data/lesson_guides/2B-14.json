@@ -1,0 +1,139 @@
+{
+  "overview": "Ushbu dars koreys tilidagi shaxsiy tajriba, harakat sodir bo'lgan vaqt hamda ruxsat berish va taqiqlash qoidalarini mukammal o'rganishga yordam beradi. Kundalik muloqotda odob-axloq qoidalarini muhokama qilishda bu grammatikalar juda muhim hisoblanadi.",
+  "goals": [
+    "Shaxsiy hayotiy tajribani (-(으)ㄴ 적이 있다/없다) ifodalashni o'rganish",
+    "Muayyan vaqtda sodir bo'lgan holatni (았/었을 때) ifodalash",
+    "Ruxsat berish (-아도/어도 되다) va taqiqlash (-(으)면 안 되다) qoidalarini qo'llash"
+  ],
+  "rules": [
+    {
+      "source_key": "grammar:2B:17",
+      "meaning": "O'tgan zamondagi shaxsiy tajriba yoki harakatni boshidan kechirganlik yoki kechirmaganlikni bildiradi. O'zbek tilidagi '-ganman / -maganman' qo'shimchasiga mos keladi.",
+      "formation": "Unli o‘zakka ㄴ 적이 있다/없다, undosh o‘zakka 은 적이 있다/없다. ㄹ tushadi: 살다 → 산 적이 있다. 적 oldidan bo‘sh joy qoldiriladi.",
+      "usage": "O'tmishdagi qiziqarli voqealar, sayohatlar yoki bajarilgan ishlar haqida gapirganda ishlatiladi.",
+      "mistake": "살은 적이 있어요 emas, 산 적이 있어요. ㄹ tushib, ㄴ qo‘shiladi. 경험 ma’nosidagi 적 alohida yoziladi.",
+      "examples": [
+        {
+          "ko": "저는 한국에 간 적이 있어요.",
+          "uz": "Men Koreyaga borganman."
+        },
+        {
+          "ko": "김치를 먹은 적이 없어요.",
+          "uz": "Kimchi yeb ko‘rmaganman."
+        },
+        {
+          "ko": "이 영화를 본 적이 있어요.",
+          "uz": "Bu kinoni ko‘rganman."
+        }
+      ],
+      "exercise": {
+        "question": "한국어를 배우다 orqali koreys tilini o‘rgangan tajribangiz borligini ayting.",
+        "answer": "한국어를 배운 적이 있어요.",
+        "explanation": "배우- unli o‘zakka ㄴ qo‘shiladi: 배운 적이 있어요."
+      }
+    },
+    {
+      "source_key": "grammar:2B:18",
+      "meaning": "Biror ish-harakat yoki holat sodir bo'lgan paytni yoki zamonni bildiradi. O'zbek tilidagi '-gan paytda / -ganda' ma'nosini beradi.",
+      "formation": "Fe'l va sifat o'zagiga 았/었을 때 qo'shiladi. O'zak unlisi ㅏ/ㅗ bo'lsa -았을 때, qolganlarida -었을 때 ishlatiladi. Masalan: 가다 -> 갔을 때, 먹다 -> 먹었을 때.",
+      "usage": "Bolalik payti, yoshlik davri yoki o'tmishdagi aniq bir vaqtni tasvirlashda qo'llaniladi.",
+      "mistake": "왔을 때 yoziladi, 왓을 때 emas. 때 alohida yoziladi. 갈 때 bilan 갔을 때 orasidagi vaqt va tugallanish farqini kontekstga qarab kuzating.",
+      "examples": [
+        {
+          "ko": "어렸을 때 자주 놀았어요.",
+          "uz": "Kichikligimda tez-tez o‘ynardim."
+        },
+        {
+          "ko": "한국에 처음 왔을 때 모든 것이 신기했어요.",
+          "uz": "Koreyaga ilk kelganimda hamma narsa menga qiziq tuyulgan."
+        },
+        {
+          "ko": "바빴을 때 도와주셔서 감사합니다.",
+          "uz": "Band paytimda yordam berganingiz uchun rahmat."
+        }
+      ],
+      "exercise": {
+        "question": "'젊다' (yosh bo'lmoq) sifatini 'yosh bo'lgan paytda' shakliga o'zgartiring.",
+        "answer": "젊었을 때",
+        "explanation": "'젊다' o'zagi undosh bilan tugaydi va unlisi ㅓ bo'lgani uchun -었을 때 qo'shilib '젊었을 때' bo'ladi."
+      }
+    },
+    {
+      "source_key": "grammar:2B:19",
+      "meaning": "Biror ishni qilishga ruxsat borligini bildiradi. O'zbek tilidagi '-sa bo'ladi' ma'nosini beradi.",
+      "formation": "Fe'l o'zagining oxirgi unlisi ㅏ/ㅗ bo'lsa -아도 되다, boshqa unlilar bo'lsa -어도 되다 qo'shiladi. Masalan: 앉다 -> 앉아도 되다.",
+      "usage": "Savol berganda yoki ruxsat so'raganda hamda javob berganda ishlatiladi.",
+      "mistake": "Noto'g'ri unli guruhini tanlash. Masalan, '보다' fe'liga 보어도 되다 deyish, aslida '봐도 되다' bo'lishi kerak.",
+      "examples": [
+        {
+          "ko": "여기에 앉아도 돼요?",
+          "uz": "Bu yerga o'tirsam bo'ladimi?"
+        },
+        {
+          "ko": "사진을 찍어도 돼요.",
+          "uz": "Rasmga tushirsangiz bo'ladi."
+        },
+        {
+          "ko": "질문을 해도 되나요?",
+          "uz": "Savol bersam bo'ladimi?"
+        }
+      ],
+      "exercise": {
+        "question": "'들어가다' (kirmoq) fe'lini ruxsat so'rash shakliga o'zgartiring.",
+        "answer": "들어가도 돼요",
+        "explanation": "'들어가다' fe'lining oxirgi unlisi ㅏ bo'lgani uchun -아도 돼요 qo'shiladi."
+      }
+    },
+    {
+      "source_key": "grammar:2B:20",
+      "meaning": "Biror ishni qilish taqiqlanganini yoki mumkin emasligini bildiradi. O'zbek tilidagi '-sa bo'lmaydi' yoki '-maslik kerak' ma'nosini beradi.",
+      "formation": "Unli yoki ㄹ o‘zakka 면 안 되다, boshqa undoshga 으면 안 되다 qo‘shiladi. ㄹ saqlanadi: 만들면 안 돼요.",
+      "usage": "Qoidalar, taqiqlar va cheklovlarni tushuntirishda ishlatiladi.",
+      "mistake": "Faqat ruxsat beruvchi shaklga инkor qo'shimchasi qo'shib qo'yish. Aslida taqiq uchun aynan shu -(으)면 안 되다 qolipidan foydalaniladi.",
+      "examples": [
+        {
+          "ko": "여기에서 담배를 피우면 안 돼요.",
+          "uz": "Bu yerda tamaki chekish mumkin emas."
+        },
+        {
+          "ko": "수업 시간에 전화하면 안 돼요.",
+          "uz": "Dars paytida telefon qilish mumkin emas."
+        },
+        {
+          "ko": "음식을 가지고 들어가면 안 됩니다.",
+          "uz": "Ovqat olib kirish taqiqlanadi."
+        }
+      ],
+      "exercise": {
+        "question": "'전화를 하다' fe'lini taqiq shakliga o'zgartiring.",
+        "answer": "전화를 하면 안 돼요",
+        "explanation": "'하다' fe'li unli bilan tugagani uchun -면 안 돼요 qo'shiladi."
+      }
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "A",
+      "ko": "민수 씨, 한국에서 두 손으로 물건을 받아야 해요?",
+      "uz": "Minsu-bek, Koreyada buyumlarni ikki qo'lda olish kerakmi?"
+    },
+    {
+      "speaker": "B",
+      "ko": "네, 한 손으로 받으면 안 돼요.",
+      "uz": "Ha, bir qo'lda olsa bo'lmaydi."
+    },
+    {
+      "speaker": "A",
+      "ko": "아, 몰랐어요. 한국에 처음 왔을 때 실수를 한 적이 있어요.",
+      "uz": "A, bilmasdim. Koreyaga ilk kelgan paytimda xato qilgan tajribam bor."
+    },
+    {
+      "speaker": "B",
+      "ko": "괜찮아요. 지금부터 조심하면 돼요.",
+      "uz": "Zarari yo'q. Hozirdan ehtiyot bo'lsangiz bo'ladi."
+    }
+  ],
+  "book": "2B",
+  "lesson": 14,
+  "origin": "AI yordamida tayyorlangan qo‘shimcha o‘quv materiali"
+}

@@ -1,0 +1,140 @@
+{
+  "overview": "Ushbu dars kundalik muloqotni yanada boyitish, suhbatdoshdan tasdiq olish, hozirgi paytda bajarilayotgan harakatlarni ifodalash, qobiliyat yo'qligini bildirish hamda sabab-oqibat bog'lanishlarini to'g'ri tuzishga qaratilgan.",
+  "goals": [
+    "Suhbatdoshdan 'shunday emasmi?' mazmunida tasdiq olishni o'rganish",
+    "Hozirgi vaqtda davom etayotgan jarayonlarni tasvirlash",
+    "Imkoniyatsizlik va qobiliyatsizlikni ifodalashni o'zlashtirish",
+    "Harakat sabablarini to'g'ri izohlash ko'nikmasini shakllantirish"
+  ],
+  "rules": [
+    {
+      "source_key": "grammar:1B:13",
+      "meaning": "Ma'nosi: O'zbek tilidagi '~a?', '~ya?', 'shunday emasmi?' yoki 'to'g'rimi?' ma'nosini bildiradi. Suhbatdoshning fikriga qo'shilishini kutish yoki ma'lum bir narsani tasdiqlatish uchun ishlatiladi.",
+      "formation": "Fe’l/sifat o‘zagiga 지요 qo‘shiladi; o‘tgan zamonda 았/었지요 ishlatiladi. Ot undosh bilan tugasa 이지요, unli bilan tugasa (이)지요: 학생이지요, 의사지요. 지요 og‘zaki nutqda 죠 deb qisqaradi.",
+      "usage": "Qachon ishlatiladi: Suhbatdosh bilan biror narsada fikringiz bir xilligini tekshirganda yoki ma'lum bir faktni eslatib, uning tasdig'ini olganda qo'llanadi.",
+      "mistake": "Xato: Otlarga to'g'ridan-to'g'ri ~지요 deb qo'shish (masalan: 학생지요). To'g'ri variant:학생이지요. Sababi: ot oxiri undosh bilan tugasa 이지요 ishlatilishi shart.",
+      "examples": [
+        {
+          "ko": "오늘 날씨가 참 춥지요?",
+          "uz": "Bugun havo juda sovuq-a?"
+        },
+        {
+          "ko": "저분은 우리 한국어 선생님이지요?",
+          "uz": "Anavi kishi bizning koreys tili ustozimiz-a?"
+        },
+        {
+          "ko": "이 영화는 정말 재미있지요?",
+          "uz": "Bu kino rostdan qiziqarli-ya?"
+        }
+      ],
+      "exercise": {
+        "question": "Ertaga shanba-a? gapini 토요일 va 지요 yordamida tuzing.",
+        "answer": "내일은 토요일이지요?",
+        "explanation": "토요일 ㄹ undoshi bilan tugaydi, shuning uchun 이지요 ishlatiladi."
+      }
+    },
+    {
+      "source_key": "grammar:1B:14",
+      "meaning": "Ma'nosi: O'zbek tilidagi hozirgi davom zamoni qo'shimchasi '~yapman', '~yaprisan', '~yapti' ma'nosini beradi.",
+      "formation": "Harakat fe’li o‘zagiga 고 있다 qo‘shiladi. 있다 gapning uslubi va zamoniga qarab o‘zgaradi, shaxsga qarab emas: 읽고 있어요, 읽고 있었어요.",
+      "usage": "Qachon ishlatiladi: Ayni damda, gapirilayotgan paytda sodir bo'layotgan yoki davom etayotgan harakatlarni ko'rsatish uchun ishlatiladi.",
+      "mistake": "Xato: Sifatlarga '~고 있다' qo'shish (masalan: 예쁘고 있다). To'g'ri variant: 예쁘다. Sababi: Bu grammatika faqat harakat fe'llari bilan ishlatiladi, sifatlarga qo'shilmaydi.",
+      "examples": [
+        {
+          "ko": "지금 친구와 같이 밥을 먹고 있어요.",
+          "uz": "Hozir do‘stim bilan ovqat yeyapman."
+        },
+        {
+          "ko": "동생은 방에서 책을 읽고 있어요.",
+          "uz": "Ukam xonada kitob o‘qiyapti."
+        },
+        {
+          "ko": "어머니가 부엌에서 요리를 하고 있어요.",
+          "uz": "Onam oshxonada ovqat pishiryaptilar."
+        }
+      ],
+      "exercise": {
+        "question": "Qavs ichidagi fe'lni davom zamonida yozing: '아버지는 지금 신문을 ________.' (읽다)",
+        "answer": "읽고 있어요",
+        "explanation": "읽다 fe'lining o'zagi '읽-' ga '-고 있어요' qo'shilib, hozirgi davom zamonini hosil qiladi."
+      }
+    },
+    {
+      "source_key": "grammar:1B:15",
+      "meaning": "Ma'nosi: O'zbek tilidagi jismoniy yoki tashqi sharoitlar tufayli biror ishni bajarishga 'kuchi yetmaslik', '~qila olmaslik' ma'nosini bildiradi.",
+      "formation": "Harakat fe’li oldiga 못 qo‘yiladi: 못 가요. 공부하다 kabi birikmada 공부 못 해요 yoki 공부를 못 해요 deyiladi. 못 harakatni bajarishga imkon yoki qobiliyat yo‘qligini bildiradi.",
+      "usage": "Qachon ishlatiladi: Tashqi to'siqlar yoki mahorat yetishmasligi tufayli harakatni amalga oshirib bo'lmaganda ishlatiladi.",
+      "mistake": "Xato: Sifatlar bilan 못 ni ishlatish (masalan: 못 예뻐요). To'g'ri variant: 안 예뻐요. Sababi: 못 faqat harakat fe'llari bilan ishlatiladi.",
+      "examples": [
+        {
+          "ko": "오늘 바빠서 영화를 보러 못 가요.",
+          "uz": "Bugun band bo'lganim uchun kinoga bora olmayman."
+        },
+        {
+          "ko": "한국 음식이 너무 매워서 못 먹어요.",
+          "uz": "Koreys ovqati juda achchiq bo'lgani uchun ye olmayman."
+        },
+        {
+          "ko": "다리를 다쳐서 수영을 못 해요.",
+          "uz": "Oyog'imni shikastlab olganim uchun suza olmayman."
+        }
+      ],
+      "exercise": {
+        "question": "Tarjima qiling: 'Men koreys tilida yoza olmayman.'",
+        "answer": "저는 한국어를 못 써요.",
+        "explanation": "Yoza olmaslik jismoniy yoki ko'nikma yetishmasligi bo'lgani uchun 안 emas, 못 ishlatiladi."
+      }
+    },
+    {
+      "source_key": "grammar:1B:16",
+      "meaning": "Ma'nosi: O'zbek tilidagi '~sh sababli', '~gani uchun' ma'nosini anglatadi. Sabab va oqibatni bog'laydi.",
+      "formation": "Fe'l yoki sifat o'zagi unlisi ㅏ yoki ㅗ bilan tugasa '~아서', qolgan hollarda '~어서' qo'shiladi. '하다' fe'llari '해서' ga o'zgaradi.",
+      "usage": "Qachon ishlatiladi: Oldingi qism keyingi qismdagi holat yoki harakatning sababi ekanligini tushuntirganda ishlatiladi.",
+      "mistake": "Xato: Buyruq (으세요) yoki taklif (~읍시다) shakllari bilan birga ishlatish. Sababi: 아서/어서 kelgan jumlada buyruq va taklif shakllari ishlatilmay.",
+      "examples": [
+        {
+          "ko": "머리가 아파서 병원에 갔어요.",
+          "uz": "Boshim og'riganligi uchun kasalxonaga bordim."
+        },
+        {
+          "ko": "날씨가 좋아서 산책을 해요.",
+          "uz": "Ob-havo yaxshi bo'lgani uchun sayr qilyapman."
+        },
+        {
+          "ko": "늦잠을 자서 회사에 늦었어요.",
+          "uz": "Uxlab qolganim sababli ishga kechikdim."
+        }
+      ],
+      "exercise": {
+        "question": "배가 고프다 + 밥을 먹어요 gaplarini sabab bilan bog‘lang.",
+        "answer": "배가 고파서 밥을 먹어요.",
+        "explanation": "고프- dagi ㅡ tushadi, oldingi bo‘g‘in unlisi ㅗ bo‘lgani uchun 아서 qo‘shiladi: 고파서. Tarjimasi: Qornim och bo‘lgani uchun ovqat yeyapman."
+      }
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "A",
+      "ko": "민수 씨, 지금 뭐 하고 있어요?",
+      "uz": "Minsu-sshi, hozir nima qilyapsiz?"
+    },
+    {
+      "speaker": "B",
+      "ko": "숙제를 하고 있어요. 그런데 문제가 너무 어려워서 못 풀겠어요.",
+      "uz": "Uy vazifasini qilyapman. Lekin masala juda qiyin bo'lgani uchun yecha olmayapman."
+    },
+    {
+      "speaker": "A",
+      "ko": "제가 도와줄까요? 저도 이 책을 잘 알지요?",
+      "uz": "Sizga yordam beraymi? Men ham bu kitobni yaxshi bilaman-a?"
+    },
+    {
+      "speaker": "B",
+      "ko": "네, 고맙습니다. 정말이지요?",
+      "uz": "Ha, rahmat. Rostdanmi?"
+    }
+  ],
+  "book": "1B",
+  "lesson": 12,
+  "origin": "AI yordamida tayyorlangan qo‘shimcha o‘quv materiali"
+}

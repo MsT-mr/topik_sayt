@@ -1,0 +1,140 @@
+{
+  "overview": "Ushbu dars kundalik hayotda harakat rejalari haqida gapirish, masofa va yo'nalishlarni tushuntirish hamda boshqalarga yordam berishni ifodalash uchun zarur bo'lgan asosiy koreys tili grammatikalarini o'rgatadi.",
+  "goals": [
+    "Fe'llarga qo'shiladigan (으)려고 하다 grammatikasi yordamida o'z niyat va rejalarini ifodalash.",
+    "Otlar bilan에서 va 까지 yordamchilarini ishlatib, makon va masofani aniq ko'rsatish.",
+    "Boshqalarga yordam berishni bildirish uchun -아/어 주다 tuzilmasidan foydalanish.",
+    "(으)로 qo'shimchasi yordamida yo'nalish va harakat vositalarini to'g'ri qo'llash."
+  ],
+  "rules": [
+    {
+      "source_key": "grammar:1B:17",
+      "meaning": "Fe'l o'zaklariga qo'shilib, subyektning biron ish-harakatni qilish niyati yoki rejasini bildiradi. O'zbek tilidagi '~moqchi (man, san...)' ma'nosiga mos keladi.",
+      "formation": "Fe'l o'zak undosh bilan tugasa (ㄹ dan tashqari) -으려고 하다, unli yoki ㄹ bilan tugasa -려고 하다 qo'shiladi.",
+      "usage": "Kelajakdagi shaxsiy rejalarni, niyatlarni va maqsadlarni ifodalashda keng qo'shaniladi.",
+      "mistake": "Ba'zi o'quvchilar undosh bilan tugagan fe'lga ham to'g'ridan-to'g'ri -려고 하다 qo'shib xato qilishadi. Masalan, 먹려고 해요 - noto'g'ri, 먹으려고 해요 - to'g'ri, chunki 먹- undosh bilan tugaydi.",
+      "examples": [
+        {
+          "ko": "한국어를 배우려고 해요.",
+          "uz": "Koreys tilini o‘rganmoqchiman."
+        },
+        {
+          "ko": "내일 친구를 만나려고 해요.",
+          "uz": "Ertaga do‘stim bilan uchrashmoqchiman."
+        },
+        {
+          "ko": "책을 읽으려고 해요.",
+          "uz": "Kitob o‘qimoqchiman."
+        }
+      ],
+      "exercise": {
+        "question": "Quyidagi gapni '(으)려고 하다' grammatikasi yordamida to'ldiring: '주말에 영화를 (보다)'",
+        "answer": "주말에 영화를 보려고 해요.",
+        "explanation": "보- fe'li unli bilan tugagani uchun '-려고 해요' qo'shildi."
+      }
+    },
+    {
+      "source_key": "grammar:1B:18",
+      "meaning": "Birlikdagi otlarga qo'shilib, harakatning boshlanish nuqtasini (~dan) va tugash nuqtasini (~gacha) bildiradi.",
+      "formation": "Boshlang'ich joy otiga -에서, tugash joy otiga -까지 qo'shiladi.",
+      "usage": "Makon, masofa yoki vaqt oralig'ini ko'rsatishda ishlatiladi.",
+      "mistake": "에서 — boshlanish, 까지 — oxirgi nuqta: 집에서 학교까지. Ikkalasi doim birga kelishi shart emas: 학교까지 가요 ham to‘g‘ri. Vaqt boshlanishi uchun esa 보통 부터: 아홉 시부터.",
+      "examples": [
+        {
+          "ko": "집에서 회사까지 걸어가요.",
+          "uz": "Uydan kompaniyagacha piyoda boraman."
+        },
+        {
+          "ko": "서울에서 부산까지 기차로 가요.",
+          "uz": "Seuldan Pusanagacha poyezdda boraman."
+        },
+        {
+          "ko": "도서관에서 교실까지 가요.",
+          "uz": "Kutubxonadan sinfxonagacha boraman."
+        }
+      ],
+      "exercise": {
+        "question": "Maktabdan do‘kongacha birikmasini tarjima qiling.",
+        "answer": "학교에서 가게까지",
+        "explanation": "학교 ga 에서, 가게 ga 까지 qo‘shiladi."
+      }
+    },
+    {
+      "source_key": "grammar:1B:19",
+      "meaning": "Birov uchun biror yaxshilik yoki yordam sifatidagi ishni bajarishni bildiradi. O'zbek tilidagi '~ib bermoq' ma'nosiga mos keladi.",
+      "formation": "Fe'l o'zaklariga -아 주다, -어 주다 yoki -해 주다 qo'shiladi (zamonga qarab tuslanadi).",
+      "usage": "Boshqa bir insonga yordam ko'rsatganda yoki iltimos qilganda ishlatiladi.",
+      "mistake": "Faqat fe'lning o'zini ishlatib, yordam ma'nosini bermaslik yoki noto'g'ri unli uyg'unligini tanlash (masalan, ㅏ/ㅗ dan keyin -어 주다 deyish).",
+      "examples": [
+        {
+          "ko": "한국어를 가르쳐 주세요.",
+          "uz": "Iltimos, menga koreys tilini o‘rgating."
+        },
+        {
+          "ko": "친구가 숙제를 도와주었어요.",
+          "uz": "Do‘stim uy vazifamga yordam berdi."
+        },
+        {
+          "ko": "문을 열어 주세요.",
+          "uz": "Iltimos, eshikni ochib bering."
+        }
+      ],
+      "exercise": {
+        "question": "Quyidagi fe'lga -아/어 주다 qo'shib yozing: '사다' (Sotib olmoq - o'tgan zamon)",
+        "answer": "사 주었어요",
+        "explanation": "사- unlisi ㅏ bilan tugagani uchun -아 주다 qo'shilib, 사 주었어요 bo'ladi."
+      }
+    },
+    {
+      "source_key": "grammar:1B:20",
+      "meaning": "Otga qo'shilib harakat yo'nalishini (~ga, tomonga), vositani (~orqali, bilan) yoki holatni bildiradi.",
+      "formation": "Ot unli yoki 'ㄹ' bilan tugasa -로, boshqa undoshlar bilan tugasa -으로 qo'shiladi. (Istisno: ㄹ bilan tugaganda -로 ishlatiladi).",
+      "usage": "Yo'nalish ko'rsatganda yoki biror transport vositasi yordamida harakatlanganda qo'shiladi.",
+      "mistake": "버스 unli ㅡ bilan tugaydi: 버스로 to‘g‘ri, 버스으로 noto‘g‘ri. 집 undosh ㅂ bilan tugaydi: 집으로. ㄹ istisno: 지하철로.",
+      "examples": [
+        {
+          "ko": "버스로 회사에 가요.",
+          "uz": "Avtobus bilan (avtobusda) kompaniyaga boraman."
+        },
+        {
+          "ko": "오른쪽으로 가세요.",
+          "uz": "O'ng tomonga yuring."
+        },
+        {
+          "ko": "지하철로 여행해요.",
+          "uz": "Metropolitenda sayohat qilaman."
+        }
+      ],
+      "exercise": {
+        "question": "Quyidagi so'zga yo'nalish qo'shimchasini qo'shing: '집' (Uy)",
+        "answer": "집으로",
+        "explanation": "집 so'zi ㅂ undoshi bilan tugagani uchun -으로 qo'shiladi."
+      }
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "A",
+      "ko": "내일 기차역까지 어떻게 가려고 해요?",
+      "uz": "Ertaga poyezd vokzaligacha qanday bormoqchisiz?"
+    },
+    {
+      "speaker": "B",
+      "ko": "집에서 지하철역까지 걸어가고, 거기서 지하철로 갈아타려고 해요.",
+      "uz": "Uydan metro bekatiigacha piyoda borib, u yerdan metroga almashtirib minmoqchiman."
+    },
+    {
+      "speaker": "A",
+      "ko": "무거운 가방이 많네요. 제가 도와줄까요?",
+      "uz": "Og'ir sumkalar ko'p ekan. Men yordam beraymi?"
+    },
+    {
+      "speaker": "B",
+      "ko": "네, 고맙습니다. 저를 도와주세요.",
+      "uz": "Ha, rahmat. Menga yordam bering."
+    }
+  ],
+  "book": "1B",
+  "lesson": 13,
+  "origin": "AI yordamida tayyorlangan qo‘shimcha o‘quv materiali"
+}

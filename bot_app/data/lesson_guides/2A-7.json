@@ -1,0 +1,140 @@
+{
+  "overview": "Ushbu dars Seoul 2A darsligining 7-bobiga bag‘shlangan bo‘lib, kundalik hayotda yo‘nalish so‘rash, taxmin qilish, maqsad qo‘yish va harakatlar ketma-ketligini bildirishda muhim bo‘lgan to‘rtta asosiy grammatik qoidani o‘z ichiga oladi. O‘quvchilar bu bilimlar yordamida o‘z fikrlarini aniqroq va tabiiyroq ifoda etishni o‘rganadilar.",
+  "goals": [
+    "Fe'l va sifatlarga (으)ㄹ 것 같다 qo'shimchasini qo'shib taxmin qilishni o'rganish.",
+    "Bilib qo'yish yoki bilmaslikni -는지 알다/모르다 yordamida ifodalash.",
+    "Biror narsani qilish niyatida bo'lganda (으)려면 grammatikasini qo'llash.",
+    "Harakat davomida boshqa harakatga o'tishni -다가 orqali tushuntirish."
+  ],
+  "rules": [
+    {
+      "source_key": "grammar:2A:26",
+      "meaning": "Fe'l va sifatlarga qo'shilib, biror holat yoki harakat sodir bo'lishi haqida shaxsiy taxminni bildiradi. O'zbek tiliga '-adiganga o'xshamoq' yoki '-sa kerak' deb tarjima qilinadi.",
+      "formation": "Undosh bilan tugagan fe'l o'zagiga -을 것 같다, unli bilan tugaganiga -ㄹ 것 같다 qo'shiladi. Sifatlar bilan ham xuddi shunday qoida ishlaydi.",
+      "usage": "Kelajakdagi voqealar yoki hozirgi holat yuzasidan o'z taxminimizni yumshoq tarzda bayon qilishda ishlatiladi.",
+      "mistake": "Ba'zi o'quvchilar fe'lning o'tgan zamon shakliga ham kelajak qo'shimchasini aralashtirib yuboradilar. O'tgan zamon taxmini uchun -았/었을 것 같다 ishlatilishi kerak.",
+      "examples": [
+        {
+          "ko": "내일 비가 올 것 같아요.",
+          "uz": "Ertaga yomg‘ir yog‘adiganga o‘xshaydi."
+        },
+        {
+          "ko": "그 영화가 재미있을 것 같아요.",
+          "uz": "U kino qiziqarli bo‘lsa kerak."
+        },
+        {
+          "ko": "주말에는 사람이 많을 것 같아요.",
+          "uz": "Dam olish kuni odam ko‘p bo‘lsa kerak."
+        }
+      ],
+      "exercise": {
+        "question": "이 음식은 맛있어요 gapini taxmin shakliga o‘tkazing.",
+        "answer": "이 음식은 맛있을 것 같아요.",
+        "explanation": "맛있- undosh bilan tugaydi, shuning uchun 을 것 같아요 qo‘shiladi."
+      }
+    },
+    {
+      "source_key": "grammar:2A:27",
+      "meaning": "Fe'l yoki sifatlarga qo'shilib, biror narsaning sababi, holati yoki mavjudligini bilish yoki bilmaslikni bildiradi. O'zbek tiliga '-ligini bilmoq / bilmaslik' deb tarjima qilinadi.",
+      "formation": "Fe’l+는지, sifat+(으)ㄴ지, ot+인지; 있다/없다 bilan 있는지/없는지 ishlatiladi. ㄹ fe’llarda ㄹ tushadi: 살다 → 사는지. O‘tgan zamon: 았/었는지. Keyin 알다/모르다 keladi.",
+      "usage": "Ma'lum bir ma'lumotdan xabardor ekanlik yoki xabardor emaslikni muloyim bildirish uchun ishlatiladi.",
+      "mistake": "Fe'l va sifat qoidalarini adashtirish keng tarqalgan xato. Sifatlar uchun -은지 ishlatilishini unutmaslik lozim.",
+      "examples": [
+        {
+          "ko": "한국어 시험이 언제인지 아세요?",
+          "uz": "Koreys tili imtihoni qachonligini bilasizmi?"
+        },
+        {
+          "ko": "그 사람이 어디에 사는지 몰라요.",
+          "uz": "U kishi qayerda yashashini bilmayman."
+        },
+        {
+          "ko": "서울역에 어떻게 가는지 알아요.",
+          "uz": "Seul vokzaliga qanday borishni bilaman."
+        }
+      ],
+      "exercise": {
+        "question": "Bo'sh joyni to'ldiring: 저 식당이 닫았어요? -> 저 식당이 문을 닫았는지 ...",
+        "answer": "몰라요",
+        "explanation": "Do'kon yopilgan-yopilmaganligini bilmasligini bildirish uchun -는지 모르다 qoidasi qo'llaniladi."
+      }
+    },
+    {
+      "source_key": "grammar:2A:28",
+      "meaning": "Biror harakatni amalga oshirish uchun shart yoki maqsadni ko'rsatadi. O'zbek tiliga '-moqchi bo'lsangiz' deb tarjima qilinadi.",
+      "formation": "Undosh bilan tugagan fe'l o'zagiga -으려면, unli bilan tugagan yoki ㄹ bilan tugagan fe'llarga -려면 qo'shiladi.",
+      "usage": "Maslahat berishda yoki muayyan maqsadga erishish uchun nima qilish kerakligini tushuntirishda ishlatiladi.",
+      "mistake": "Fe'l o'zagidagi ㄹ harfini tushirib qoldirmasdan -으려면 ni noto'g'ri qo'shish xato hisoblanadi (masalan, 살다 -> 살으려면 emas, 살려면 bo'ladi).",
+      "examples": [
+        {
+          "ko": "서울역에 가려면 지하철을 타세요.",
+          "uz": "Seul stansiyasiga bormoqchi bo'lsangiz, metrodan foydalaning."
+        },
+        {
+          "ko": "한국어를 잘 하려면 매일 연습해야 해요.",
+          "uz": "Koreys tilini yaxshi bilmoqchi bo'lsangiz, har kuni mashq qilishingiz kerak."
+        },
+        {
+          "ko": "이 책을 읽으려면 서점에 가야 해요.",
+          "uz": "Bu kitobni o'qimoqchi bo'lsangiz, kitob do'koniga borishingiz kerak."
+        }
+      ],
+      "exercise": {
+        "question": "Qavs ichidagi fe'lni to'g'ri shaklda yozing: 한국 음식을 (만들다) ... 시장에 가야 합니다.",
+        "answer": "만들려면",
+        "explanation": "Fe'l o'zagi '만들-' harfi 'ㄹ' bilan tugagani uchun to'g'ridan-to'g'ri '-려면' qo'shiladi."
+      }
+    },
+    {
+      "source_key": "grammar:2A:29",
+      "meaning": "Biror harakatni bajarayotgan paytda to'satdan boshqa harakatga o'tilishini yoki bir harakat to'xtatilib boshqasi boshlanishini bildiradi. O'zbek tiliga '-(a)yotib' deb tarjima qilinadi.",
+      "formation": "Fe’l o‘zagiga 다가 qo‘shiladi: 가다가, 읽다가. Jarayon davomida boshqa ishga o‘tish yoki hodisa yuz berishini bildiradi. 았/었다가 shaklining ma’nosi boshqacha, uni oddiy 다가 bilan almashtirmang.",
+      "usage": "Yo'lda ketayotib burilish yoki bir ishni qilib turib boshqa ishga o'tish holatlarida ishlatiladi.",
+      "mistake": "Birinchi shaxs va ikkinchi shaxs subyektlari har xil bo'lgan jumlalarda -다가 ni ishlatish ba'zan xatoga olib keladi (odatda bitta egasining ikki ketma-ket harakati uchun qo'llaniladi).",
+      "examples": [
+        {
+          "ko": "학교에 가다가 친구를 만났어요.",
+          "uz": "Maktabga ketayotib do‘stimni uchratdim."
+        },
+        {
+          "ko": "숙제를 하다가 잠이 들었어요.",
+          "uz": "Uy vazifasini bajarayotib uxlab qoldim."
+        },
+        {
+          "ko": "텔레비전을 보다가 전화를 받았어요.",
+          "uz": "Televizor ko‘rayotib telefon qo‘ng‘irog‘iga javob berdim."
+        }
+      ],
+      "exercise": {
+        "question": "Quyidagi gapni biriktiring: 길을 걸어가다 + 전화를 받다 -> 길을 ...",
+        "answer": "걸어가다가 전화를 받았어요.",
+        "explanation": "Yo'lda ketish harakati davom etayotganda telefon qo'ng'irog'i kelib chiqqani uchun -다가 qo'shimchasi ishlatiladi."
+      }
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "A",
+      "ko": "실례합니다. 지하철역에 가려면 어느 쪽으로 가야 할지요?",
+      "uz": "Kechirasiz. Metro bekatiga bormoqchi bo'lsam, qaysi tomonga borishim kerakligini bilasizmi?"
+    },
+    {
+      "speaker": "B",
+      "ko": "저기 사거리까지 쭉 가다가 오른쪽으로 돌면 지하철 정류장이 나올 거예요.",
+      "uz": "Anavi chorrahagacha to'g'ri borib, o'ng tomonga bursangiz, metro bekati chiqib keladi."
+    },
+    {
+      "speaker": "A",
+      "ko": "아, 저 신호등 건ner서 가면 되는군요. 감사합니다!",
+      "uz": "Aha, anavi svetoforni kesib o'tib ketsam bo'lar ekan-da. Rahmat!"
+    },
+    {
+      "speaker": "B",
+      "ko": "천만에요. 조심해서 가세요.",
+      "uz": "Arzimaydi. Ehtiyot bo'lib boring."
+    }
+  ],
+  "book": "2A",
+  "lesson": 7,
+  "origin": "AI yordamida tayyorlangan qo‘shimcha o‘quv materiali"
+}

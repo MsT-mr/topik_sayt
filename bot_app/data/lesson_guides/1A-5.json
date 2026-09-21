@@ -1,0 +1,140 @@
+{
+  "overview": "Ushbu dars kundalik hayotda sana va hafta kunlarini so‘rash, vaqtni aniq ko‘rsatish, o‘tgan zamonda gapirish hamda bir nechta harakatlarni ketma-ket bog‘lash ko‘nikmalarini shakllantiradi. Bu bilimlar koreys tilida muloqot qilish, uchrashuvlar belgilash va o‘tgan voqealarni hikoya qilish uchun asos bo‘lib xizmat qiladi.",
+  "goals": [
+    "Sana va hafta kunlarini to‘g‘ri nomlash va yozishni o‘rganish",
+    "Vaqt otlariga -에 qo‘shimchasini qo‘shib ishlatishni o‘zlashtirish",
+    "O‘tgan zamon (-았/었/였어요) shaklida gap tuzish ko‘nikmasini hosil qilish",
+    "-고 bog‘lovchisi yordamida harakatlarni bir-biriga bog‘lashni o‘rganish"
+  ],
+  "rules": [
+    {
+      "source_key": "grammar:1A:17",
+      "meaning": "Koreys tilida sana va hafta kunlari ifodalanganda, asosan Sino-koreys raqamlari oylarni (월), xitoycha-koreyscha yoki sof koreyscha raqamlar kunlarni (일) bildirish uchun ishlatiladi. Hafta kunlari esa maxsus so‘zlar orqali ifodalanadi.",
+      "formation": "Sanada xitoycha-koreyscha sonlar ishlatiladi: oy + 월, kun + 일. Tartib yil–oy–kun: 2026년 5월 12일. 6월 유월, 10월 시월 deb o‘qiladi. Hafta kunlari: 월요일, 화요일, 수요일, 목요일, 금요일, 토요일, 일요일.",
+      "usage": "Tug‘ilgan kun, imtixon vaqti yoki uchrashuv sanasini aytishda va so‘rashda (며칠 - necha kun/nechta, 무슨 요ил - qaysi hafta kuni) ishlatiladi.",
+      "mistake": "Ko‘pincha o‘quvchilar oy va kunni yozishda raqamlarni adashtiradilar yoki 월 va 일 qo‘shimchalarini tushirib qoldiradilar. Masalan, '5월 12' emas, to‘g‘ri shakl '5월 12일' bo‘lishi shart.",
+      "examples": [
+        {
+          "ko": "오늘은 8월 20일이에요.",
+          "uz": "Bugun 20-avgust."
+        },
+        {
+          "ko": "내일은 무슨 요일이에요?",
+          "uz": "Ertaga haftaning qaysi kuni?"
+        },
+        {
+          "ko": "제 생일은 3월 15일이에요.",
+          "uz": "Mening tug‘ilgan kunim 15-mart."
+        }
+      ],
+      "exercise": {
+        "question": "Quyidagi sanani koreys tilida yozing: '10-oyning 5-kuni'.",
+        "answer": "10월 5일",
+        "explanation": "Oy uchun 10월 va kun uchun 5일 so‘zlari yonma-yon qo‘yiladi."
+      }
+    },
+    {
+      "source_key": "grammar:1A:18",
+      "meaning": "Ot so‘z turkumiga qo‘shilib, ish-harakat sodir bo‘ladigan aniq vaqtni yoki kunni ko‘rsatadi. O‘zbek tilidagi '-da' qo‘shimchasiga to‘g‘ri keladi.",
+      "formation": "Vaqtni bildiruvchi otga (masalan, 주말, 금요일, 5월) to‘g‘ridan-to‘g‘ri -에 qo‘shimchasi qo‘shiladi. Masalan: 금요일에, 주말에.",
+      "usage": "Aniq vaqt yoki hafta kunlari bilan kelgan fe'llarning qachon bajarilishini ko‘rsatish uchun ishlatiladi.",
+      "mistake": "Ba'zan '언제' (qachon) yoki '오늘' (bugun), '내일' (ertaga) kabi vaqt ravishlariga ham -에 qo‘shib yuboriladi ('오늘에' deb). Bu xato, chunki bu so‘zlar o‘zi ravish bo‘lib, -에 talab qilmaydi.",
+      "examples": [
+        {
+          "ko": "금요일에 한국어 시험이 있어요.",
+          "uz": "Juma kuni koreys tili imtihoni bor."
+        },
+        {
+          "ko": "주말에 뭐 해요?",
+          "uz": "Hafta oxirida nima qilasiz?"
+        },
+        {
+          "ko": "8월 20일에 파티를 합니다.",
+          "uz": "20-avgustda bazm o‘tkazamiz."
+        }
+      ],
+      "exercise": {
+        "question": "Bo‘sh joyni to‘ldiring: '수요일 ... 친구를 만나요.' (Chorshanba kuni do‘stimni uchrataman).",
+        "answer": "수요일에",
+        "explanation": "Hafta kuni bo‘lgan 수요일 so‘ziga vaqt ma'nosini berish uchun -에 qo‘shimchasi qo‘shiladi."
+      }
+    },
+    {
+      "source_key": "grammar:1A:19",
+      "meaning": "Fe'l yoki sifatning o‘tgan zamonda bajarilganini yoki bo‘lib o‘tganini bildiradi. O‘zbek tilidagi '-dim', '-di' qo‘shimchalariga mos keladi.",
+      "formation": "다 ni olib tashlang. O‘zakning oxirgi unlisi ㅏ yoki ㅗ bo‘lsa 았어요, boshqa unlilarda 었어요; 하다 → 했어요. Qisqarishlar: 가다 → 갔어요, 오다 → 왔어요.",
+      "usage": "O‘tmishda sodir bo‘lgan voqea-hodisalar, bajarilgan ishlar yoki o‘tgan zamondagi holat-xususiyatlarni ifodalashda qo‘llaniladi.",
+      "mistake": "가했어요 yoki 가었어요 emas, 갔어요: 가 + 았어요 qisqarib 갔어요 bo‘ladi. 하다 bilan tugagan fe’llarda 했어요 ishlatiladi: 공부했어요.",
+      "examples": [
+        {
+          "ko": "어제 도서관에 갔어요.",
+          "uz": "Kecha kutubxonaga bordim."
+        },
+        {
+          "ko": "그 옷은 아주 비쌌어요.",
+          "uz": "U kiyim juda qimmat edi."
+        },
+        {
+          "ko": "주말에 한국어를 공부했어요.",
+          "uz": "Hafta oxirida koreys tilini o‘rgandim."
+        }
+      ],
+      "exercise": {
+        "question": "먹다 (emoq) fe'lini o‘tgan zamonda yozing.",
+        "answer": "먹었어요",
+        "explanation": "먹다 fe'lining o‘zagi 먹- bo‘lib, oxirgi unlisi ㅓ bo‘lgani uchun -었어요 qo‘shiladi."
+      }
+    },
+    {
+      "source_key": "grammar:1A:20",
+      "meaning": "Ikki yoki undan ortiq fe'l harakatini bir-biriga bog‘lab, ularning ketma-ket yoki bir vaqtda bajarilishini bildiradi. O‘zbek tilidagi '-(i)b' (borib, o‘qib) qo‘shimchasiga to‘g‘ri keladi.",
+      "formation": "Fe'l o‘zagiga hech qanday o‘zgarishsiz -고 qo‘shiladi. Masalan: 가다 -> 가고, 읽다 -> 읽고.",
+      "usage": "Bir shaxs tomonidan bajarilayotgan bir nechta harakatni bitta qo‘shma gapga birlashtirishda ishlatiladi.",
+      "mistake": "가요고 emas, 가고: 고 odatda gap tugatish shakliga emas, o‘zakka ulanadi. 갔고 ham o‘tgan zamonni alohida ko‘rsatishda to‘g‘ri bo‘lishi mumkin. Oddiy ketma-ketlikda zamon oxirgi fe’lda beriladi.",
+      "examples": [
+        {
+          "ko": "숙제를 하고 책을 읽어요.",
+          "uz": "Uy vazifasini bajarib, kitob o‘qiyman."
+        },
+        {
+          "ko": "아침을 먹고 학교에 가요.",
+          "uz": "Nonushta qilib maktabga boraman."
+        },
+        {
+          "ko": "친구를 만나고 영화를 봤어요.",
+          "uz": "Do‘stim bilan uchrashib, kino ko‘rdim."
+        }
+      ],
+      "exercise": {
+        "question": "Quyidagi ikki fe'lni -고 yordamida bog‘lang: '하다' va '쉬다' (dam olmoq).",
+        "answer": "하고 쉬어요",
+        "explanation": "Birinchi fe'l o‘zagi 하다 ga -고 qo‘shilib, 하고 shakliga kiradi."
+      }
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "A",
+      "ko": "민수 씨, 생일이 언제예요?",
+      "uz": "Minsu-bek, tug‘ilgan kuningiz qachon?"
+    },
+    {
+      "speaker": "B",
+      "ko": "제 생일은 8월 20일 금요일이에요.",
+      "uz": "Mening tug‘ilgan kunim 20-avgust, juma kuni."
+    },
+    {
+      "speaker": "A",
+      "ko": "주말에 뭐 했어요?",
+      "uz": "Hafta oxirida nima qildingiz?"
+    },
+    {
+      "speaker": "B",
+      "ko": "친구를 만나고 영화를 봤어요.",
+      "uz": "Do‘stimni uchratib kino ko‘rdim."
+    }
+  ],
+  "book": "1A",
+  "lesson": 5,
+  "origin": "AI yordamida tayyorlangan qo‘shimcha o‘quv materiali"
+}

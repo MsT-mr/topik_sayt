@@ -1,0 +1,150 @@
+{
+  "overview": "Ushbu dars orqali kundalik turmushda eng ko‘p uchraydigan holatlarni ifodalashni o‘rganasiz: buyumlar yoki insonlarning bor-yo‘qligini aytish, atrofingizdagi narsalarni ko‘rsatib tanishtirish, xarid chog‘ida yoki kafeda biror narsani xushmuomalalik bilan so‘rash hamda bir nechta narsalarni 'va/bilan' bog‘lovchilari orqali sanab o‘tish. Mazkur grammatikalar koreys tilida muloqotni boshlash va o‘z ehtiyojlarini sodda, tushunarli tarzda yetkazish uchun poydevor hisoblanadi.",
+  "goals": [
+    "Narsa va shaxslarning mavjud yoki mavjud emasligini '이/가 있어요/없어요' bilan to‘g‘ri ifodalash",
+    "Ko‘rsatish olmoshlari (이거, 그거, 저거) yordamida buyumlarning nima ekanligini ta’riflash",
+    "Do‘kon, kafe yoki kundalik vaziyatlarda '주세요' orqali muloyim iltimos bildirish",
+    "'하고' va '와/과' yordamida so‘zlarni bir-biriga bog‘lab nutqda qo‘llash"
+  ],
+  "rules": [
+    {
+      "source_key": "grammar:1A:5",
+      "meaning": "Bu grammatik qurilma biror narsa, buyum yoki shaxsning borligini (있어요) yoxud yo‘qligini (없어요) bildiradi. O‘zbek tiliga '... bor' yoki '... yo‘q' deb tarjima qilinadi hamda egalik yoki mavjudlikni ko‘rsatadi.",
+      "formation": "Ot unli tovush bilan tugasa, unga '-가 있어요/없어요' qo‘shiladi (masalan: 모자가 있어요, 의자가 없어요). Ot undosh tovush bilan tugasa, unga '-이 있어요/없어요' qo‘shiladi (masalan: 책이 있어요, 우산이 없어요).",
+      "usage": "Sizda ma’lum bir buyum mavjudligini aytishda yoki aniq bir makonda biror narsa/shaxs bor yoki yo‘qligini bildirishda ishlatiladi. Savol shakli gap oxiridagi ohangni ko‘tarish orqali yasaladi va yozuvda so‘roq belgisi qo‘yiladi (masalan: '우산이 있어요?').",
+      "mistake": "가방가 있어요 o‘rniga 가방이 있어요 yoziladi: 가방 undosh bilan tugaydi. 책은 있어요 ham to‘g‘ri, lekin 책 mavzu yoki qarama-qarshilik sifatida ajratiladi; yangi ma’lumotni neytral aytishda 책이 있어요 ishlatiladi.",
+      "examples": [
+        {
+          "ko": "가방에 공책이 있어요.",
+          "uz": "Sumkada daftar bor."
+        },
+        {
+          "ko": "지금 시계가 없어요.",
+          "uz": "Hozir soatim yo‘q."
+        },
+        {
+          "ko": "한국어 사전이 있어요?",
+          "uz": "Koreys tili lug‘atingiz bormi?"
+        }
+      ],
+      "exercise": {
+        "question": "Qavs ichiga mos keluvchi qo‘shimchani yozing: '휴대폰(  ) 없어요.'",
+        "answer": "이",
+        "explanation": "'휴대폰' so‘zi 'ㄴ' undosh tovushi bilan tugagani sababli unga '-이' qo‘shimchasi qo‘shilib, '휴대폰이 없어요' bo‘ladi."
+      }
+    },
+    {
+      "source_key": "grammar:1A:6",
+      "meaning": "Bu qurilma narsa-buyumlarni ko‘rsatib, ularning nima ekanligini ta’riflash yoki aniqlash uchun xizmat qiladi. O‘zbek tiliga 'Bu / u / anavi narsa ...dir' deb o‘giriladi.",
+      "formation": "So‘zlovchiga yaqin buyum uchun '이거는' (bu narsa), tinglovchiga yaqin buyum uchun '그거는' (u narsa), har ikkisidan uzoqdagi buyum uchun '저거는' (anavi narsa) ishlatiladi. Undan keyingi ot undosh bilan tugasa '-이에요', unli bilan tugasa '-예요' qo‘shimchasi ulanadi.",
+      "usage": "Qo‘ldagi yoki atrofdagi buyumlarni ko‘rsatib nomini aytishda, boshqalarga tanishtirishda yoki biror narsaning nima ekanligini so‘rashda keng qo‘llanadi. Og‘zaki nutqda '이거는, 그거는, 저거는' shakllari ko‘pincha '이건, 그건, 저건' tarzida qisqarib keladi.",
+      "mistake": "모자이에요 o‘rniga 모자예요 deyiladi: 모자 unli bilan tugaydi. Insonni xushmuomala tanishtirishda 이거 o‘rniga 이분 (bu kishi) ishlating.",
+      "examples": [
+        {
+          "ko": "이거는 제 가방이에요.",
+          "uz": "Bu narsa mening sumkam."
+        },
+        {
+          "ko": "그거는 한국어 책이에요?",
+          "uz": "U narsa koreys tili kitobimi?"
+        },
+        {
+          "ko": "저거는 의자예요.",
+          "uz": "Anavi narsa stuldir."
+        }
+      ],
+      "exercise": {
+        "question": "'저거는' so‘zidan keyin '안경' (ko‘zoynak) so‘zini qo‘yib, to‘liq gap tuzing.",
+        "answer": "저거는 안경이에요.",
+        "explanation": "'안경' so‘zi 'ㅇ' undoshi bilan tugaganligi sababli unga '-이에요' qo‘shimchasi qo‘shiladi."
+      }
+    },
+    {
+      "source_key": "grammar:1A:7",
+      "meaning": "Bu ibora biror narsa yoki xizmatni xushmuomala tarzda so‘rash, talab qilish ma’nosini beradi. O‘zbek tilida '... bering' yoki '... berishingizni iltimos qilaman' degan ma’noni ifodalaydi.",
+      "formation": "Ot so‘z turkumiga to‘g‘ridan-to‘g‘ri '주세요' qo‘shiladi (Ot + 주세요). Otning unli yoki undosh tovush bilan tugashi hech qanday o‘zgarish yasamaydi (masalan: 물 주세요, 사과 주세요).",
+      "usage": "Do‘konlarda tovar sotib olayotganda, restoran yoki kafelarda taom buyurtma berganda, shuningdek kundalik hayotda biror buyumni uzatib yuborishni iltimos qilganda ishlatiladi.",
+      "mistake": "물이 주세요 bu ma’noda noto‘g‘ri: suv harakatning bajaruvchisi emas. 물 주세요 yoki 물을 주세요 ishlating. 물은 주세요 kontekstda suvni boshqa narsalardan ajratib so‘rash uchun kelishi mumkin.",
+      "examples": [
+        {
+          "ko": "차 한 잔 주세요.",
+          "uz": "Bir chashka choy bering."
+        },
+        {
+          "ko": "신문 주세요.",
+          "uz": "Gazeta bering."
+        },
+        {
+          "ko": "동전 주세요.",
+          "uz": "Tanga bering."
+        }
+      ],
+      "exercise": {
+        "question": "Koreys tilida 'Menga soyabon bering' jumlasini tuzing (soyabon = 우산).",
+        "answer": "우산 주세요.",
+        "explanation": "Biror buyumni so‘rash uchun ot negiziga to‘g‘ridan-to‘g‘ri '주세요' qo‘shiladi: '우산' + '주세요'."
+      }
+    },
+    {
+      "source_key": "grammar:1A:8",
+      "meaning": "Bu qo‘shimchalar ikki yoki undan ortiq otlarni o‘zaro teng bog‘lash uchun xizmat qiladi. O‘zbek tilidagi 'va', 'bilan' bog‘lovchilariga to‘g‘ri keladi.",
+      "formation": "'-하고' har qanday otga (unli yoki undosh bilan tugashidan qat'i nazar) to‘g‘ridan-to‘g‘ri qo‘shiladi va probelsiz yoziladi. '-와/과' esa unli bilan tugagan otlarga '-와', undosh bilan tugagan otlarga '-과' shaklida ulanadi.",
+      "usage": "Bir nechta narsalarni sanab o‘tishda yoki harakatni kim bilandir birgalikda bajarishda ishlatiladi. '-하고' ko‘proq og‘zaki nutqda va norasmiy vaziyatlarda, '-와/과' esa rasmiy matnlar, kitoblar va ommaviy nutqlarda keng qo‘llaniladi. E’tibor bering, sanalgan oxirgi otga bu qo‘shimchalar qo‘shilmaydi.",
+      "mistake": "'-와' va '-과' tanlashda adashish keng tarqalgan: masalan, undosh bilan tugagan so‘zga '책와' deyish xato (to‘g‘risi: '책과'), unli bilan tugagan so‘zga '의자과' deyish xato (to‘g‘risi: '의자와'). Shuningdek, '하고' bog‘lovchisini otdan ajratib bo‘sh joy (probel) bilan yozish ham imlo xatosi sanaladi.",
+      "examples": [
+        {
+          "ko": "책상 위에 연필하고 공책이 있어요.",
+          "uz": "Stol ustida qalam va daftar bor."
+        },
+        {
+          "ko": "가방 안에 사전과 지우개가 있어요.",
+          "uz": "Sumka ichida lug‘at va o‘chirg‘ich bor."
+        },
+        {
+          "ko": "사과와 바나나가 있어요.",
+          "uz": "Olma va banan bor."
+        }
+      ],
+      "exercise": {
+        "question": "'의자' (stul) va '책상' (stol) so‘zlarini '와/과' yordamida 'stul va stol' shaklida bog‘lang.",
+        "answer": "의자와 책상",
+        "explanation": "'의자' so‘zi unli tovush bilan tugagani sababli unga '-와' qo‘shimchasi ulanadi va '의자와 책상' hosil bo‘ladi."
+      }
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "민수",
+      "ko": "저거는 누구 가방이에요?",
+      "uz": "Anavi kimning sumkasi?"
+    },
+    {
+      "speaker": "지우",
+      "ko": "제 가방이에요. 가방 안에 책하고 공책이 있어요.",
+      "uz": "Mening sumkam. Sumka ichida kitob va daftar bor."
+    },
+    {
+      "speaker": "민수",
+      "ko": "혹시 가방에 볼펜이 있어요?",
+      "uz": "Mabodo sumkangizda ruchka bormi?"
+    },
+    {
+      "speaker": "지우",
+      "ko": "네, 볼펜과 연필이 있어요. 여기 있어요.",
+      "uz": "Ha, ruchka va qalam bor. Mana, marhamat."
+    },
+    {
+      "speaker": "민수",
+      "ko": "감사합니다. 저기요, 지우개도 주세요.",
+      "uz": "Rahmat. Kechirasiz, o‘chirg‘ich ham bering."
+    },
+    {
+      "speaker": "지우",
+      "ko": "네, 여기 지우개 있어요.",
+      "uz": "Xo‘p, mana o‘chirg‘ich."
+    }
+  ],
+  "book": "1A",
+  "lesson": 2,
+  "origin": "AI yordamida tayyorlangan qo‘shimcha o‘quv materiali"
+}

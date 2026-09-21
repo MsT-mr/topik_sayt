@@ -1,0 +1,140 @@
+{
+  "overview": "Ushbu dars kundalik muloqotda suhbatdosh bilan biror ishni birgalikda qilishni taklif qilish, atrof-muhitni kuzatib hayrat bildirish, ko‘rsatish olmoshlarini ishlatish hamda maxsus noto‘g‘ri fe'llarni to‘g‘ri tuslash ko‘nikmalarini shakllantiradi.",
+  "goals": [
+    "Taklif bildirish uchun (으)ㄹ까요? grammatikasini o‘zlashtirish",
+    "ㄷ harfi bilan tugaydigan noto‘g‘ri fe'llarning o‘zgarish qoidasini tushunish",
+    "이, 그, 저 ko‘rsatish olmoshlarini otlar bilan to‘g‘ri qo‘llash",
+    "Ko‘rilgan holatga munosabat bildirish uchun 네요 qo‘shimchasidan foydalanish"
+  ],
+  "rules": [
+    {
+      "source_key": "grammar:1A:29",
+      "meaning": "Fe'l o‘zagiga qo‘shilib, suhbatdoshdan biror ishni birgalikda qilishni so‘rash yoki fikrini bilish ma'nosini bildiradi. O‘zbek tilidagi '-aylikmi?', '-mizmi?' qo‘shimchalariga mos keladi.",
+      "formation": "Unli bilan tugagan o‘zakka ㄹ까요, ㄹ dan boshqa undosh bilan tugaganiga 을까요 qo‘shiladi: 가다 → 갈까요, 먹다 → 먹을까요. ㄹ bilan tugasa yangi ㄹ qo‘shilmaydi: 살다 → 살까요.",
+      "usage": "Do‘stlar yoki tanishlar bilan biror ishni birga qilishni rejalashtirishda va taklif kiritishda ishlatiladi.",
+      "mistake": "Unli bilan tugagan fe'llarga ham -을까요? qo‘shish xato hisoblanadi (masalan, '가을까요?' deyish noto‘g‘ri, to‘g‘risi '갈까요?').",
+      "examples": [
+        {
+          "ko": "내일 영화를 볼까요?",
+          "uz": "Ertaga kino ko'ramizmi?"
+        },
+        {
+          "ko": "같이 점심을 먹을까요?",
+          "uz": "Birga tushlik qilamizmi?"
+        },
+        {
+          "ko": "주말에 자전거를 탈까요?",
+          "uz": "Dam olish kunida velosiped haydaymizmi?"
+        }
+      ],
+      "exercise": {
+        "question": "Qaysi shakl to‘g‘ri: 같이 커피 a) 마실까요? b) 마시까요?",
+        "answer": "a) 마실까요?",
+        "explanation": "마시- unli bilan tugaydi. Oxirgi bo‘g‘inga ㄹ qo‘shilib 실 hosil bo‘ladi: 마시 + ㄹ까요 → 마실까요. Unli tushmaydi."
+      }
+    },
+    {
+      "source_key": "grammar:1A:30",
+      "meaning": "Ba'zi fe'l va sifatlarning o‘zagi ㄷ harfi bilan tugasa, ularga unli bilan boshlanuvchi qo‘shimcha qo‘shilganda ㄷ harfi ㄹ harfiga o‘zgaradi.",
+      "formation": "Ayrim ㄷ fe’llarida unli bilan boshlanuvchi qo‘shimchadan oldin ㄷ → ㄹ bo‘ladi: 듣다 → 들어요, 걷다 → 걸어요. Boshqa fe’llar muntazam: 받다 → 받아요, 닫다 → 닫아요.",
+      "usage": "Kundalik hayotda ko'p ishlatiladigan 'eshitmoq' (듣다), 'piyoda yurmoq' (걷다) kabi fe'llarni tuslashda qo'llaniladi.",
+      "mistake": "ㄷ ni o‘zgartirmasdan '듣어요' deb yozish qo‘pol grammatik xato hisoblanadi, to‘g‘ri shakl '들어요'.",
+      "examples": [
+        {
+          "ko": "음악을 들어요.",
+          "uz": "Musiqa tinglayman."
+        },
+        {
+          "ko": "공원에서 걸어요.",
+          "uz": "Bog‘da piyoda yuraman."
+        },
+        {
+          "ko": "선생님의 말씀을 잘 들어요.",
+          "uz": "Ustozning gaplarini diqqat bilan tinglayman."
+        }
+      ],
+      "exercise": {
+        "question": "'걷다' fe'lini '요' shaklida yozing.",
+        "answer": "걸어요",
+        "explanation": "ㄷ noto'g'ri fe'li bo'lgani uchun unli bilan boshlanuvchi 어요 qo'shilganda ㄷ harfi ㄹ ga o'zgaradi."
+      }
+    },
+    {
+      "source_key": "grammar:1A:31",
+      "meaning": "Narsalar va shaxslarning so‘zlovchi hamda tinglovchiga nisbatan masofasini ko‘rsatish uchun ishlatiladi. 이 (yaqin), 그 (o'rta/u), 저 (uzoq/anavi).",
+      "formation": "이, 그, 저 olmoshlari to‘g‘ridan-to‘g‘ri ot oldidan keladi va bo‘sh joy tashlab yoziladi.",
+      "usage": "Atrofdagi buyumlar yoki suhbat mavzusidagi narsalarga ishora qilishda qo‘llaniladi.",
+      "mistake": "Olmosh va otni qo‘shib yozish yoki ularni mustaqil otdek ishlatish xato (buning uchun 이것, 그것, 저것 ishlatiladi).",
+      "examples": [
+        {
+          "ko": "이 가요가 좋아요.",
+          "uz": "Bu qo'shiq yoqadi."
+        },
+        {
+          "ko": "그 자전거는 제 것입니다.",
+          "uz": "U velosiped meningki."
+        },
+        {
+          "ko": "저 산이 아주 높습니다.",
+          "uz": "Anavi tog' juda baland."
+        }
+      ],
+      "exercise": {
+        "question": "Tinglovchiga yaqin qalamni ko‘rsating: (이 / 그 / 저) 연필이 예뻐요.",
+        "answer": "그 연필이 예뻐요.",
+        "explanation": "Tinglovchiga yaqin narsaga 그 ishlatiladi."
+      }
+    },
+    {
+      "source_key": "grammar:1A:32",
+      "meaning": "So‘zlovchi yangi guvoh bo‘lgan narsasidan hayratlanganda yoki o‘z taassurotini bildirganda ishlatiladi. O‘zbek tilidagi '-ekan', '-(-a)ya' ma'nolariga mos keladi.",
+      "formation": "Fe’l yoki sifat o‘zagiga 네요 qo‘shiladi: 좋다 → 좋네요. ㄹ o‘zakda ㄹ tushadi: 살다 → 사네요. O‘tgan voqeani yangi anglashda 았/었네요 ishlatiladi: 왔네요.",
+      "usage": "Ob-havo, atrofdagi muhit yoki qarshisidagi insonning xususiyatini ko'rib darhol fikr bildirganda ishlatiladi.",
+      "mistake": "O‘zakdagi harflarni o‘zgartirmang: 좋다 → 좋네요, 돟네요 emas. 네요 ning o‘zi o‘tgan zamon yasamaydi.",
+      "examples": [
+        {
+          "ko": "날씨가 아주 춥네요.",
+          "uz": "Ob-havo juda sovuq ekan."
+        },
+        {
+          "ko": "한국어가 정말 재미있네요.",
+          "uz": "Koreys tili rostdan ham qiziq ekan."
+        },
+        {
+          "ko": "운동장에서 학생들이 축구를 하네요.",
+          "uz": "Stadionda o'quvchilar futbol o'ynayotgan ekan."
+        }
+      ],
+      "exercise": {
+        "question": "날씨가 좋다 gapini 네요 bilan ayting.",
+        "answer": "날씨가 좋네요.",
+        "explanation": "좋- o‘zagiga 네요 qo‘shiladi; ㅎ saqlanadi."
+      }
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "A",
+      "ko": "오늘 날씨가 정말 좋네요.",
+      "uz": "Bugun ob-havo rostdan ham yaxshi ekan."
+    },
+    {
+      "speaker": "B",
+      "ko": "Ha, shunday. Parkda piyoda yuramizmi?",
+      "uz": "네, 그렇네요. 공원에서 걸까요?"
+    },
+    {
+      "speaker": "A",
+      "ko": "Ajoyib fikr! U yerda velosiped ham haydashimiz mumkin.",
+      "uz": "좋은 생각이에요! 저기서 자전거도 탈까요?"
+    },
+    {
+      "speaker": "B",
+      "ko": "Mayli, ketdik!",
+      "uz": "좋습니다, 갑시다!"
+    }
+  ],
+  "book": "1A",
+  "lesson": 8,
+  "origin": "AI yordamida tayyorlangan qo‘shimcha o‘quv materiali"
+}

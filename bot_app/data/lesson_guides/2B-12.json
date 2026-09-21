@@ -1,0 +1,140 @@
+{
+  "overview": "Ushbu dars kundalik hayotda insonlarning tashqi ko'rinishi, xarakteri va harakatlarini tasvirlash, o'xshatishlar ishlatish hamda o'z fikrini yumshoqroq bayon etish uchun muhim bo'lgan to'rtta asosiy grammatik qoidani o'rgatadi.",
+  "goals": [
+    "Insonlarning tashqi ko'rinishi va xarakterini -아/어 보이다 yordamida tasvirlash.",
+    "O'xshatishlar yasash uchun -처럼 va -같이 qo'shimchalarini to'g'ri qo'llash.",
+    "Biror holatga moyillikni bildirish uchun (으)ㄴ/는 편이다 qoidasini ishlatish.",
+    "Fe'l va sifatlardan ravish yasashda -게 qo'shimchasidan foydalanish."
+  ],
+  "rules": [
+    {
+      "source_key": "grammar:2B:9",
+      "meaning": "Fe'l yoki sifat o'zagiga qo'shilib, -dek ko'rinmoq yoki -ga o'xshamoq ma'nosini bildiradi. Tashqi ko'rinishdan olingan taassurotni ifodalaydi.",
+      "formation": "Sifat oxirgi unlisi ㅏ yoki ㅗ bo'lsa -아 보이다, qolganlarida -어 보이다 qo'shiladi. '하다' bilan tugagan so'zlar '해 보여요' bo'lib o'zgaradi.",
+      "usage": "Insonning tashqi qiyofasi, kiyimi yoki taomning ko'rinishiga qarab qanday taassurot qoldirayotganini aytganda ishlatiladi.",
+      "mistake": "Ko'pincha o'tgan zamonda noto'g'ri qo'shiladi. Masalan, '맛있었 보여요' deyish xato, to'g'ri shakl '맛있어 보여요' bo'ladi.",
+      "examples": [
+        {
+          "ko": "오늘 유진 씨가 행복해 보여요.",
+          "uz": "Bugun Yujin xursand ko‘rinadi."
+        },
+        {
+          "ko": "이 음식은 매워 보여요.",
+          "uz": "Bu ovqat achchiq ko‘rinadi."
+        },
+        {
+          "ko": "그 옷을 입으니까 키가 커 보여요.",
+          "uz": "O‘sha kiyimni kiyganingizda bo‘yingiz balandroq ko‘rinadi."
+        }
+      ],
+      "exercise": {
+        "question": "Quyidagi sifatni ushbu qoida asosida o'zgartiring: 피곤하다 -> ...",
+        "answer": "피곤해 보여요",
+        "explanation": "'피곤하다' fe'li '하다' bilan tugagani uchun '해 보여요' shaklini oladi."
+      }
+    },
+    {
+      "source_key": "grammar:2B:10",
+      "meaning": "Otga qo'shilib, o'xshatish ma'nosini beradi va o'zbek tilidagi '-dek' yoki '-kabi' qo'shimchalariga mos keladi.",
+      "formation": "Otlarga to'g'ridan-to'g'ri '-처럼' yoki '-같이' qo'shiladi. Ularning ma'nosi deyarli bir xil bo'lib, o'rn almashib kela oladi.",
+      "usage": "Biror shaxs yoki narsaning boshqa biror narsaga o'xshashligini taqqoslab ko'rsatishda ishlatiladi.",
+      "mistake": "Ba'zan fe'llarga ham bu qo'shimchani qo'shishadi, biroq bu faqat otlarga qo'shiladi.",
+      "examples": [
+        {
+          "ko": "어머니처럼 꼼꼼하게 요리해요.",
+          "uz": "Onamdek puxta qilib ovqat pishiraman."
+        },
+        {
+          "ko": "그 사람은 배우같이 멋있어요.",
+          "uz": "U kishi aktyordek kelishgan."
+        },
+        {
+          "ko": "동생이 천사처럼 웃어요.",
+          "uz": "Ukam farishtadek kuladi."
+        }
+      ],
+      "exercise": {
+        "question": "Bo'sh joyni to'ldiring: 아이 (boladek) 울어요.",
+        "answer": "아이처럼 (yoki 아이같이)",
+        "explanation": "Otga -처럼 yoki -같이 qo'shimchasi qo'shilib o'xshatish hosil qiladi."
+      }
+    },
+    {
+      "source_key": "grammar:2B:11",
+      "meaning": "Biror xususiyatga yoki harakatga moyilligi borligini, o'sha toifaga kirishini bildiradi (-lardek / -toifasidan).",
+      "formation": "Hozirgi sifat: (으)ㄴ 편이다; harakat fe’li: 는 편이다. 크다 → 큰 편이다, 먹다 → 먹는 편이다. ㄹ fe’l o‘zagida ㄹ tushadi: 살다 → 사는 편이다.",
+      "usage": "O'zining yoki boshqalarning odatiy xarakteri haqida keskin emas, balki yumshoqroq qilib fikr bildirganingizda ishlatiladi.",
+      "mistake": "편 oldidan bo‘sh joy qoldiring: 먹는 편이에요. O‘tgan holatni aytishda 먹는 편이었어요 kabi shakllar mumkin; har qanday o‘tgan zamonni xato demang.",
+      "examples": [
+        {
+          "ko": "저는 조용한 편이에요.",
+          "uz": "Men ancha kamgapman."
+        },
+        {
+          "ko": "저는 버스를 자주 타는 편이에요.",
+          "uz": "Men avtobusdan ko‘p foydalanaman."
+        },
+        {
+          "ko": "그 친구는 키가 큰 편이에요.",
+          "uz": "U do‘stimning bo‘yi nisbatan baland."
+        }
+      ],
+      "exercise": {
+        "question": "저는 매운 음식을 잘 (먹다) gapini 편이다 bilan tugating.",
+        "answer": "저는 매운 음식을 잘 먹는 편이에요.",
+        "explanation": "먹다 harakat fe’li bo‘lgani uchun 는 편이에요 ulanadi."
+      }
+    },
+    {
+      "source_key": "grammar:2B:12",
+      "meaning": "Sifat o'zagiga qo'shilib, uni ravishga aylantiradi va harakatning qanday bajarilishini ko'rsatadi (-b / -ib / -qilib).",
+      "formation": "Sifat o'zagiga to'g'ridan-to'g'ri '-게' qo'shiladi.",
+      "usage": "Fe'lni aniqlab keluvchi holatni ifodalashda, ya'ni harakat qanday tarzda bajarilganini tushuntirishda ishlatiladi.",
+      "mistake": "Sifat o'rniga otga '-게' qo'shib bo'lmaydi, bu faqat sifatlarga xos.",
+      "examples": [
+        {
+          "ko": "방을 깨끗하게 청소했어요.",
+          "uz": "Xonani tozalab qo‘ydim."
+        },
+        {
+          "ko": "옷을 예쁘게 입었네요.",
+          "uz": "Chiroyli kiyinibsiz."
+        },
+        {
+          "ko": "글씨를 크게 써 주세요.",
+          "uz": "Harflarni kattaroq qilib yozib bering."
+        }
+      ],
+      "exercise": {
+        "question": "Sifatdan ravish yasang: 싸다 -> ...",
+        "answer": "싸게",
+        "explanation": "Sifat o'zagiga -게 qo'shilib ravish hosil qilinadi."
+      }
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "A",
+      "ko": "새로 온 친구를 보셨어요? 어떤 사람 같아요?",
+      "uz": "Yangi kelgan do'stni ko'rdingizmi? Qanaqa insonga o'xshaydi?"
+    },
+    {
+      "speaker": "B",
+      "ko": "네, 눈썹이 진하고 코가 높아서 아주 남성적으로 보여요.",
+      "uz": "Ha, qoshi qalin va burni katta bo'lgani uchun juda erkak sifat ko'rinmoqda."
+    },
+    {
+      "speaker": "A",
+      "ko": "Xarakteri qanday? U ham aktivmi?",
+      "uz": "Xarakteri qanday? U ham harakatchanmi?"
+    },
+    {
+      "speaker": "B",
+      "ko": "Yo'q, biroz tortinchoqroq odamlar qatoriga kiradi, lekin aktyordek xushmuomala.",
+      "uz": "아니요, 조금 내성적인 편이지만 aртист처럼 다정해요."
+    }
+  ],
+  "book": "2B",
+  "lesson": 12,
+  "origin": "AI yordamida tayyorlangan qo‘shimcha o‘quv materiali"
+}

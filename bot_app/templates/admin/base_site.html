@@ -1,0 +1,6 @@
+{% extends "admin/base.html" %}{% load static %}
+{% block title %}{{ title }} · TOPIK Ustoz{% endblock %}
+{% block extrastyle %}{{ block.super }}<link rel="stylesheet" href="{% static 'css/teacher.css' %}"><link rel="stylesheet" href="{% static 'css/teacher-theme.css' %}"><link rel="stylesheet" href="{% static 'css/dashboard.css' %}"><script src="{% static 'js/preferences.js' %}"></script>{% endblock %}
+{% block branding %}<div id="site-name"><a href="{% url 'admin:index' %}"><span class="teacher-logo">T</span> TOPIK <span class="teacher-label">USTOZ PANELI</span></a></div>{% endblock %}
+{% block nav-global %}{% if user.is_active and user.is_staff %}<nav class="teacher-nav"><a href="{% url 'admin:index' %}">Bosh sahifa</a><a href="{% url 'admin:bot_app_student_changelist' %}">O‘quvchilar</a><a href="{% url 'admin:bot_app_studygroup_changelist' %}">Guruhlar</a><a href="{% url 'admin:bot_app_lesson_changelist' %}">Darslar</a><a href="{% url 'admin:topik_compose' %}">Xabarlar</a><a href="{% url 'admin:topik_ai_lesson' %}">AI dars</a><span class="nav-preferences"><button type="button" data-toggle-theme>☾ Qorong‘i</button><button type="button" data-toggle-motion aria-pressed="true">✦ Animatsiya</button></span></nav>{% endif %}{% endblock %}
+{% block footer %}{{ block.super }}<script src="{% static 'js/teacher.js' %}"></script>{% endblock %}

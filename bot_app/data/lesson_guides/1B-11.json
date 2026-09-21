@@ -1,0 +1,145 @@
+{
+  "overview": "Ushbu darsda kundalik hayotda eng ko'p ishlatiladigan muhim grammatik qoidalar o'rganiladi. \"으\" harfining tushib qolishi, ish-harakatni taqiqlash, faqatgina bitta narsani ajratib ko'rsatish va majburiyat bildirish qoidalari kundalik muloqotni boyitadi.",
+  "goals": [
+    "\"으\" harfi bilan tugaydigan fe'l va sifatlarni to'g'ri tuslashni o'rganish",
+    "Suhbatdoshga biror ishni qilmaslikni buyurishni o'zlashtirish",
+    "\"만\" yuklamasi yordamida faqat bitta narsaga urg'u berishni tushunish",
+    "Majburiyat va zaruratni bildiruvchi \"아야/어야 되다\" qoidasini amalda qo'llash"
+  ],
+  "rules": [
+    {
+      "source_key": "grammar:1B:9",
+      "meaning": "Ma’nosi: \"으\" harfi bilan tugaydigan notekis fe'l va sifatlarga unli bilan boshlanuvchi qo'shimcha qo'shilganda, \"으\" tushib qoladi va oldingi bo'g'inning unlisiga qarab \"아\" yoki \"어\" qo'shiladi.",
+      "formation": "아/어 bilan boshlanuvchi qo‘shimcha kelganda o‘zak oxiridagi ㅡ tushadi. Oldingi bo‘g‘in unlisi ㅏ yoki ㅗ bo‘lsa 아, aks holda 어 tanlanadi: 아프다 → 아파요, 예쁘다 → 예뻐요. Oldingi bo‘g‘in bo‘lmasa 어: 쓰다 → 써요.",
+      "usage": "Qachon ishlatiladi: Kundalik muloqotda tashqi ko'rinish, ob-havo yoki holatni tasvirlashda fe'l va sifatlarning tuslanishida ishlatiladi.",
+      "mistake": "Keng tarqalgan xato: \"으\" ni tushirmasdan \"예쁘어요\" deyish. To'g'ri variant: \"예뻐요\", chunki \"으\" tushib qolishi majburiy qoida.",
+      "examples": [
+        {
+          "ko": "이 꽃이 정말 예뻐요.",
+          "uz": "Bu gul juda chiroyli."
+        },
+        {
+          "ko": "머리가 아파서 약을 먹어요.",
+          "uz": "Boshim og‘rigani uchun dori ichyapman."
+        },
+        {
+          "ko": "요즘 일이 많아서 바빠요.",
+          "uz": "Shu kunlarda ishim ko‘pligi sababli bandman."
+        }
+      ],
+      "exercise": {
+        "question": "아프다 fe'lini Hozirgi zamon hurmat shaklida tuslang: (아프다 -> ?)",
+        "answer": "아파요",
+        "explanation": "아프다 so'zida \"으\" tushib qoladi, oldingi bo'g'in ㅏ bo'lgani uchun -아요 qo'shilib 아파요 hosil bo'ladi."
+      }
+    },
+    {
+      "source_key": "grammar:1B:10",
+      "meaning": "Ma’nosi: Fe'l o'zagiga qo'shilib, o'sha ish-harakatni bajarishni taqiqlaydi. O'zbek tilidagi \"~mang\" yoki \"~maslik kerak\" ma'nosini beradi.",
+      "formation": "Qanday yasaladi: Fe'l o'zagiga unli yoki undindoshga tugashidan qat'i nazar \"-지 마세요\" qo'shiladi.",
+      "usage": "Qachon ishlatiladi: Birovga biror ishni qilishni man etishda, masalan, shifokorda, darsda yoki jamoat joylarida qo'llaniladi.",
+      "mistake": "Keng tarqalgan xato: Fe'l o'zagiga \"-는 것\" yoki boshqa zamon qo'shimchalarini qo'shib yuborish. To'g'ri variant: Har doim faqat fe'l o'zagiga \"-지 마세요\" qo'shiladi.",
+      "examples": [
+        {
+          "ko": "수업 시간에 늦지 마세요.",
+          "uz": "Darsga kech qolmang."
+        },
+        {
+          "ko": "여기서 담배를 피우지 마세요.",
+          "uz": "Bu yerda tamaki chekmang."
+        },
+        {
+          "ko": "아프니까 너무 무리하지 마세요.",
+          "uz": "Kasal bo‘lganingiz uchun o‘zingizni ortiqcha qiynamang."
+        }
+      ],
+      "exercise": {
+        "question": "읽다 (o'qimoq) fe'lini taqiq shakliga o'zgartiring: 읽다 -> ?",
+        "answer": "읽지 마세요",
+        "explanation": "Fe'l o'zagi 읽- ga -지 마세요 qo'shimchasi qo'shilib 읽지 마세요 hosil bo'ladi."
+      }
+    },
+    {
+      "source_key": "grammar:1B:11",
+      "meaning": "Ma’nosi: Otga qo'shilib, boshqa narsalarni istisno qilgan holda faqat o'sha narsaning o'zini bildiradi. O'zbek tilidagi \"-gina\" yoki \"faqat\" ma'nosiga mos keladi.",
+      "formation": "Qanday yasaladi: Otga unli yoki undindosh bilan tugashidan qat'i nazar to'g'ridan-to'g'ri \"-만\" qo'shiladi.",
+      "usage": "Qachon ishlatiladi: Cheklashni ko'rsatish uchun, masalan, \"faqat suv ichaman\", \"faqat koreys tilini o'rganaman\" deganda ishlatiladi.",
+      "mistake": "Keng tarqalgan xato: 만 yuklamasidan oldin 이/가 yoki 은/는 qo'shimchalarini qo'shib yuborish. To'g'ri variant: 만 boshqa bosh kelishik qo'shimchalarining o'rnida keladi (lekin 에,에서 kabi o'rin-payt yuklamalaridan keyin kelishi mumkin).",
+      "examples": [
+        {
+          "ko": "저는 아침에 커피만 마셔요.",
+          "uz": "Men ertalab faqat qahva ichaman."
+        },
+        {
+          "ko": "주말에는 집에서만 쉬어요.",
+          "uz": "Dam olish kunlari faqat uyda dam olaman."
+        },
+        {
+          "ko": "친구는 한국어만 공부해요.",
+          "uz": "Do'stim faqat koreys tilini o'rganadi."
+        }
+      ],
+      "exercise": {
+        "question": "물 (suv) so'ziga \"만\" yuklamasini qo'shing: 물 -> ?",
+        "answer": "물만",
+        "explanation": "Otga to'g'ridan-to'g'ri -만 qo'shiladi."
+      }
+    },
+    {
+      "source_key": "grammar:1B:12",
+      "meaning": "Ma’nosi: Biror ishni bajarish majburiy ekanligini, ya'ni shart yoki zarurat borligini bildiradi. O'zbek tilidagi \"...sh kerak\" yoki \"...sh shart\" ma'nosini beradi.",
+      "formation": "Qanday yasaladi: Fe'l o'zagidagi unli ㅏ yoki ㅗ bo'lsa \"-아야 되다\", boshqa unlilar bo'lsa \"-어야 되다\" qo'shiladi.",
+      "usage": "Qachon ishlatiladi: Qonun-qoidalar, shifokor tavsiyalari yoki kundalik zaruriy yumushlarni bajarishni aytishda ishlatiladi.",
+      "mistake": "Keng tarqalgan xato: Barcha fe'llarga bir xil qo'shimchani qo'shish. To'g'ri variant: Unli garmoniyasiga qarab 아야 yoki 어야 ni to'g'ri tanlash kerak.",
+      "examples": [
+        {
+          "ko": "병원에 가야 돼요.",
+          "uz": "Shifoxonaga borishim kerak."
+        },
+        {
+          "ko": "약을 먹어야 돼요.",
+          "uz": "Dori ichishim kerak."
+        },
+        {
+          "ko": "매일 한국어를 연습해야 돼요.",
+          "uz": "Har kuni koreys tilini mashq qilishim kerak."
+        }
+      ],
+      "exercise": {
+        "question": "오다 (kelmoq) fe'lini zarurat shaklida tuslang (hozirgi zamon hurmatda): 오다 -> ?",
+        "answer": "와야 돼요",
+        "explanation": "오- fe'l o'zagi ㅗ bilan tugagani uchun -아야 돼요 qo'shiladi va 오 + 아야 -> 와야 bo'lib qisqaradi."
+      }
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "A",
+      "ko": "어디가 아프세요?",
+      "uz": "Qayeringiz og'riyapti?"
+    },
+    {
+      "speaker": "B",
+      "ko": "머리가 아프고 열이 나요.",
+      "uz": " Boshim og'riyapti va isitimam chiqishyapti."
+    },
+    {
+      "speaker": "A",
+      "ko": "그럼 오늘 회사에 가지 말고 집에서 쉬어야 돼요.",
+      "uz": "Unday bo'lsa, bugun kompaniyaga bormasdan uyda dam olishingiz kerak."
+    },
+    {
+      "speaker": "B",
+      "ko": "네, 알겠습니다. 약을 먹고 찬물은 마시지 마세요?",
+      "uz": "Xo'p, tushundim. Dori ichib, sovuq suv ichmasligim kerakmi?"
+    },
+    {
+      "speaker": "A",
+      "ko": "네, 물만 조금 마시고 푹 쉬세요.",
+      "uz": "Ha, faqat ozgina suv ichib, yaxshilab dam oling."
+    }
+  ],
+  "book": "1B",
+  "lesson": 11,
+  "origin": "AI yordamida tayyorlangan qo‘shimcha o‘quv materiali"
+}

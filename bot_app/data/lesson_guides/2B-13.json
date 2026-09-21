@@ -1,0 +1,140 @@
+{
+  "overview": "Ushbu darsda o‘quvchilar uy-joy turlari va ularning xususiyatlari haqida gaplashishni hamda taxmin qilish, qarama-qarshi fikr bildirish, sabab-oqibatni tushuntirish va harakatni otlash kabi muhim grammatik qoidalarni o‘rganadilar. Bu kundalik hayotda uy tanlash va o‘z fikrini aniq bayon qilishda juda qo‘l keladi.",
+  "goals": [
+    "Noaniqlik va taxminlarni (으)ㄹ지 모르겠다 yordamida ifodalash",
+    "Qarama-qarshi fikrlarni 기는 하지만 orqali bildirish",
+    "Sabab va oqibatni 기 때문에 hamda (이)기 때문에 bilan tushuntirish",
+    "Fe'l va sifatlarni otga aylantirib, -sh/-ish ma'nosini berish"
+  ],
+  "rules": [
+    {
+      "source_key": "grammar:2B:13",
+      "meaning": "Ma’nosi: Biror ish-harakat yoki holatning sodir bo‘lishi yoki mavjudligi anq emasligini, bilmasligini bildiradi. O‘zbek tilidagi '-vdimikin', '-rniki' yoki 'bilmadim' ma'nolariga yaqin keladi.",
+      "formation": "Unli o‘zakka ㄹ지 모르겠다, ㄹ dan boshqa undoshga 을지 모르겠다 qo‘shiladi. ㄹ o‘zakda mavjud ㄹ saqlanadi: 만들지 모르겠어요. 가다 → 갈지 모르겠어요.",
+      "usage": "Qachon ishlatiladi: Kelajakdagi noaniq holatlar, shubhali vaziyatlar yoki o‘zining taxminini muloyim ohangda yetkazishda ishlatiladi.",
+      "mistake": "Xato: 먹을 모르겠어요 deb o‘zakka to‘g‘ridan-to‘g‘ri qo‘shish. To‘g‘ri: 먹을지 모르겠어요. Sababi, '-ㄹ지' qo‘shimchasi so‘rov va taxmin ma'nosini beruvchi yaxlit qolipdir.",
+      "examples": [
+        {
+          "ko": "내일 시험이 어려울지 모르겠어요.",
+          "uz": "Ertangi imtihon qiyin bo'lsa kerak, bilmadim."
+        },
+        {
+          "ko": "그 사람이 오늘 학교에 올지 모르겠어요.",
+          "uz": "U odam bugun maktabga kelarmikin, bilmayman."
+        },
+        {
+          "ko": "이 음식이 맵지 않을지 모르겠어요.",
+          "uz": "Bu ovqat achchiq emasmikin, bilmadim."
+        }
+      ],
+      "exercise": {
+        "question": "날씨가 춥다 gapini noaniq taxmin shakliga aylantiring.",
+        "answer": "날씨가 추울지 모르겠어요.",
+        "explanation": "춥- dagi ㅂ unli oldidan 우 ga o‘zgaradi: 추우 + ㄹ지 → 추울지."
+      }
+    },
+    {
+      "source_key": "grammar:2B:14",
+      "meaning": "Ma’nosi: Birinchi qismdagi holat to‘g‘ri ekanligini tan olgan holda, ikkinchi qismda unga zid yoki qarama-qarshi fikr bildiradi. O‘zbek tilidagi '-ku, lekin...' yoki '-sa-da' ma'nosini beradi.",
+      "formation": "Yasalishi: Fe'l va sifat o‘zagiga -기는 하지만 qo‘shiladi. O‘tgan zamon uchun -기는 했지만 ishlatiladi.",
+      "usage": "Qachon ishlatiladi: Maqtov bilan birga tanqid qilishda yoki ijobiy holatning kichik salbiy jihatini (yoki aksincha) aytishda foydalaniladi.",
+      "mistake": "보기기는 하지만 emas, 보기는 하지만: 보- o‘zagiga 기는 하지만 bir marta qo‘shiladi. 갔기는 하지만 yoki 가기는 했지만 shakllari o‘tgan voqeani bildira oladi.",
+      "examples": [
+        {
+          "ko": "이 집은 비싸기는 하지만 위치가 아주 좋아요.",
+          "uz": "Bu uy qimmatroq-ku, lekin joylashuvi juda yaxshi."
+        },
+        {
+          "ko": "한국어가 어렵기는 하지만 재미있어요.",
+          "uz": "Koreys tili qiyinroq-ku, biroq qiziqarli."
+        },
+        {
+          "ko": "그 영화를 보기는 했지만 기억이 안 나요.",
+          "uz": "U kinoni ko‘rganman-u, lekin esimda yo‘q."
+        }
+      ],
+      "exercise": {
+        "question": "Gapni davom ettiring: 방이 작기는 하지만 (                  ).",
+        "answer": "깨끗해요",
+        "explanation": "Qarama-qarshi fikr bildirish uchun 'Xonasi kichik-ku, lekin toza' ma'nosidagi ijobiy sifat ishlatilishi kerak."
+      }
+    },
+    {
+      "source_key": "grammar:2B:15",
+      "meaning": "Ma’nosi: Biror ish-harakat yoki holatning sababini ko‘rsatadi. O‘zbek tilidagi '-gani uchun', '-ligi sababli' ma'nosiga mos keladi.",
+      "formation": "Fe’l/sifat o‘zagiga 기 때문에: 가기 때문에, 바쁘기 때문에. Otga 이기 때문에 qo‘shiladi; unli bilan tugagan otda 이 tushishi ham mumkin: 의사이기 때문에 / 의사기 때문에.",
+      "usage": "Qachon ishlatiladi: Rasmiyroq nutqda yoki sababni aniq tushuntirish zarur bo'lgan holatlarda ishlatiladi.",
+      "mistake": "학생기 때문에 emas, 학생이기 때문에. 비싸기 때문에 to‘g‘ri: 비싸다 — sifat. 때문에 oldidan bo‘sh joy qoldiring.",
+      "examples": [
+        {
+          "ko": "비가 오기 때문에 우산을 써요.",
+          "uz": "Yomg‘ir yog‘ayotgani sababli soyabon tutaman."
+        },
+        {
+          "ko": "방값이 싸기 때문에 이 방을 골랐어요.",
+          "uz": "Ijara haqi arzonligi sababli shu xonani tanladim."
+        },
+        {
+          "ko": "학생이기 때문에 할인을 받아요.",
+          "uz": "Talaba bo‘lganim sababli chegirma olaman."
+        }
+      ],
+      "exercise": {
+        "question": "Nuqtalarni to‘ldiring: 바쁘다 -> (          ) 만나지 못했어요.",
+        "answer": "바쁘기 때문에",
+        "explanation": "Sababni ko‘rsatish uchun sifat o‘zagiga -기 때문에 qo‘shiladi."
+      }
+    },
+    {
+      "source_key": "grammar:2B:16",
+      "meaning": "Ma’nosi: Fe'l yoki sifatni otga aylantirib, harakat nomini bildiradi. O‘zbek tilidagi '-sh', '-ish' qo‘shimchalariga to‘g‘ri keladi.",
+      "formation": "Yasalishi: Fe'l o‘zagiga -기 qo‘shiladi. Ba'zan ta'kid uchun -기가 ishlatiladi.",
+      "usage": "Qachon ishlatiladi: Muomalada biror ishni bajarish qiyin, oson, qiziqarli ekanligini aytganda ishlatiladi.",
+      "mistake": "Xato: 살기다 deb fe'l kesim sifatida ishlatish. To‘g‘ri: 살기가 좋아요. Sababi, -기 qo‘shimchasi so‘zni otga aylantiradi.",
+      "examples": [
+        {
+          "ko": "서울에서 살기가 좋아요.",
+          "uz": "Seulda yashash yaxshi."
+        },
+        {
+          "ko": "이 아파트는 지하철을 타기가 편리해요.",
+          "uz": "Bu ko‘p qavatli binodan metroga chiqish qulay."
+        },
+        {
+          "ko": "한국어를 배우기가 어렵지 않아요.",
+          "uz": "Koreys tilini o‘rganish qiyin emas."
+        }
+      ],
+      "exercise": {
+        "question": "Qavs ichidagi so‘zni to‘g‘ri shaklda yozing: (보다)가 쉽습니다.",
+        "answer": "보기",
+        "explanation": "Fe'lni otga aylantirish uchun o‘zakka -기 qo‘shiladi."
+      }
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "A",
+      "ko": "이사할 원룸을 찾고 있어요. 어떤 집이 좋을까요?",
+      "uz": "Ko‘chib o‘tish uchun bir xonali uy qidiryapman. Qanday uy yaxshi bo‘larkin?"
+    },
+    {
+      "speaker": "B",
+      "ko": "역에서 가깝기는 하지만 월세가 비쌀지 모르겠어요.",
+      "uz": "Stansiyadan yaqin-ku, lekin oylik ijara haqi qimmatmikin, bilmadim."
+    },
+    {
+      "speaker": "A",
+      "ko": "비싸기 때문에 조금 더 싼 집을 찾아야겠어요.",
+      "uz": "Qimmat bo‘lgani sababli sal arzonroq uy topishim kerak ekan."
+    },
+    {
+      "speaker": "B",
+      "ko": "그래요, 주변이 조용한 곳에서 살기가 더 좋을 거예요.",
+      "uz": "To‘g‘ri, atrofi tinch joyda yashash yana ham yaxshi bo‘ladi."
+    }
+  ],
+  "book": "2B",
+  "lesson": 13,
+  "origin": "AI yordamida tayyorlangan qo‘shimcha o‘quv materiali"
+}

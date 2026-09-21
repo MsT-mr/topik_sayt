@@ -1,0 +1,140 @@
+{
+  "overview": "Ushbu dars orqali siz koreys tilida ob-havo va fasllarni tasvirlash, rasmiy hurmat shaklida gapirish, zid ma'nolarni bog'lash va sifatlardagi muhim o'zak o'zgarishlarini o'rganasiz. Bu kundalik muloqotda fikringizni aniq va to'g'ri bayon etishda juda muhimdir.",
+  "goals": [
+    "Rasmiy hurmat qo'shimchasi 습니다/ㅂ니다 ni o'zlashtirish",
+    "B-noto'g'ri fe'l va sifatlarini to'g'ri tuslash",
+    "Fe'l va sifatlarni 고 bog'lovchisi yordamida bog'lash",
+    "지만 qo'shimchasi yordamida zid ma'noli gaplar tuzish"
+  ],
+  "rules": [
+    {
+      "source_key": "grammar:1A:25",
+      "meaning": "Ma'nosi: O'zak oxiri ㅂ harfi bilan tugaydigan ba'zi fe'l va sifatlar unli tovush bilan boshlanuvchi qo'shimcha ulanganda o'zgargan noto'g'ri shakl.",
+      "formation": "Ayrim ㅂ bilan tugagan o‘zaklarda unli bilan boshlanuvchi qo‘shimcha oldidan ㅂ → 우: 덥다 → 더워요, 춥다 → 추워요. 돕다 → 도와요, 곱다 → 고와요. Barcha ㅂ fe’llari o‘zgarmaydi: 입다 → 입어요, 잡다 → 잡아요.",
+      "usage": "Qachon ishlatiladi: Ob-havo, ta'm va buyumlarning xususiyatlarini tasvirlaydigan sifatlarni tuslashda doim qo'llaniladi.",
+      "mistake": "Xato holat: 덥어요 deyish noto'g'ri, chunki ㅂ harfi o'zgarishi shart. To'g'ri variant: 더워요.",
+      "examples": [
+        {
+          "ko": "오늘 날씨가 더워요.",
+          "uz": "Bugun ob-havo issiq."
+        },
+        {
+          "ko": "이 음식은 아주 매워요.",
+          "uz": "Bu ovqat juda achchiq."
+        },
+        {
+          "ko": "가방이 너무 무거워요.",
+          "uz": "Sumka juda og'ir."
+        }
+      ],
+      "exercise": {
+        "question": "춥다 (sovuq bo‘lmoq) sifatini xushmuomala shaklda yozing.",
+        "answer": "추워요.",
+        "explanation": "춥- o‘zagidagi ㅂ unli oldidan 우 ga o‘zgaradi; 추우 + 어요 → 추워요."
+      }
+    },
+    {
+      "source_key": "grammar:1A:26",
+      "meaning": "Ma'nosi: O'zbek tilidagi '-lekin', 'biroq' ma'nolarini beruvchi qoida.",
+      "formation": "Qanday yasaladi: Fe'l yoki sifat o'zaklariga to'g'ridan-to'g'ri -지만 qo'shiladi.",
+      "usage": "Qachon ishlatiladi: Ikki zid yoki qarama-qarshi fikrni bitta qo'shma gapga birlashtirish uchun ishlatiladi.",
+      "mistake": "Xato holat: O'zakka taqsimlovchi qo'shimchalar aralashtirib yuboriladi. Faqatgina o'zakka -지만 qo'shiladi.",
+      "examples": [
+        {
+          "ko": "날씨가 춥지만 맑습니다.",
+          "uz": "Ob-havo sovuq, lekin ochiq."
+        },
+        {
+          "ko": "한국어는 어렵지만 재미있습니다.",
+          "uz": "Koreys tili qiyin, lekin qiziqarli."
+        },
+        {
+          "ko": "오늘은 덥지만 내일은 시원할 거예요.",
+          "uz": "Bugun issiq, lekin ertaga salqin bo‘ladi."
+        }
+      ],
+      "exercise": {
+        "question": "쉽다 (oson bo‘lmoq) sifatiga 지만 qo‘shing.",
+        "answer": "쉽지만",
+        "explanation": "Undosh bilan boshlanuvchi 지만 oldidan ㅂ o‘zgarmaydi: 쉽지만."
+      }
+    },
+    {
+      "source_key": "grammar:1A:27",
+      "meaning": "Ma'nosi: Koreys tilida eng rasmiy va hurmatli darajadagi xabar shakli.",
+      "formation": "Unli bilan tugagan o‘zakka ㅂ니다, undosh bilan tugagan o‘zakka 습니다 qo‘shiladi. ㄹ bilan tugagan o‘zakda ㄹ tushadi: 살다 → 삽니다, 만들다 → 만듭니다.",
+      "usage": "Qachon ishlatiladi: Rasmiy uchrashuvlarda, taqdimotlarda va notanish kattalarga hurmat ko'rsatilganda ishlatiladi.",
+      "mistake": "Xato holat: Undosh bilan tugagan so'zga -ㅂ니다 qo'shish xato. Undoshga -습니다, unliga -ㅂ니다 tushadi.",
+      "examples": [
+        {
+          "ko": "저는 학생입니다.",
+          "uz": "Men o'quvchiman."
+        },
+        {
+          "ko": "오늘 날씨가 좋습니다.",
+          "uz": "Bugun ob-havo yaxshi."
+        },
+        {
+          "ko": "겨울에는 눈이 옵니다.",
+          "uz": "Qishda qor yog'adi."
+        }
+      ],
+      "exercise": {
+        "question": "가다 (bormoq) fe'lini rasmiy shaklda tuslang.",
+        "answer": "갑니다",
+        "explanation": "Unli bilan tugagani uchun -ㅂ니다 qo'shildi."
+      }
+    },
+    {
+      "source_key": "grammar:1A:28",
+      "meaning": "Ma'nosi: O'zbek tilidagi '-ib' (bog'lovchi) yoki 'va' ma'nosini bildiradi.",
+      "formation": "Qanday yasaladi: Fe'l yoki sifat o'zagiga -고 qo'shiladi.",
+      "usage": "Qachon ishlatiladi: Bir nechta harakat yoki xususiyatni ketma-ket sanab o'tishda ishlatiladi.",
+      "mistake": "Xato holat: Gap oxiridagi tugatish shakli bilan adashtirmaslik kerak, bu bog'lovchi qo'shimcha.",
+      "examples": [
+        {
+          "ko": "날씨가 맑고 따뜻합니다.",
+          "uz": "Ob-havo ochiq va iliq."
+        },
+        {
+          "ko": "봄은 따뜻하고 좋습니다.",
+          "uz": "Bahor iliq va yaxshi."
+        },
+        {
+          "ko": "음식을 사고 집에 갑니다.",
+          "uz": "Ovqat sotib olib, uyga ketaman."
+        }
+      ],
+      "exercise": {
+        "question": "흐리다 (bulutli) va 춥다 (sovuq) so'zlarini 고 yordamida bog'lang.",
+        "answer": "흐리고 춥습니다",
+        "explanation": "Birinchi sifat o'zagiga 고 qo'shilib bog'landi."
+      }
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "A",
+      "ko": "오늘 날씨가 어떻습니까?",
+      "uz": "Bugun ob-havo qanday?"
+    },
+    {
+      "speaker": "B",
+      "ko": "날씨가 춥지만 맑습니다.",
+      "uz": "Ob-havo sovuq, lekin ochiq."
+    },
+    {
+      "speaker": "A",
+      "ko": "내일도 날씨가 춥습니까?",
+      "uz": "Ertaga ham ob-havo sovuqmi?"
+    },
+    {
+      "speaker": "B",
+      "ko": "아요, 내일은 따뜻하고 좋습니다.",
+      "uz": "Yo'q, ertaga iliq va yaxshi."
+    }
+  ],
+  "book": "1A",
+  "lesson": 7,
+  "origin": "AI yordamida tayyorlangan qo‘shimcha o‘quv materiali"
+}

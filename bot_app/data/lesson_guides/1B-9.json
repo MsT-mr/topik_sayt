@@ -1,0 +1,140 @@
+{
+  "overview": "Ushbu darsda siz koreys tilida oila a'zolari bilan muloqot qilish, ularning kasbi va qobiliyatlarini hurmat bilan ifodalashni o'rganasiz. Oila a'zolariga murojaat qilish va hurmat qo'shimchalarini to'g'ri qo'llash kundalik hayotda juda muhimdir.",
+  "goals": [
+    "Ot va otni ~의 yordamida bog'lab egalik ma'nosini bildirish",
+    "Biror ishni yaxshi yoki yomon bajarishni ~을/를 잘하다(못하다) orqali ifodalash",
+    "Otga ~(이)세요 qo'shimchasini qo'shib hurmat shaklini hosil qilish",
+    "Fe'l va sifat o'zaklariga +(으)시 hurmat qo'shimchasini qo'shish"
+  ],
+  "rules": [
+    {
+      "source_key": "grammar:1B:1",
+      "meaning": "ma’nosi: O'zbek tilidagi '-ning' egalik qo'shimchasiga to'g'ri keladi va bir otning ikkinchi otga tegishli ekanligini bildiradi.",
+      "formation": "qanday yasaladi: Birinchi otga '~의' qo'shimchasi qo'shiladi. Ko'pincha egalik olmoshlaridan keyin (저 -> 제, 나 -> 내) '의' qisqartirilib ishlatiladi.",
+      "usage": "qachon ishlatiladi: Kimningdir buyumi yoki oila a'zosini ko'rsatishda ishlatiladi.",
+      "mistake": "keng tarqalgan xato va to'g'ri variant, sababi: '나의 아버지' deyish ham mumkin, lekin odatda '내 아버지' yoki '우리 아버지' deb qisqartirib ishlatish tabiiyroq chiqadi.",
+      "examples": [
+        {
+          "ko": "이것은 제 가방입니다.",
+          "uz": "Bu mening sumkam."
+        },
+        {
+          "ko": "어머니의 요리가 맛있습니다.",
+          "uz": "Onaning ovqati mazali."
+        },
+        {
+          "ko": "친구의 동생은 학생입니다.",
+          "uz": "Do'stning ukasi o'quvchi."
+        }
+      ],
+      "exercise": {
+        "question": "Qavs ichidagi so'zni to'g'ri shaklda yozing: (저) 책",
+        "answer": "제 책",
+        "explanation": "'저' olmoshiga '~의' qo'shilganda qisqarib '제' bo'ladi."
+      }
+    },
+    {
+      "source_key": "grammar:1B:2",
+      "meaning": "ma’nosi: Biror ish yoki harakatni yaxshi bajarishni (~을/를 잘하다) yoki yaxshi bajara olmaslikni (~을/를 못하다) bildiradi.",
+      "formation": "qanday yasaladi: Obyektdan keyin '~을/를' tushum kelishigi, so'ngra '잘하다', '잘 못하다' yoki '못하다' fe'li keladi.",
+      "usage": "qachon ishlatiladi: Sport, til, musiqa yoki kundalik ishlar bo'yicha o'zining yoki boshqalarning qobiliyatini aytganda.",
+      "mistake": "축구를 잘해요 to‘liq shaklida 를 obyektni ko‘rsatadi. Og‘zaki nutqda 축구 잘해요 deb 를 ni tushirish ham mumkin. 잘 못해요 — uncha yaxshi bajara olmaydi; 잘못해요 esa xato bajaradi degani.",
+      "examples": [
+        {
+          "ko": "저는 한국어를 잘합니다.",
+          "uz": "Men koreys tilini yaxshi bilaman."
+        },
+        {
+          "ko": "형은 수영을 잘 못합니다.",
+          "uz": "Akam suzishni uncha yaxshi bilmaydi."
+        },
+        {
+          "ko": "동생이 요리를 못합니다.",
+          "uz": "Ukam ovqat pishira olmaydi."
+        }
+      ],
+      "exercise": {
+        "question": "Bo'sh joyni to'ldiring: 저는 테니스( ) 잘합니다.",
+        "answer": "를",
+        "explanation": "잘하다 fe'lidan oldin tushum kelishigi '~을/를' ishlatiladi."
+      }
+    },
+    {
+      "source_key": "grammar:1B:3",
+      "meaning": "ma’nosi: Otlardan keyin kelib, hurmat bildirilayotgan shaxsning maqomi yoki kasbini ko'rsatadi (~dir, ~lar).",
+      "formation": "qanday yasaladi: Undosh bilan tugagan otlarga '이세요', unli bilan tugagan otlarga '세요' qo'shiladi.",
+      "usage": "qachon ishlatiladi: Kattalar yoki hurmat qilinishi kerak bo'lgan shaxslarning kimligini tanishtirganda.",
+      "mistake": "O‘zingizni 저는 학생이세요 deb tanishtirmang: bu o‘zingizni ulug‘lash bo‘ladi. 저는 학생이에요 deyiladi; hurmat qilinadigan boshqa shaxs uchun 선생님이세요 ishlatiladi.",
+      "examples": [
+        {
+          "ko": "저분은 우리 아버지세요.",
+          "uz": "Anavi kishi bizning otamiz."
+        },
+        {
+          "ko": "할머니는 선생님이세요.",
+          "uz": "Buvim o'qituvchilar."
+        },
+        {
+          "ko": "그분은 회사원이세요.",
+          "uz": "U kishi xizmatchilar."
+        }
+      ],
+      "exercise": {
+        "question": "어머니는 의사( ) jumlasini hurmat shaklida to‘ldiring.",
+        "answer": "세요 — 어머니는 의사세요.",
+        "explanation": "의사 unli bilan tugaydi, shuning uchun qisqa shaklda 세요 qo‘shiladi; 의사이세요 to‘liq shakli ham mumkin."
+      }
+    },
+    {
+      "source_key": "grammar:1B:4",
+      "meaning": "ma’nosi: Fe'l yoki sifat o'zaklariga qo'shilib, ish-harakatni bajarayotgan shaxsga hurmat ko'rsatishni bildiradi.",
+      "formation": "Unli o‘zakka 시, ㄹ dan boshqa undoshga 으시 qo‘shiladi; ㄹ oldidan tushadi: 가다 → 가시다, 읽다 → 읽으시다, 살다 → 사시다. Keyin kerakli gap tugatish shakli ulanadi.",
+      "usage": "qachon ishlatiladi: Ota-ona, o'qituvchi yoki yoshi ulug' insonlarning harakatlarini tasvirlaganda.",
+      "mistake": "Hurmat shaxsga tegishli bo‘lishi kerak. Ovqatlanishni hurmat bilan aytishda 드시다 ko‘p ishlatiladi; 먹으시다 shakli ham mavjud. O‘z harakatingizni odatda 시 bilan ulug‘lamang.",
+      "examples": [
+        {
+          "ko": "할아버지께서 잡지를 읽으십니다.",
+          "uz": "Buvam jurnal o‘qiyaptilar."
+        },
+        {
+          "ko": "어머니께서 집에서 쉬세요.",
+          "uz": "Onam uyda dam olyaptilar."
+        },
+        {
+          "ko": "선생님께서 질문을 하십니다.",
+          "uz": "Ustoz savol beryaptilar."
+        }
+      ],
+      "exercise": {
+        "question": "Qavs ichidagi fe'lga hurmat qo'shimchasini qo'shing: 아버지께서 (살다) -> 살",
+        "answer": "사십니다",
+        "explanation": "'살다' o'zagidagi 'ㄹ' tushib qoladi va '~시' qo'shilib '사시다' bo'ladi."
+      }
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "A",
+      "ko": "실례합니다. 저분이 누구세요?",
+      "uz": "Kechirasiz. Anavi kishi kimlar bo'ladilar?"
+    },
+    {
+      "speaker": "B",
+      "ko": "아, 저분은 우리 아버지이십니다. 회사를 다니십니다.",
+      "uz": "A, u kishi bizning otamiz bo'ladilar. Firmada ishlaydilar."
+    },
+    {
+      "speaker": "A",
+      "ko": "그렇군요. 아버지께서는 어떤 운동을 잘하십니까?",
+      "uz": "Tushunarli. Dadangiz qanday sport turini yaxshi bajaradilar?"
+    },
+    {
+      "speaker": "B",
+      "ko": "축구를 아주 잘하십니다.",
+      "uz": "Futbolni juda yaxshi o'ynaydilar."
+    }
+  ],
+  "book": "1B",
+  "lesson": 9,
+  "origin": "AI yordamida tayyorlangan qo‘shimcha o‘quv materiali"
+}

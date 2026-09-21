@@ -1,0 +1,140 @@
+{
+  "overview": "Ushbu dars kundalik muloqotda, ayniqsa telefon orqali gaplashganda, harakat jarayonini bildirishda, savol berishda va cheklanganlikni ifodalashda kerak bo'ladigan muhim grammatik qoidalarni o'z ichiga oladi.",
+  "goals": [
+    "Fe'l va sifatlarga -(으)ㄴ데요/는데요 qo'shimchasini qo'shib holatni bildirishni o'rganish.",
+    "-는 중이다 va -중이다 yordamida jarayondagi ish-harakatni ifodalash.",
+    "-(으)가요 va -나요 orqali muloyim tarzda savol berishni tushunish.",
+    "-밖에 qo'shimchasi yordamida faqat bitta imkoniyat yoki miqdor borligini ko'rsatish."
+  ],
+  "rules": [
+    {
+      "source_key": "grammar:2A:34",
+      "meaning": "Fe'l va sifatlarga qo'shilib, suhbatdoshning e'tiborini tortish, qarama-qarshi fikr bildirish yoki kutilmagan holatni bildiradi.",
+      "formation": "Sifat+(으)ㄴ데요, fe’l+는데요, ot+인데요. 있다/없다 → 있는데요/없는데요. ㄹ fe’l o‘zagida ㄹ tushadi: 살다 → 사는데요. O‘tgan zamonda 았/었는데요.",
+      "usage": "Suhbatni boshlashda, hayratni bildirganda yoki o'z fikrini yumshoqroq yetkazishda ishlatiladi.",
+      "mistake": "좋는데요 emas, 좋은데요. Lekin 있다/없다 bilan 는 ishlatiladi: 재미있는데요.",
+      "examples": [
+        {
+          "ko": "날씨가 참 좋은데요.",
+          "uz": "Havo juda yaxshi ekan."
+        },
+        {
+          "ko": "지금 밥을 먹는데요.",
+          "uz": "Hozir ovqat yeyapman-ku."
+        },
+        {
+          "ko": "이 한국어 책은 아주 비싼데요.",
+          "uz": "Bu koreys tili kitobi juda qimmat ekan."
+        }
+      ],
+      "exercise": {
+        "question": "이 가방은 너무 (비싸다) gapini ㄴ데요 bilan tugating.",
+        "answer": "이 가방은 너무 비싼데요.",
+        "explanation": "비싸- unli bilan tugaydi, shuning uchun ㄴ데요 qo‘shiladi."
+      }
+    },
+    {
+      "source_key": "grammar:2A:35",
+      "meaning": "Hozirgi vaqtda davom etayotgan ish-harakatni bildiradi. O'zbek tilidagi '-yapman' qo'shimchasiga to'g'ri keladi.",
+      "formation": "Fe’l+는 중이다: 공부하는 중이에요. ㄹ tushadi: 만들다 → 만드는 중이에요. Faoliyat otidan keyin 중이다: 회의 중이에요. 중 oldidan bo‘sh joy qoldiring.",
+      "usage": "Hozirgi paytda biror ish bilan band ekanligini tushuntirishda ishlatiladi.",
+      "mistake": "Sifatlarga -는 중이다 qo'shib bo'lmaydi, chunki sifatlar harakat emas.",
+      "examples": [
+        {
+          "ko": "저는 지금 친구와 전화하는 중이에요.",
+          "uz": "Men hozir do‘stim bilan telefonda gaplashyapman."
+        },
+        {
+          "ko": "아버지는 뉴스를 보시는 중이에요.",
+          "uz": "Dadam yangiliklarni ko‘ryaptilar."
+        },
+        {
+          "ko": "지금 회의 중이니까 나중에 전화 주세요.",
+          "uz": "Hozir majlisdaman, keyinroq qo‘ng‘iroq qiling."
+        }
+      ],
+      "exercise": {
+        "question": "Quyidagi fe'lni jarayon shakliga o'tkazing: 공부하다 -> 공부를 ...",
+        "answer": "하는 중이다",
+        "explanation": "Qilish ma'nosidagi 하다 fe'li -는 중이다 bilan birga ishlatilib, o'qish jarayonini bildiradi."
+      }
+    },
+    {
+      "source_key": "grammar:2A:36",
+      "meaning": "Suhbatdoshga muloyim va qiziquvchan ohangda savol berish uchun ishlatiladi.",
+      "formation": "Asosiy qolip: sifat+(으)ㄴ가요?, fe’l+나요?, ot+인가요? Sifat 크다 → 큰가요, 작다 → 작은가요; fe’l 먹다 → 먹나요. ㄹ fe’lda tushadi: 살다 → 사나요. 있다/없다 bilan 있나요/없나요 keng ishlatiladi.",
+      "usage": "Boshqalardan biror ma'lumotni xushmuomalalik bilan so'rashda qo'llanadi.",
+      "mistake": "Sifat uchun manbadagi (으)가요 yozuvi yetarli emas: to‘g‘ri qolip (으)ㄴ가요. 작은가요, 큰가요 shakllarini yodda tuting.",
+      "examples": [
+        {
+          "ko": "이 옷이 저한테 잘 어울리나요?",
+          "uz": "Bu kiyim menga yarashadimi?"
+        },
+        {
+          "ko": "오늘 사람이 많은가요?",
+          "uz": "Bugun odam ko‘pmi?"
+        },
+        {
+          "ko": "내일 시험이 어려운가요?",
+          "uz": "Ertangi imtihon qiyinmi?"
+        }
+      ],
+      "exercise": {
+        "question": "먹다 fe'lini savol shakliga o'tkazing: 지금 음식을 먹...",
+        "answer": "먹나요",
+        "explanation": "Fe'l bo'lgani uchun -나요 qo'shimchasi qo'shilib 먹나요 hosil bo'ladi."
+      }
+    },
+    {
+      "source_key": "grammar:2A:37",
+      "meaning": "Boshqa imkoniyat yo'qligini, faqat shu narsaning o'zi qolganini bildiradi. O'zbek tilidagi '-dan tashqari, faqat' ma'nosini beradi.",
+      "formation": "Otga to'g'ridan-to'g'ri -밖에 qo'shiladi va undan keyin keladigan fe'l har doim inkor shaklida (-지 않다, -못하다) keladi.",
+      "usage": "Cheklangan miqdor yoki holatni ta'kidlashda ishlatiladi.",
+      "mistake": "-밖에 bilan birga tasdiq fe'lini ishlatish xato, albatta inkor fe'l kelishi shart.",
+      "examples": [
+        {
+          "ko": "지갑에 돈이 5000원밖에 없어요.",
+          "uz": "Hamyonda atigi 5000 von pulim bor, xolos."
+        },
+        {
+          "ko": "한국 친구가 한 명밖에 없어요.",
+          "uz": "Koreys do'stim faqat bitta, xolos."
+        },
+        {
+          "ko": "오늘 시간이 조금밖에 없어요.",
+          "uz": "Bugun ozgina vaqtim bor, xolos."
+        }
+      ],
+      "exercise": {
+        "question": "Bo'sh joyni to'ldiring: 물... 마시지 않아요. (Faqat suv ichaman)",
+        "answer": "밖에",
+        "explanation": "Inkor fe'lidan oldin faqat ma'nosini beruvchi 밖에 qo'shimchasi keladi."
+      }
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "A",
+      "ko": "여보세요, 민수 씨 전화인가요?",
+      "uz": "Alo, Minsu bilan gaplashayotgan edimmi?"
+    },
+    {
+      "speaker": "B",
+      "ko": "아니요, 지금 민수 씨는 회의 중인데요.",
+      "uz": "Yo'q, hozir Minsu majlisda edi."
+    },
+    {
+      "speaker": "A",
+      "ko": "그래요? 그러면 메시지를 남겨도 되나요?",
+      "uz": "Shundami? Unda xabar qoldirsam bo'ladimi?"
+    },
+    {
+      "speaker": "B",
+      "ko": "네, 지금 저밖에 없으니까 저한테 말씀하세요.",
+      "uz": "Ha, hozir mendan boshqa hech kim yo'q, shuning uchun menga ayting."
+    }
+  ],
+  "book": "2A",
+  "lesson": 9,
+  "origin": "AI yordamida tayyorlangan qo‘shimcha o‘quv materiali"
+}
