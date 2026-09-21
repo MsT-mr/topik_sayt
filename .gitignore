@@ -9,3 +9,10 @@ backups/
 *.sqlite3-*
 staticfiles/
 .venv/
+*.pdf
+*.sqlite3
+backups/
+venv/
+__pycache__/
+.env
+staticfiles/
