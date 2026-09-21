@@ -23,9 +23,9 @@ LOCAL_ENV = dotenv_values(BASE_DIR / '.env')
 # See https://docs.djangoproject.com/en/5.2/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = "django-insecure-!58v)dl(b1p=4s_hhj&y0wi27xll3c_mu)6lbsm5&70s8%_xt9"
+SECRET_KEY = os.environ.get("SECRET_KEY", "django-insecure-!58v)dl(b1p=4s_hhj&y0wi27xll3c_mu)6lbsm5&70s8%_xt9")
 
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = ["*"]
 
@@ -49,6 +49,7 @@ INSTALLED_APPS = [
 
 MIDDLEWARE = [
     "django.middleware.security.SecurityMiddleware",
+    "whitenoise.middleware.WhiteNoiseMiddleware",  # Static fayllarni serverda xatosiz berish uchun
     "django.contrib.sessions.middleware.SessionMiddleware",
     "django.middleware.common.CommonMiddleware",
     "django.middleware.csrf.CsrfViewMiddleware",
@@ -126,6 +127,12 @@ STATIC_URL = "/static/"
 STATICFILES_DIRS = [
     BASE_DIR / "bot_app" / "static",
 ]
+# Render collectstatic xatoligini to'g'rilaydigan qator:
+STATIC_ROOT = BASE_DIR / "staticfiles"
+
+# Static fayllarni qisqartirish va keshga olish
+STATICFILES_STORAGE = "whitenoise.storage.CompressedManifestStaticFilesStorage"
+
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/5.2/ref/settings/#default-auto-field
@@ -134,8 +141,6 @@ DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
 
 # Kalit faqat serverda saqlanadi; brauzerga yuborilmaydi.
 def ai_setting(name, default=""):
-    # Read local development values directly: the reloader may inherit an old
-    # empty value previously exported by load_dotenv in its parent process.
     if DEBUG and name in LOCAL_ENV:
         return (LOCAL_ENV[name] or "").strip()
     return os.environ.get(name, LOCAL_ENV.get(name) or default).strip()
