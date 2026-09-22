@@ -29,11 +29,9 @@ DEBUG = False
 
 ALLOWED_HOSTS = ["*"]
 
-# Render va HTTPS orqali CSRF hamda Login xatolarini oldini olish
 CSRF_TRUSTED_ORIGINS = [
     "https://*.onrender.com",
 ]
-
 # Telegram Mini App (iframe) va HTTPS ichida Login session/cookie to'g'ri ishlashi uchun:
 X_FRAME_OPTIONS = "ALLOWALL"
 SESSION_COOKIE_SAMESITE = 'None'

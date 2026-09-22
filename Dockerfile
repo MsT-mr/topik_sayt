@@ -12,7 +12,8 @@ RUN pip install --no-cache-dir -r requirements.txt
 
 COPY . .
 
-# Static fayllarni yig'ish va bazani migratsiya qilib, gunicorn ni ishga tushirish
+# Migratsiya qilish, Admin yaratish va serverni berilgan portda ishga tushirish:
 CMD python manage.py collectstatic --noinput && \
     python manage.py migrate --noinput && \
+    python manage.py shell -c "from django.contrib.auth import get_user_model; User = get_user_model(); User.objects.filter(username='admin').exists() or User.objects.create_superuser('admin', 'admin@example.com', 'Admin12345!')" && \
     gunicorn config.wsgi:application --bind 0.0.0.0:$PORT
