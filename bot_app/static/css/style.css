@@ -2035,3 +2035,28 @@ body.authenticated .app-shell {
     line-height: 1.4;
 }
 
+/* Dark mode input, select va textarea sozlamalari */
+select, 
+textarea, 
+input[type="text"],
+input[type="password"],
+input[type="email"] {
+    background-color: #1e1b2e !important; /* To'q fon rangi */
+    color: #ffffff !important;            /* Yozilgan matn rangi oq */
+    border: 1px solid #3b3554 !important; /* Chegara rangini biroz ajratish */
+    border-radius: 8px;
+    padding: 10px;
+}
+
+/* Placeholder (ichidagi shaffof matn "Nima gap") ko'rinishi uchun */
+textarea::placeholder,
+input::placeholder {
+    color: #a0aec0 !important; /* Och kulrang */
+    opacity: 1;
+}
+
+/* Dropdown (select) bosilganda ochiladigan ro'yxat varianti */
+select option {
+    background-color: #1e1b2e !important;
+    color: #ffffff !important;
+}
