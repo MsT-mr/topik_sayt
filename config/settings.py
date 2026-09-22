@@ -29,8 +29,17 @@ DEBUG = False
 
 ALLOWED_HOSTS = ["*"]
 
-# Telegram Mini App (iframe) ichida ishlashi uchun:
+# Render va HTTPS orqali CSRF hamda Login xatolarini oldini olish
+CSRF_TRUSTED_ORIGINS = [
+    "https://*.onrender.com",
+]
+
+# Telegram Mini App (iframe) va HTTPS ichida Login session/cookie to'g'ri ishlashi uchun:
 X_FRAME_OPTIONS = "ALLOWALL"
+SESSION_COOKIE_SAMESITE = 'None'
+SESSION_COOKIE_SECURE = True
+CSRF_COOKIE_SAMESITE = 'None'
+CSRF_COOKIE_SECURE = True
 
 
 # Application definition
@@ -49,7 +58,7 @@ INSTALLED_APPS = [
 
 MIDDLEWARE = [
     "django.middleware.security.SecurityMiddleware",
-    "whitenoise.middleware.WhiteNoiseMiddleware",  # Static fayllarni serverda xatosiz berish uchun
+    "whitenoise.middleware.WhiteNoiseMiddleware",  # Static fayllar uchun
     "django.contrib.sessions.middleware.SessionMiddleware",
     "django.middleware.common.CommonMiddleware",
     "django.middleware.csrf.CsrfViewMiddleware",
@@ -127,10 +136,9 @@ STATIC_URL = "/static/"
 STATICFILES_DIRS = [
     BASE_DIR / "bot_app" / "static",
 ]
-# Render collectstatic xatoligini to'g'rilaydigan qator:
-STATIC_ROOT = BASE_DIR / "staticfiles"
 
-# Static fayllarni qisqartirish va keshga olish
+# Static fayllarni yig'ish joyi va WhiteNoise sozlamalari:
+STATIC_ROOT = BASE_DIR / "staticfiles"
 STATICFILES_STORAGE = "whitenoise.storage.CompressedManifestStaticFilesStorage"
 
 
