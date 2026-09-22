@@ -26,6 +26,10 @@ LOCAL_ENV = dotenv_values(BASE_DIR / '.env')
 SECRET_KEY = os.environ.get("SECRET_KEY", "django-insecure-!58v)dl(b1p=4s_hhj&y0wi27xll3c_mu)6lbsm5&70s8%_xt9")
 
 DEBUG = False
+# Render HTTPS proksisini Django to'g'ri tanishi uchun:
+SECURE_PROXY_SSL_HEADER = ('HTTP_X_FORWARDED_PROTO', 'https')
+SESSION_COOKIE_SECURE = False
+CSRF_COOKIE_SECURE = False
 
 ALLOWED_HOSTS = ["*"]
 
