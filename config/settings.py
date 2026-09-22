@@ -29,9 +29,14 @@ DEBUG = False
 
 ALLOWED_HOSTS = ["*"]
 
+# Render HTTPS proksisini Django to'g'ri tanishi uchun (JUDA MUHIM):
+SECURE_PROXY_SSL_HEADER = ('HTTP_X_FORWARDED_PROTO', 'https')
+USE_X_FORWARDED_HOST = True
+
 CSRF_TRUSTED_ORIGINS = [
     "https://*.onrender.com",
 ]
+
 # Telegram Mini App (iframe) va HTTPS ichida Login session/cookie to'g'ri ishlashi uchun:
 X_FRAME_OPTIONS = "ALLOWALL"
 SESSION_COOKIE_SAMESITE = 'None'
