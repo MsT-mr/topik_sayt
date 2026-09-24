@@ -9,7 +9,15 @@ if len(SECRET_KEY) < 50 or SECRET_KEY.startswith('django-insecure-'):
 ALLOWED_HOSTS = [host.strip() for host in os.environ.get('DJANGO_ALLOWED_HOSTS', '').split(',') if host.strip()]
 if not ALLOWED_HOSTS or '*' in ALLOWED_HOSTS:
     raise ImproperlyConfigured('Set DJANGO_ALLOWED_HOSTS to the public hostname.')
-CSRF_TRUSTED_ORIGINS = ['https://' + host for host in ALLOWED_HOSTS]
+CSRF_TRUSTED_ORIGINS = [
+    origin.strip()
+    for origin in os.environ.get(
+        'DJANGO_CSRF_TRUSTED_ORIGINS',
+        ','.join(f'https://{host}' for host in ALLOWED_HOSTS)
+    ).split(',')
+    if origin.strip()
+]
+USE_X_FORWARDED_HOST = True
 DATABASES['default']['NAME'] = Path(os.environ.get('DATABASE_PATH', '/data/db.sqlite3'))
 DATABASES['default']['OPTIONS'] = {'timeout': 20}
 STATIC_ROOT = BASE_DIR / 'staticfiles'
