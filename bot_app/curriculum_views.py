@@ -6,6 +6,17 @@ from django.shortcuts import get_object_or_404
 from django.views.decorators.http import require_GET, require_POST
 from .models import Student, Lesson, Vocabulary, Grammar, WordProgress, GrammarProgress
 
+# Review uchun joriy va oldingi darajalar.
+LEVEL_PATH = {
+    "1A": ("1A",),
+    "1B": ("1A", "1B"),
+    "2A": ("1A", "1B", "2A"),
+    "2B": ("1A", "1B", "2A", "2B"),
+}
+
+def review_levels(student):
+    return LEVEL_PATH.get(student.book_level, (student.book_level,))
+
 
 def current_student(request):
     return Student.objects.select_related('group').filter(pk=request.session.get('student_pk'), is_active=True).first()
@@ -71,7 +82,7 @@ def lesson_detail(request, student, lesson_id):
 @require_POST
 @login_required
 def word_progress(request, student, word_id):
-    word = get_object_or_404(Vocabulary, pk=word_id, lesson__book_level=student.book_level)
+    word = get_object_or_404(Vocabulary, pk=word_id, lesson__book_level__in=review_levels(student))
     try:
         data = json.loads(request.body)
         if not isinstance(data, dict) or type(data.get('learned')) is not bool:

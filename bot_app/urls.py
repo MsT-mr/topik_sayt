@@ -6,6 +6,7 @@ urlpatterns = [
     path("api/ai/tutor/", ai_views.tutor),
     path("api/ai/test/", ai_views.create_test),
     path("api/practice/", practice.catalog),
+    path("api/practice/vocabulary/", practice.vocabulary_review),
     path("api/practice/start/", practice.start),
     path("api/practice/<uuid:attempt_id>/submit/", practice.submit),
     path("api/practice/<uuid:attempt_id>/ai/", practice.attempt_ai),

@@ -8,8 +8,63 @@
     function header(title,level){return `<button class="back-link" id="practiceBack">← Darslarga qaytish</button><div class="practice-heading"><p class="eyebrow">${esc(level)} · 서울대 한국어</p><h1>${esc(title)}</h1></div>`;}
     function bindBack(){ $('practiceBack').onclick=()=>{++pageVersion;window.topikShowDashboard?.()}; }
     window.topikCancelPractice=()=>{++pageVersion;};
+    async function openVocabularyReview(version){
+        showScreen();
+        $('examScreen').innerHTML='<p class="empty-state">Lug‘atlar aralashtirilmoqda…</p>';
+        try{
+            const data=await api('/api/practice/vocabulary/');
+            if(version!==pageVersion)return;
+            let words=data.words||[], i=0, revealed=false, busy=false;
+            if(!words.length){
+                $('examScreen').innerHTML=header('Lug‘at takrorlash',data.book_level||'')+'<p class="empty-state">Takrorlash uchun lug‘at topilmadi.</p>';
+                bindBack(); return;
+            }
+            const render=()=>{
+                const word=words[i];
+                if(!word){
+                    $('examScreen').innerHTML=header('Lug‘at takrorlash',data.book_level)+'<div class="practice-score"><span>잘했어요!</span><h2>Tugadi ✓</h2><p>Eski va yangi lug‘atlar aralash takrorlandi.</p><button class="primary" id="vocabAgain">Yana aralashtirish ↻</button></div>';
+                    bindBack(); $('vocabAgain').onclick=()=>window.topikOpenExam('vocabulary'); return;
+                }
+                $('examScreen').innerHTML=header('Lug‘at takrorlash',data.book_level)+
+                    `<div class="practice-progress"><span>${i+1} / ${words.length}</span><div><i style="width:${(i+1)/words.length*100}%"></i></div><span>${esc(word.book_level)} · ${word.lesson??'-'}-dars</span></div>`+
+                    `<div class="flash-card"><div class="flash-count">${esc(word.book_level)} · ${word.lesson??'-'}-dars</div>`+
+                    `<button class="flash-face" id="reviewReveal" aria-expanded="false"><span lang="ko">${esc(word.korean)}</span><small>${revealed?esc(word.translation):'Tarjimasini ko‘rish uchun bosing'}</small></button>`+
+                    `<div class="flash-actions"><button class="secondary" id="reviewAgain" ${revealed?'':'disabled'}>Yana takrorlayman</button>`+
+                    `<button class="primary" id="reviewLearned" ${revealed?'':'disabled'}>Yodladim ✓</button></div>`+
+                    `<p class="subtle">Takrorlash bosqichlari: ${data.review_levels.map(esc).join(' + ')}</p><p id="reviewError" role="alert"></p></div>`;
+                bindBack();
+                $('reviewReveal').onclick=()=>{
+                    if(busy||revealed)return;
+                    revealed=true;
+                    $('reviewReveal').querySelector('small').textContent=word.translation;
+                    $('reviewReveal').setAttribute('aria-expanded','true');
+                    $('reviewAgain').disabled=false; $('reviewLearned').disabled=false;
+                    window.Telegram?.WebApp?.HapticFeedback?.impactOccurred?.('medium');
+                };
+                const next=async learned=>{
+                    if(busy)return; busy=true;
+                    $('reviewAgain').disabled=true; $('reviewLearned').disabled=true;
+                    try{
+                        await api(`/api/words/${word.id}/progress/`,{learned});
+                        i++; revealed=false; busy=false; render();
+                    }catch(e){
+                        busy=false; $('reviewError').textContent=e.message;
+                        $('reviewAgain').disabled=false; $('reviewLearned').disabled=false;
+                    }
+                };
+                $('reviewAgain').onclick=()=>next(false);
+                $('reviewLearned').onclick=()=>next(true);
+            };
+            render();
+        }catch(e){
+            if(version!==pageVersion)return;
+            $('examScreen').innerHTML=header('Lug‘at takrorlash','')+`<p class="empty-state">${esc(e.message)}</p>`;
+            bindBack();
+        }
+    }
     window.topikOpenExam=async function(mode='grammar'){
         showScreen();const version=++pageVersion;
+        if(mode==='vocabulary'){await openVocabularyReview(version);return;}
         $('examScreen').innerHTML='<p class="empty-state">Darajangizdagi mashqlar yuklanmoqda…</p>';
         try{
             const [catalog,data]=await Promise.all([api('/api/practice/'),api('/api/lessons/')]);

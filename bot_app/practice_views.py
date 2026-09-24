@@ -9,8 +9,8 @@ from django.http import JsonResponse
 from django.shortcuts import get_object_or_404
 from django.utils import timezone
 from django.views.decorators.http import require_GET, require_POST
-from .curriculum_views import login_required, student_data
-from .models import GrammarExercise, PracticeAttempt, Student
+from .curriculum_views import login_required, student_data, review_levels
+from .models import GrammarExercise, PracticeAttempt, Student, Vocabulary
 from .services.gemini import analyze, AIUnavailable
 
 
@@ -39,9 +39,57 @@ def result_data(attempt):
 @require_GET
 @login_required
 def catalog(request, student):
-    qs = GrammarExercise.objects.filter(is_active=True, grammar__lesson__book_level=student.book_level)
+    qs = GrammarExercise.objects.filter(is_active=True, grammar__lesson__book_level__in=review_levels(student))
     return JsonResponse({'book_level':student.book_level, 'grammar_count':qs.count(),
                          'ai_available':bool(settings.GEMINI_API_KEY)})
+
+
+@require_GET
+@login_required
+def vocabulary_review(request, student):
+    levels = review_levels(student)
+    previous_levels = tuple(level for level in levels if level != student.book_level)
+
+    current = list(Vocabulary.objects.filter(
+        lesson__book_level=student.book_level
+    ).select_related("lesson"))
+    previous = list(Vocabulary.objects.filter(
+        lesson__book_level__in=previous_levels
+    ).select_related("lesson")) if previous_levels else []
+
+    rng = random.SystemRandom()
+    rng.shuffle(current)
+    rng.shuffle(previous)
+
+    limit = 30
+    if previous:
+        previous_count = min(len(previous), limit // 2)
+        current_count = min(len(current), limit - previous_count)
+        chosen = previous[:previous_count] + current[:current_count]
+        if len(chosen) < limit:
+            leftovers = previous[previous_count:] + current[current_count:]
+            rng.shuffle(leftovers)
+            chosen += leftovers[:limit - len(chosen)]
+    else:
+        chosen = current[:limit]
+
+    rng.shuffle(chosen)
+    learned_ids = set(student.word_progress.filter(
+        learned=True, word_id__in=[w.pk for w in chosen]
+    ).values_list("word_id", flat=True))
+
+    return JsonResponse({
+        "book_level": student.book_level,
+        "review_levels": list(levels),
+        "words": [{
+            "id": w.pk,
+            "korean": w.korean,
+            "translation": w.translation,
+            "book_level": w.lesson.book_level if w.lesson else "",
+            "lesson": w.lesson.number if w.lesson else None,
+            "learned": w.pk in learned_ids,
+        } for w in chosen],
+    })
 
 
 @require_POST
@@ -54,7 +102,7 @@ def start(request, student):
             raise ValueError
     except (ValueError, UnicodeDecodeError):
         return JsonResponse({'detail':'Dars tanlovini tekshiring.'}, status=400)
-    qs = GrammarExercise.objects.filter(is_active=True, grammar__lesson__book_level=student.book_level).select_related('grammar__lesson')
+    qs = GrammarExercise.objects.filter(is_active=True, grammar__lesson__book_level__in=review_levels(student)).select_related('grammar__lesson')
     if lesson is not None:
         qs = qs.filter(grammar__lesson_id=lesson)
     exercises = list(qs)
