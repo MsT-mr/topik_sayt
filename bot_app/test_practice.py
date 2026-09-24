@@ -41,20 +41,34 @@ class PracticeTests(TestCase):
         self.assertEqual(response.status_code, 200)
         return attempt, answers, response.json()
 
-    def test_exact_book_level_and_no_answer_leak(self):
-        for level, count in [('1A',8),('1B',8),('2A',9),('2B',9)]:
+    def test_cumulative_book_levels_and_no_answer_leak(self):
+        level_path = {
+            '1A': {'1A'},
+            '1B': {'1A', '1B'},
+            '2A': {'1A', '1B', '2A'},
+            '2B': {'1A', '1B', '2A', '2B'},
+        }
+
+        for level, allowed_levels in level_path.items():
             self.student.book_level = level
             self.student.save()
             data = self.start()
+
             self.assertEqual(data['book_level'], level)
-            self.assertEqual(len(data['questions']), count)
+            self.assertGreater(len(data['questions']), 0)
+            self.assertLessEqual(len(data['questions']), 10)
+
             for q in data['questions']:
                 self.assertNotIn('correct_index', q)
                 self.assertNotIn('explanation', q)
                 self.assertEqual(q['sentence'].count('___'), 1)
+
             attempt = PracticeAttempt.objects.get(pk=data['id'])
             for q in attempt.questions:
-                self.assertEqual(GrammarExercise.objects.get(pk=q['exercise_id']).grammar.lesson.book_level, level)
+                exercise_level = GrammarExercise.objects.get(
+                    pk=q['exercise_id']
+                ).grammar.lesson.book_level
+                self.assertIn(exercise_level, allowed_levels)
 
     def test_score_saved_once_and_question_snapshot_preserved(self):
         attempt, answers, data = self.finish()
